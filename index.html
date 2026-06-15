@@ -18,6 +18,10 @@
   .card-count{margin-top:10px;font-size:.8em;color:#888;font-weight:600;letter-spacing:.03em}
   .card-stats{border-color:#0d3b6e;background:linear-gradient(135deg,#e8f0fa 0%,#f0f4f8 100%)}
   .card-stats .card-title{color:#0d3b6e}
+  .card-vela{border-color:#1a6b4a;background:linear-gradient(135deg,#e6f4ee 0%,#f0f8f4 100%)}
+  .card-vela .card-title{color:#1a6b4a}
+  .card-vela .card-count{color:#1a6b4a}
+  .card-vela:hover{border-color:#1a6b4a;box-shadow:0 4px 14px rgba(26,107,74,.15)}
   @media(max-width:520px){.grid{grid-template-columns:1fr}}
 </style>
 </head>
@@ -30,9 +34,23 @@
 
   <a class="card card-stats" href="statistiche.html">
     <div class="card-icon">📊</div>
-    <div class="card-title">Statistiche e Pratica mirata</div>
+    <div class="card-title">Tue statistiche e pratica mirata</div>
     <div class="card-desc">Rating difficoltà per domanda, cronologia risposte, allenamento filtrato per categorie (mai viste, sbagliate, difficili…).</div>
     <div class="card-count">Tutte le domande · filtri per difficoltà</div>
+  </a>
+
+  <a class="card card-stats" href="prontuario.html">
+    <div class="card-icon">📋</div>
+    <div class="card-title">Prontuario</div>
+    <div class="card-desc">Tabelle di riferimento rapido: sanzioni, pattern statistici, trucchi per l'esame.</div>
+    <div class="card-count">Consultazione rapida</div>
+  </a>
+
+  <a class="card card-stats" href="report.html">
+    <div class="card-icon">🔬</div>
+    <div class="card-title">Statistiche sui Quiz</div>
+    <div class="card-desc">Pattern linguistici nelle risposte, analisi della lunghezza, numeri nelle risposte vere e false, statistiche per argomento.</div>
+    <div class="card-count">Analisi statistica · 1472 domande</div>
   </a>
 
   <a class="card" href="study.html?topic=scafo_e_propulsione">
@@ -91,11 +109,11 @@
     <div class="card-count">66 domande</div>
   </a>
 
-  <a class="card" href="study.html?topic=vela">
+  <a class="card card-vela" href="study.html?topic=vela">
     <div class="card-icon">⛵</div>
     <div class="card-title">Vela</div>
     <div class="card-desc">Scafo e struttura delle unità a vela, attrezzatura velica, manovre e andature.</div>
-    <div class="card-count">249 domande</div>
+    <div class="card-count">249 domande · solo integrazione vela</div>
   </a>
 
 </div>

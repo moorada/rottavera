@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prontuario – Patente nautica</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box}
+  body{font-family:'Segoe UI',Arial,sans-serif;max-width:860px;margin:0 auto;padding:0 16px 48px;background:#f0f4f8;color:#1a1a2e}
+  header{background:#0d3b6e;color:white;padding:9px 18px;display:flex;align-items:center;gap:14px;margin:0 -16px 28px;position:sticky;top:0;z-index:10;box-shadow:0 2px 6px rgba(0,0,0,.2)}
+  .back-link{color:#9cc8f5;text-decoration:none;font-size:.82em;font-weight:600;white-space:nowrap}
+  .back-link:hover{color:white}
+  header h1{font-size:.95em;font-weight:600;margin:0}
+  h2{color:#0d3b6e;border-left:6px solid #0d3b6e;padding:8px 14px;background:linear-gradient(90deg,#cce0f5,#e8f3ff);border-radius:0 6px 6px 0;font-size:1em;margin:28px 0 12px}
+  .card{background:white;border:1px solid #c5d8ee;border-radius:8px;padding:18px 22px;margin-bottom:18px}
+  .card p{font-size:.88em;color:#4a5b6c;margin:0 0 14px;line-height:1.5}
+  table{border-collapse:collapse;width:100%;font-size:.87em}
+  th{background:#0d3b6e;color:white;padding:8px 12px;text-align:left;font-weight:600}
+  td{border:1px solid #c5d8ee;padding:8px 12px;vertical-align:top}
+  tr:nth-child(even) td{background:#f5f9ff}
+  .amount{font-weight:700;color:#0d3b6e;white-space:nowrap}
+  .note{font-size:.78em;color:#888;margin-top:10px;font-style:italic}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="back-link" href="index.html">← Indice</a>
+  <h1>Prontuario</h1>
+</header>
+
+<h2>Tabella sanzioni amministrative</h2>
+<div class="card">
+  <p>Riepilogo delle sanzioni pecuniarie presenti nelle domande d'esame. Le risposte false tendono ad avere importi minimi molto più bassi (206 €, 250 €, 276 €…) o massimi diversi: confrontare sempre la fascia completa.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Infrazione</th>
+        <th>Sanzione</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Eccesso di velocità negli specchi d'acqua portuali</td>
+        <td class="amount">414 – 2.066 €</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Eccesso di velocità nelle zone balneari</td>
+        <td class="amount">414 – 2.066 €</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Urto senza fornire le proprie generalità alle altre unità coinvolte</td>
+        <td class="amount">1.032 – 6.197 €</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Guida in stato di ebbrezza</td>
+        <td class="amount">2.755 – 15.000 €</td>
+        <td>Importo variabile in base al tasso alcolemico rilevato</td>
+      </tr>
+      <tr>
+        <td>Guida sotto effetto di sostanze stupefacenti o psicotrope</td>
+        <td class="amount">2.755 – 11.017 €</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Comando di unità senza aver conseguito la patente prescritta</td>
+        <td class="amount">2.755 – 11.017 €</td>
+        <td>+ sospensione della licenza di navigazione per 30 giorni</td>
+      </tr>
+      <tr>
+        <td>Esercizio abusivo di attività commerciali con unità da diporto</td>
+        <td class="amount">2.755 – 11.017 €</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="note">¹ Nel dataset compaiono due importi minimi leggermente diversi per l'attività commerciale abusiva (2.755 € e 2.775 €): entrambi sono presenti nelle domande d'esame.</p>
+</div>
+
+</body>
+</html>
