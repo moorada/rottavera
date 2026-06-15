@@ -39,7 +39,7 @@
 
   function setPanel(open) {
     panel.classList.toggle('closed', !open);
-    panelOpenBtn.style.display = open ? 'none' : 'block';
+    if (window.innerWidth > 720) panelOpenBtn.style.display = open ? 'none' : 'block';
     localStorage.setItem('nautica-panel', open ? '1' : '0');
   }
   panelClose.addEventListener('click', () => setPanel(false));
@@ -221,6 +221,22 @@
 
   /* ── Init ── */
   updateActive();
+
+  /* ── Tab bar (mobile) ── */
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  if (tabBtns.length) {
+    const savedTab = localStorage.getItem('nautica-tab') || 'study';
+    document.body.dataset.tab = savedTab;
+    tabBtns.forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.tab === savedTab);
+      btn.addEventListener('click', () => {
+        const t = btn.dataset.tab;
+        document.body.dataset.tab = t;
+        localStorage.setItem('nautica-tab', t);
+        tabBtns.forEach(b => b.classList.toggle('active', b.dataset.tab === t));
+      });
+    });
+  }
 
   /* ── Resize handle ── */
   (function () {

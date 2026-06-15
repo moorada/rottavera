@@ -86,6 +86,11 @@ tr:nth-child(even) td{background:#f0f4f8}
 .panel-open-btn{position:fixed;right:14px;bottom:18px;background:#0d3b6e;color:white;border:none;border-radius:22px;padding:9px 16px;font-size:.85em;font-weight:600;cursor:pointer;box-shadow:0 3px 10px rgba(13,59,110,.32);display:none;z-index:200}
 .panel-open-btn:hover{background:#1a5a9e}
 
+/* TAB BAR (mobile only) */
+.tab-bar{display:none;position:fixed;bottom:0;left:0;right:0;height:54px;background:white;border-top:2px solid #c5d8ee;z-index:400}
+.tab-btn{flex:1;background:none;border:none;border-top:3px solid transparent;font-size:.82em;font-weight:600;color:#888;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:6px;transition:color .15s,border-color .15s;-webkit-tap-highlight-color:transparent}
+.tab-btn.active{color:#0d3b6e;border-top-color:#0d3b6e}
+
 /* ANSWER PERSISTENCE */
 .quiz-item[data-last="1"]{border-left:3px solid #28a745;padding-left:9px}
 .quiz-item[data-last="0"]{border-left:3px solid #dc3545;padding-left:9px}
@@ -102,8 +107,16 @@ tr:nth-child(even) td{background:#f0f4f8}
 .stats-link:hover{text-decoration:underline}
 
 @media(max-width:720px){
-  .quiz-panel{position:fixed;right:0;top:0;bottom:0;z-index:300;width:88vw!important}
-  .quiz-panel.closed{width:0!important}
+  .tab-bar{display:flex}
+  .panel-open-btn{display:none!important}
+  .resize-handle{display:none}
+  .panel-close{display:none}
+  .quiz-panel{position:static!important;width:100%!important;border-left:none}
+  .quiz-panel.closed{width:100%!important}
+  .study-area{padding-bottom:70px}
+  .panel-body{padding-bottom:64px}
+  body[data-tab="study"] .quiz-panel{display:none}
+  body[data-tab="quiz"] .study-area{display:none}
   .toc ol{column-count:1}
   .site-header h1{display:none}
 }
