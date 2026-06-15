@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statistiche – Patente nautica</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box}
+  body{font-family:'Segoe UI',Arial,sans-serif;max-width:860px;margin:0 auto;padding:24px 16px;background:#f0f4f8;color:#1a1a2e}
+  header{display:flex;align-items:center;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+  .back-link{color:#0d3b6e;text-decoration:none;font-size:.9em;font-weight:600;white-space:nowrap}
+  .back-link:hover{text-decoration:underline}
+  h1{margin:0;font-size:1.45em;color:#0d3b6e;border-bottom:3px solid #0d3b6e;padding-bottom:8px;flex:1}
+  h2{color:#0d3b6e;font-size:1.05em;margin:28px 0 10px}
+  .cards-row{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:12px}
+  .stat-card{background:white;border:1px solid #c5d8ee;border-radius:10px;padding:16px;text-align:center;position:relative}
+  .stat-n{font-size:2em;font-weight:700;color:#0d3b6e;line-height:1.1}
+  .stat-l{font-size:.8em;color:#556;margin-top:4px}
+  .green-card{border-color:#28a745}
+  .green-card .stat-n{color:#28a745}
+  .red-card{border-color:#dc3545}
+  .red-card .stat-n{color:#dc3545}
+  .yellow-card{border-color:#e6b800}
+  .yellow-card .stat-n{color:#b08800}
+  .filter-link{display:inline-block;margin-top:10px;font-size:.8em;color:#0d3b6e;font-weight:700;text-decoration:none;padding:3px 8px;border:1px solid #0d3b6e;border-radius:12px}
+  .filter-link:hover{background:#0d3b6e;color:white}
+  .practice-all{margin:18px 0;display:flex;gap:10px;flex-wrap:wrap}
+  .btn{display:inline-block;padding:9px 18px;border-radius:8px;font-size:.88em;font-weight:700;text-decoration:none;cursor:pointer;background:#0d3b6e;color:white;border:none}
+  .btn:hover{background:#1a5a9e}
+  .btn-sec{background:white;color:#0d3b6e;border:2px solid #0d3b6e}
+  .btn-sec:hover{background:#e8f0fa}
+  .topic-table{width:100%;border-collapse:collapse;background:white;border-radius:10px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+  .topic-table th{background:#0d3b6e;color:white;padding:9px 12px;text-align:left;font-size:.82em}
+  .topic-table td{padding:8px 12px;border-bottom:1px solid #e8f0fa;font-size:.85em}
+  .topic-table tr:last-child td{border-bottom:none}
+  .topic-table tr:hover td{background:#f5f9ff}
+  .progress-bar{height:6px;border-radius:3px;background:#e0e0e0;margin-top:4px;overflow:hidden}
+  .progress-fill{height:100%;border-radius:3px;background:#0d3b6e;transition:width .4s}
+  .reset-zone{margin-top:28px;display:flex;gap:10px;flex-wrap:wrap}
+  .reset-btn{background:none;border:1px solid #dc3545;color:#dc3545;padding:7px 16px;border-radius:6px;cursor:pointer;font-size:.82em}
+  .reset-btn:hover{background:#dc3545;color:white}
+  .reset-btn.sec{border-color:#999;color:#666}
+  .reset-btn.sec:hover{background:#999;color:white}
+  .topic-reset{font-size:.75em;color:#dc3545;background:none;border:none;cursor:pointer;padding:2px 4px;opacity:.7}
+  .topic-reset:hover{opacity:1;text-decoration:underline}
+  #loading{color:#888;padding:32px;text-align:center}
+  .io-zone{margin-top:28px;padding:16px 18px;background:white;border:1px solid #c5d8ee;border-radius:10px}
+  .io-zone h2{margin:0 0 12px;font-size:.95em}
+  .io-btns{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  .io-btn{padding:8px 16px;border-radius:7px;font-size:.84em;font-weight:700;cursor:pointer;border:2px solid #0d3b6e;background:white;color:#0d3b6e;transition:background .15s,color .15s}
+  .io-btn:hover{background:#0d3b6e;color:white}
+  .io-btn.primary{background:#0d3b6e;color:white}
+  .io-btn.primary:hover{background:#1a5a9e;border-color:#1a5a9e}
+  .io-note{font-size:.76em;color:#888;margin-top:10px}
+  .badge{display:inline-block;padding:1px 7px;border-radius:10px;font-size:.75em;font-weight:700;margin-left:4px}
+  .badge-g{background:#d4edda;color:#155724}
+  .badge-y{background:#fff3cd;color:#856404}
+  .badge-r{background:#f8d7da;color:#721c24}
+  @media(max-width:540px){.cards-row{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header>
+  <a class="back-link" href="index.html">← Indice</a>
+  <h1>📊 Le tue statistiche</h1>
+</header>
+
+<div id="loading">Caricamento...</div>
+<div id="stats-root" style="display:none"></div>
+
+<script>
+function loadState(key) { try { return JSON.parse(localStorage.getItem(key)||'{}'); } catch(e){return {};} }
+function saveState(key, data) { localStorage.setItem(key, JSON.stringify(data)); }
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+async function init() {
+  let data;
+  try {
+    const resp = await fetch('questions_index.json');
+    data = await resp.json();
+  } catch(e) {
+    document.getElementById('loading').innerHTML = '<p style="color:#c00">Errore: impossibile caricare questions_index.json. Esegui prima il build script.</p>';
+    return;
+  }
+
+  const questions = data.questions;
+  const ans = loadState('nautica-ans');
+  const rat = loadState('nautica-rat');
+
+  const total = questions.length;
+  let seen = 0, correct = 0, wrong = 0, unseen = 0;
+  let green = 0, yellow = 0, red = 0, unrated = 0;
+
+  const byTopic = {};
+
+  for (const q of questions) {
+    const qid = q.id;
+    const lastAns = qid ? ans[qid] : null;
+    const rating  = qid ? (rat[qid] || '') : '';
+
+    if (lastAns != null) { seen++; if (lastAns.c) correct++; else wrong++; }
+    else unseen++;
+
+    if (rating === 'green')  green++;
+    else if (rating === 'yellow') yellow++;
+    else if (rating === 'red')    red++;
+    else unrated++;
+
+    const tk = q.topic;
+    if (!byTopic[tk]) byTopic[tk] = { label: q.topicLabel, total: 0, seen: 0, correct: 0, green: 0, yellow: 0, red: 0 };
+    byTopic[tk].total++;
+    if (lastAns != null) { byTopic[tk].seen++; if (lastAns.c) byTopic[tk].correct++; }
+    if (rating === 'green')        byTopic[tk].green++;
+    else if (rating === 'yellow')  byTopic[tk].yellow++;
+    else if (rating === 'red')     byTopic[tk].red++;
+  }
+
+  const pct = n => total ? Math.round(n / total * 100) : 0;
+
+  const topicRows = Object.entries(byTopic).map(([tid, t]) => {
+    const tp = t.total ? Math.round(t.seen / t.total * 100) : 0;
+    return `<tr>
+      <td>${esc(t.label)}</td>
+      <td>${t.seen}/${t.total}
+        <div class="progress-bar"><div class="progress-fill" style="width:${tp}%"></div></div>
+      </td>
+      <td>${t.correct}</td>
+      <td><span class="badge badge-g">🟢${t.green}</span> <span class="badge badge-y">🟡${t.yellow}</span> <span class="badge badge-r">🔴${t.red}</span></td>
+      <td>
+        <a class="filter-link" href="pratica.html?filter=all&topic=${encodeURIComponent(tid)}">Allenati →</a>
+        <button class="topic-reset" data-tid="${esc(tid)}" onclick="resetTopic(this)">↺ cancella</button>
+      </td>
+    </tr>`;
+  }).join('');
+
+  const root = document.getElementById('stats-root');
+  root.innerHTML = `
+    <div class="cards-row">
+      <div class="stat-card">
+        <div class="stat-n">${total}</div>
+        <div class="stat-l">Domande totali</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-n">${seen}<small style="font-size:.45em;color:#888"> / ${total}</small></div>
+        <div class="stat-l">Viste (${pct(seen)}%)</div>
+        <div class="progress-bar" style="margin-top:6px"><div class="progress-fill" style="width:${pct(seen)}%"></div></div>
+      </div>
+      <div class="stat-card green-card">
+        <div class="stat-n">${correct}</div>
+        <div class="stat-l">✅ Corrette</div>
+      </div>
+      <div class="stat-card red-card">
+        <div class="stat-n">${wrong}</div>
+        <div class="stat-l">❌ Sbagliate</div>
+      </div>
+    </div>
+
+    <h2>Rating difficoltà</h2>
+    <div class="cards-row">
+      <div class="stat-card green-card">
+        <div class="stat-n">🟢 ${green}</div>
+        <div class="stat-l">Facili</div>
+        ${green ? '<a class="filter-link" href="pratica.html?filter=green">Allenati →</a>' : ''}
+      </div>
+      <div class="stat-card yellow-card">
+        <div class="stat-n">🟡 ${yellow}</div>
+        <div class="stat-l">Medie</div>
+        ${yellow ? '<a class="filter-link" href="pratica.html?filter=yellow">Allenati →</a>' : ''}
+      </div>
+      <div class="stat-card red-card">
+        <div class="stat-n">🔴 ${red}</div>
+        <div class="stat-l">Difficili</div>
+        ${red ? '<a class="filter-link" href="pratica.html?filter=red">Allenati →</a>' : ''}
+      </div>
+      <div class="stat-card">
+        <div class="stat-n">❓ ${unseen}</div>
+        <div class="stat-l">Mai viste</div>
+        ${unseen ? '<a class="filter-link" href="pratica.html?filter=unseen">Allenati →</a>' : ''}
+      </div>
+    </div>
+
+    <div class="practice-all">
+      ${wrong ? `<a href="pratica.html?filter=wrong" class="btn">🔁 Solo sbagliate (${wrong})</a>` : ''}
+      ${(red+yellow) ? `<a href="pratica.html?filter=red,yellow" class="btn">⚠️ Difficili + Medie (${red+yellow})</a>` : ''}
+      <a href="pratica.html?filter=all" class="btn btn-sec">📚 Tutte le domande (${total})</a>
+    </div>
+
+    <h2>Per argomento</h2>
+    <table class="topic-table">
+      <thead>
+        <tr>
+          <th>Argomento</th>
+          <th>Viste</th>
+          <th>✅ Corrette</th>
+          <th>Rating</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>${topicRows}</tbody>
+    </table>
+
+    <div class="reset-zone">
+      <button class="reset-btn" onclick="resetAnswers()">🗑️ Cancella tutte le risposte</button>
+      <button class="reset-btn sec" onclick="resetRatings()">🗑️ Cancella tutti i rating</button>
+    </div>
+
+    <div class="io-zone">
+      <h2>💾 Salva / Ripristina progressi</h2>
+      <div class="io-btns">
+        <button class="io-btn primary" onclick="exportData()">⬇️ Esporta dati</button>
+        <button class="io-btn" onclick="document.getElementById('import-file').click()">⬆️ Importa dati</button>
+        <input type="file" id="import-file" accept=".json" style="display:none">
+      </div>
+      <p class="io-note">Esporta per salvare i tuoi progressi come file JSON. Importa per ripristinarli su qualsiasi dispositivo o browser.</p>
+    </div>
+  `;
+
+  document.getElementById('loading').style.display = 'none';
+  root.style.display = 'block';
+}
+
+function resetAnswers() {
+  if (!confirm('Cancellare tutte le risposte salvate? I rating di difficoltà resteranno invariati.')) return;
+  localStorage.removeItem('nautica-ans');
+  location.reload();
+}
+
+function resetRatings() {
+  if (!confirm('Cancellare tutti i rating 🟢🟡🔴? Le risposte salvate resteranno invariate.')) return;
+  localStorage.removeItem('nautica-rat');
+  location.reload();
+}
+
+function exportData() {
+  const payload = {
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    answers: loadState('nautica-ans'),
+    ratings: loadState('nautica-rat'),
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], {type: 'application/json'});
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href     = url;
+  a.download = 'nautica-' + new Date().toISOString().slice(0, 10) + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById('import-file').addEventListener('change', function (e) {
+    const file = e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = function (ev) {
+      try {
+        const data = JSON.parse(ev.target.result);
+        if (!data.answers && !data.ratings) throw new Error('empty');
+        if (data.answers) saveState('nautica-ans', data.answers);
+        if (data.ratings) saveState('nautica-rat', data.ratings);
+        e.target.value = '';
+        location.reload();
+      } catch (err) {
+        alert('File non valido o corrotto.');
+      }
+    };
+    reader.readAsText(file);
+  });
+});
+
+function resetTopic(btn) {
+  const tid = btn.dataset.tid;
+  const topicLabel = btn.closest('tr').querySelector('td').textContent.trim();
+  if (!confirm('Cancellare le risposte salvate per "' + topicLabel + '"?')) return;
+  // We need questions_index to know which IDs belong to the topic
+  fetch('questions_index.json').then(r=>r.json()).then(data => {
+    const ids = data.questions.filter(q => q.topic === tid && q.id).map(q => q.id);
+    const anss = loadState('nautica-ans');
+    ids.forEach(id => delete anss[id]);
+    saveState('nautica-ans', anss);
+    location.reload();
+  });
+}
+
+init();
+</script>
+</body>
+</html>

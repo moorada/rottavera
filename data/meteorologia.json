@@ -1,0 +1,1224 @@
+{
+    "s1": [
+        {
+            "q": "Attraverso quale scala viene misurata la forza del vento?",
+            "a": [
+                "la scala Douglas.",
+                "la scala Beaufort.",
+                "la scala di Coriolis."
+            ],
+            "c": 1,
+            "id": "1.6.1-1"
+        },
+        {
+            "q": "Cosa si intende per escursione diurna di temperatura?",
+            "a": [
+                "la differenza che intercorre tra il valore di temperatura misurato alle ore 00:00 locali e quello misurato alle ore 12:00 locali.",
+                "la differenza che intercorre tra il valore massimo di temperatura e quello minimo nel corso della giornata.",
+                "la differenza che intercorre tra il valore di temperatura rilevato all'alba e quello rilevato al tramonto."
+            ],
+            "c": 1,
+            "id": "1.6.1-3"
+        },
+        {
+            "q": "Quali fenomeni sono generati dal vapore acqueo?",
+            "a": [
+                "genera neve e grandine.",
+                "genera l'effetto serra, mentre sulla superficie terrestre si forma l'effetto albedo.",
+                "a seguito della sua condensazione, nell'aria si generano nubi e nebbie mentre sulla superficie terrestre si formano rugiada e brina."
+            ],
+            "c": 2,
+            "id": "1.6.1-4"
+        },
+        {
+            "q": "Qual è l'unità di misura internazionale per indicare il valore della pressione atmosferica?",
+            "a": [
+                "Hectopascal (hPa).",
+                "Newton (N).",
+                "Millimetri Torricelli (mmT)."
+            ],
+            "c": 0,
+            "id": "1.6.1-5"
+        },
+        {
+            "q": "Quale elemento risulta fondamentale al fine di prevedere l'evoluzione delle condizioni meteorologiche durante la navigazione?",
+            "a": [
+                "la conoscenza della tendenza della pressione atmosferica nel tempo.",
+                "la conoscenza della variazione di temperatura atmosferica nel tempo.",
+                "la conoscenza della variazione dell'umidità atmosferica nel tempo."
+            ],
+            "c": 0,
+            "id": "1.6.1-12"
+        },
+        {
+            "q": "Cosa si intende per gradiente barico orizzontale?",
+            "a": [
+                "la differenza di temperatura esistente tra due masse d'aria confinanti tra loro.",
+                "la differenza di pressione esistente tra due masse d'aria confinanti tra loro.",
+                "la differenza di umidità esistente tra due masse d'aria confinanti tra loro."
+            ],
+            "c": 1,
+            "id": "1.6.1-20"
+        },
+        {
+            "q": "L'anemometro misura:",
+            "a": [
+                "La velocità del vento.",
+                "La velocità della corrente.",
+                "La velocità dell'imbarcazione."
+            ],
+            "c": 0,
+            "id": "1.6.1-23"
+        },
+        {
+            "q": "Il vento è originato da?",
+            "a": [
+                "instabilità e umidità dell'aria.",
+                "differenti valori di temperatura e pressione dell'aria.",
+                "gradiente termico verticale e umidità dell'aria."
+            ],
+            "c": 1,
+            "id": "1.6.1-25"
+        },
+        {
+            "q": "L’umidità relativa si misura con:",
+            "a": [
+                "barografo.",
+                "barometro.",
+                "igrometro."
+            ],
+            "c": 2,
+            "id": "1.6.1-36"
+        },
+        {
+            "q": "L’aria, se calda, è:",
+            "a": [
+                "più leggera di quella fredda.",
+                "più pesante di quella fredda.",
+                "data dai venti che soffiano da E e NE."
+            ],
+            "c": 0,
+            "id": "1.6.1-38"
+        },
+        {
+            "q": "La pressione atmosferica viene considerata:",
+            "a": [
+                "normale, se uguale a 1003,2 hPa; alta se superiore e bassa se inferiore al suddetto valore.",
+                "normale, se uguale a 1023,2 hPa; alta se superiore e bassa se inferiore al suddetto valore.",
+                "normale, se uguale a 1013,2 hPa; alta se superiore e bassa se inferiore al suddetto valore."
+            ],
+            "c": 2,
+            "id": "1.6.1-38"
+        },
+        {
+            "q": "Quali sono i valori minimi e massimi delle scale del vento e del mare?",
+            "a": [
+                "vento da 0 a 14, mare da 0 a 10.",
+                "vento da 0 a 12, mare da 0 a 9.",
+                "vento da 1 a 10, mare da 1 a 9."
+            ],
+            "c": 1,
+            "id": "1.6.1-40"
+        },
+        {
+            "q": "Cosa si intende per isobare?",
+            "a": [
+                "Linee di uguale pressione.",
+                "Linee di uguale temperatura.",
+                "linee di uguale differenza di pressione."
+            ],
+            "c": 0,
+            "id": "1.6.1-6"
+        },
+        {
+            "q": "Come si definisce il vento?",
+            "a": [
+                "il movimento obliquo dell'aria i cui caratteri distintivi sono l'accelerazione e la turbolenza.",
+                "il movimento verticale dell'aria i cui caratteri distintivi sono la frequenza e la provenienza.",
+                "lo spostamento pressocchè orizzontale di una massa d'aria i cui caratteri distintivi sono la direzione e la velocità."
+            ],
+            "c": 2,
+            "id": "1.6.1-8"
+        }
+    ],
+    "s2": [
+        {
+            "q": "Quale tra queste affermazioni è corretta?",
+            "a": [
+                "la brezza diurna e quella notturna hanno la medesima intensità.",
+                "la brezza di notte è più intensa di quella diurna.",
+                "la brezza che spira durante le ore diurne è più intensa rispetto a quella notturna."
+            ],
+            "c": 2,
+            "id": "1.6.1-2"
+        },
+        {
+            "q": "Come si definisce il fenomeno atmosferico generato dalla sovrapposizione di un fronte freddo e di un fronte caldo?",
+            "a": [
+                "fronte occluso.",
+                "fronte tropicale.",
+                "fronte equatoriale."
+            ],
+            "c": 0,
+            "id": "1.6.1-11"
+        },
+        {
+            "q": "Quali sono le principali caratteristiche delle nubi denominate \"cirri\"?",
+            "a": [
+                "colore roseo, struttura lattiginosa, sono raggruppate a banchi.",
+                "colore grigio o bluastro, forma imponente.",
+                "colore bianco, struttura fibrosa, isolate."
+            ],
+            "c": 2,
+            "id": "1.6.1-13"
+        },
+        {
+            "q": "Quali sono i principali effetti meteorologici generati dalle nubi tipo \"cumulonembo\"?",
+            "a": [
+                "neve, nebbia e foschia.",
+                "rovesci, temporali o grandine.",
+                "tuoni, trombe d'aria e arcobaleno."
+            ],
+            "c": 1,
+            "id": "1.6.1-14"
+        },
+        {
+            "q": "Un fronte meteorologico è:",
+            "a": [
+                "la superficie di contatto, e pertanto di discontinuità, tra due masse d'aria aventi caratteristiche di temperatura, pressione e umidità differenti.",
+                "l'intersezione tra una massa d'aria e la superficie terrestre.",
+                "la massa di nubi di altezza media tra 2000 e 6000 m."
+            ],
+            "c": 0,
+            "id": "1.6.1-15"
+        },
+        {
+            "q": "Quando si ha un fronte caldo?",
+            "a": [
+                "quando una massa d'aria calda (quindi anche più umida) si avvicina a una relativamente più fredda (e meno umida), scorrendovi sopra.",
+                "quando una massa d'aria fredda (quindi meno umida ma più densa) si avvicina e si incunea sotto a una massa relativamente più calda (più umida e più leggera), facendola salire.",
+                "quando una massa d'aria si interseca con la superficie terrestre."
+            ],
+            "c": 0,
+            "id": "1.6.1-16"
+        },
+        {
+            "q": "Quando un fronte si definisce freddo?",
+            "a": [
+                "quando una massa d'aria fredda (quindi meno umida ma più densa) si avvicina e si incunea sotto a una massa relativamente più calda (più umida e più leggera), facendola salire e determinando un raffreddamento della regione in cui transita.",
+                "quando una massa d'aria più calda (quindi anche più umida) si avvicina a una relativamente più fredda (e meno umida), scorrendovi sopra.",
+                "quando una massa d'aria si interseca con la superficie terrestre."
+            ],
+            "c": 0,
+            "id": "1.6.1-17"
+        },
+        {
+            "q": "Come può definirsi un fronte stazionario?",
+            "a": [
+                "un fronte che non presenta alcun movimento, ossia nessuna delle masse d'aria interessate invade sensibilmente la zona occupata dall'altra.",
+                "la sovrapposizione di un fronte caldo e un fronte freddo.",
+                "un fronte che presenta un movimento verticale, tale da generare nubi denominate cirri."
+            ],
+            "c": 0,
+            "id": "1.6.1-18"
+        },
+        {
+            "q": "Nel nostro emisfero:",
+            "a": [
+                "il vento al suolo spira in senso orario intorno a una bassa pressione (o ciclone).",
+                "il vento al suolo spira in senso antiorario intorno a una bassa pressione (o ciclone).",
+                "il vento al suolo spira in senso antiorario intorno a un'alta pressione (a un anticiclone)."
+            ],
+            "c": 1,
+            "id": "1.6.1-19"
+        },
+        {
+            "q": "Quale affermazione tra le seguenti è corretta:",
+            "a": [
+                "lo stato del mare è misurato con la scala di Dorrestein.",
+                "se la pressione diminuisce il tempo volgerà al bello.",
+                "generalmente, l'orizzonte chiaro, con calma di vento, preannuncia bel tempo."
+            ],
+            "c": 2,
+            "id": "1.6.1-39"
+        },
+        {
+            "q": "Al passaggio di un fronte freddo, la pressione:",
+            "a": [
+                "sale bruscamente.",
+                "diminuisce dietro, alle spalle del fronte, e dopo di nuovo aumenta repentinamente.",
+                "diminuisce."
+            ],
+            "c": 0,
+            "id": "1.6.1-41"
+        }
+    ],
+    "s3": [
+        {
+            "q": "La Brezza soffia dal mare perchè:",
+            "a": [
+                "la terraferma si scalda più in fretta del mare.",
+                "sia la terraferma che il mare raggiungono la stessa temperatura ed il vento spira dal mare.",
+                "la terraferma si raffredda più in fretta del mare."
+            ],
+            "c": 0,
+            "id": "1.6.1-24"
+        },
+        {
+            "q": "Le brezze hanno origine:",
+            "a": [
+                "se ci sono differenze di riscaldamento tra mare e terraferma.",
+                "nei caldi pomeriggi estivi.",
+                "nelle calde serate estive."
+            ],
+            "c": 0,
+            "id": "1.6.1-26"
+        },
+        {
+            "q": "La Brezza spira da terra di notte perché la terraferma:",
+            "a": [
+                "e il mare raggiungono la stessa temperatura.",
+                "si raffredda più in fretta del mare.",
+                "si scalda più in fretta del mare."
+            ],
+            "c": 1,
+            "id": "1.6.1-27"
+        },
+        {
+            "q": "La brezza:",
+            "a": [
+                "di notte risente della condizione in base alla quale il mare si raffredda più in fretta della terraferma.",
+                "di giorno soffia dal mare verso la terraferma.",
+                "è un indicatore di condizioni generali di cattivo tempo."
+            ],
+            "c": 1,
+            "id": "1.6.1-28"
+        },
+        {
+            "q": "La brezza di terra spira:",
+            "a": [
+                "ininterrottamente per 24 ore al giorno.",
+                "di notte.",
+                "di giorno."
+            ],
+            "c": 1,
+            "id": "1.6.1-29"
+        },
+        {
+            "q": "La brezza di terra è innescata:",
+            "a": [
+                "dal rapido raffreddamento della terraferma rispetto al mare.",
+                "dal raffreddamento del mare.",
+                "dal riscaldamento della terraferma da parte del sole."
+            ],
+            "c": 0,
+            "id": "1.6.1-31"
+        },
+        {
+            "q": "La brezza:",
+            "a": [
+                "è più consistente nelle giornate di pioggia.",
+                "di notte spira dalla terraferma verso il mare.",
+                "di giorno è dovuta alla pressione più alta sulla terraferma che sul mare."
+            ],
+            "c": 1,
+            "id": "1.6.1-32"
+        },
+        {
+            "q": "La brezza:",
+            "a": [
+                "di notte soffia dal mare verso la terra.",
+                "è un indicatore di condizioni generali di cattivo tempo.",
+                "di notte è ragionevolmente dovuta al più rapido raffreddamento della terraferma rispetto al mare."
+            ],
+            "c": 2,
+            "id": "1.6.1-33"
+        },
+        {
+            "q": "Quale affermazione è corretta tra le seguenti:",
+            "a": [
+                "con il barometro misuro il valore della tendenza barografica istantanea.",
+                "la pressione dell'aria è misurata con il barometro.",
+                "generalmente, se il tempo peggiora la pressione aumenta."
+            ],
+            "c": 1,
+            "id": "1.6.1-34"
+        },
+        {
+            "q": "Quale affermazione tra le seguenti è corretta:",
+            "a": [
+                "il barometro misura la temperatura dell’aria.",
+                "il barometro misura la pressione dell’aria.",
+                "in genere se il tempo peggiora l'umidità diminuisce."
+            ],
+            "c": 1,
+            "id": "1.6.1-35"
+        },
+        {
+            "q": "La formazione delle brezze è innescata dalla diversa:",
+            "a": [
+                "umidità tra due zone.",
+                "pressione atmosferica tra due zone.",
+                "temperatura tra due zone."
+            ],
+            "c": 2,
+            "id": "1.6.1-37"
+        }
+    ],
+    "s4": [
+        {
+            "q": "Gli alisei sono:",
+            "a": [
+                "venti periodici che spirano ad una velocità compresa tra i 40 e i 50 nodi e la cui intensità risulta maggiore nei mesi caldi e umidi.",
+                "venti permanenti che spirano ad una velocità compresa tra i 13 e i 18 nodi e la cui intensità risulta maggiore nei mesi freddi.",
+                "venti periodici che spirano ad una velocità compresa tra i 30 e i 40 nodi e la cui intensità risulta maggiore nei mesi caldi e umidi."
+            ],
+            "c": 1,
+            "id": "1.6.1-21"
+        },
+        {
+            "q": "Cosa si intende per altezza della marea?",
+            "a": [
+                "il valore dell'altezza delle onde di marea rispetto allo zero idrografico (in inglese chart datum).",
+                "il valore dell'altezza media delle più alte onde di marea rispetto allo zero idrografico (in inglese chart datum).",
+                "il valore dell'altezza dell'alta marea o della bassa marea rispetto allo zero idrografico (in inglese chart datum )."
+            ],
+            "c": 2,
+            "id": "1.6.1-22"
+        },
+        {
+            "q": "Con corrente e vento, l'un l'altro contro in direzione opposta, l'onda è:",
+            "a": [
+                "ripida.",
+                "alta.",
+                "incomprensibile."
+            ],
+            "c": 0,
+            "id": "1.6.1-30"
+        },
+        {
+            "q": "Come si definisce una corrente di marea?",
+            "a": [
+                "lo spostamento orizzontale delle acque marine generato dalla marea, non collegato al moto ondoso",
+                "lo spostamento verticale delle acque marine generato dalla marea.",
+                "lo spostamento obliquo delle acque marine generato dalla marea."
+            ],
+            "c": 0,
+            "id": "1.6.1.97"
+        },
+        {
+            "q": "Una corrente marina è:",
+            "a": [
+                "un movimento di masse d'acqua non derivante dal moto ondoso o dalla marea.",
+                "un movimento di masse d'acqua generato dal moto ondoso o dalla marea.",
+                "un movimento di masse d'acqua generato dall'azione combinata delle maree e del moto ondoso."
+            ],
+            "c": 0,
+            "id": "1.6.1-42"
+        },
+        {
+            "q": "Riguardo alla corrente marina, è possibile affermare che:",
+            "a": [
+                "si verifica in acque relativamente basse e negli stretti, e relative adiacenze, colleganti due bacini.",
+                "l'intero ciclo copre un periodo di alcune ore.",
+                "si verifica in acque profonde e in mari aperti e che risente del moto di rotazione terrestre."
+            ],
+            "c": 2,
+            "id": "1.6.1-43"
+        },
+        {
+            "q": "La corrente di marea:",
+            "a": [
+                "si verifica in acque relativamente basse e negli stretti, e relative adiacenze, colleganti due bacini.",
+                "è un fenomeno stagionale.",
+                "la massa d'acqua interessata ha una sua densità e temperatura diversa dalla massa d'acqua circostante."
+            ],
+            "c": 0,
+            "id": "1.6.1-44"
+        },
+        {
+            "q": "Cosa si intende per nebbia?",
+            "a": [
+                "qualsiasi forma di condensazione del vapore acqueo negli strati atmosferici a immediato contatto con il suolo o gli specchi acquei.",
+                "qualsiasi forma di condensazione del vapore acqueo negli strati atmosferici superiori.",
+                "è un sinonimo di foschia."
+            ],
+            "c": 0,
+            "id": "1.6.1-7"
+        },
+        {
+            "q": "Quali sono i principali movimenti a cui è soggetto il mare?",
+            "a": [
+                "correnti, onde e maree.",
+                "orizzontali, laterali e sussultori.",
+                "oceanografici, torrenziali e convergenti."
+            ],
+            "c": 0,
+            "id": "1.6.1-9"
+        },
+        {
+            "q": "Come si definiscono le maree?",
+            "a": [
+                "movimenti oscillanti delle masse d'acqua generati dalla rotazione terrestre.",
+                "movimento orizzontale del mare generato dal magnetismo terrestre.",
+                "l'oscillazione del livello del mare generata dalla forza di attrazione gravitazionale esercitata principalmente dal sole e dalla luna."
+            ],
+            "c": 2,
+            "id": "1.6.1-10"
+        }
+    ],
+    "s5": [
+        {
+            "q": "Qual è l'Ente nazionale preposto a produrre le informazioni destinate all'assistenza meteorologica delle unità navali in navigazione nel Mar Mediterraneo?",
+            "a": [
+                "il Centro Nazionale di Meteorologia e Climatologia Aeronautica.",
+                "il Centro Nazionale delle Stazioni radio costiere.",
+                "la Centrale Operativa della Guardia Costiera."
+            ],
+            "c": 0,
+            "id": "1.6.2-1"
+        },
+        {
+            "q": "Cosa sono gli \"avvisi\" meteorologici sono messaggi che contengono:",
+            "a": [
+                "utili informazioni afferenti fenomeni di improvvisi innalzamenti di maree sigiziali.",
+                "utili informazioni afferenti fenomeni di improvvisi cambi di direzione delle correnti marine.",
+                "utili informazioni afferenti fenomeni meteorologici pericolosi per la navigazione marittima."
+            ],
+            "c": 2,
+            "id": "1.6.2-2"
+        },
+        {
+            "q": "Gli \"Avvisi di Burrasca\" sono diffusi via radio:",
+            "a": [
+                "preceduti dal segnale di sicurezza \"SECURITÈ\".",
+                "preceduti dal segnale di sicurezza \"MAYDAY\".",
+                "preceduti dal segnale di sicurezza \"PANPAN\"."
+            ],
+            "c": 0,
+            "id": "1.6.2-14"
+        },
+        {
+            "q": "Gli \"Avvisi di Tempesta\" o \"di Burrasca\":",
+            "a": [
+                "coprono un'area estesa quanto il mar Mediterraneo.",
+                "segnalano che una tempesta o burrasca si svilupperà non prima di 12 ore.",
+                "segnalano tempesta o burrasca in corso o imminente."
+            ],
+            "c": 2,
+            "id": "1.6.2-15"
+        },
+        {
+            "q": "Quali tra le seguenti informazioni sono riportate nel Meteomar:",
+            "a": [
+                "sorgere e tramonto del sole, per valutare la formazione delle nebbie.",
+                "avvisi urgenti ai naviganti (Avurnav).",
+                "avvisi (es. di temporali o di burrasca), in corso o previsti."
+            ],
+            "c": 2,
+            "id": "1.6.2-16"
+        },
+        {
+            "q": "Come viene diffuso il bollettino Meteomar?",
+            "a": [
+                "sul canale VHF 78, di continuo.",
+                "sul canale VHF 16, alle ore sinottiche principali (UTC).",
+                "sul canale 68, di continuo."
+            ],
+            "c": 2,
+            "id": "1.6.2-17"
+        },
+        {
+            "q": "Il Meteomar emesso alle ore 12:00 UTC di oggi:",
+            "a": [
+                "è valido sino alle ore 18:00 UTC di oggi.",
+                "è valido sino alle ore 12:00 UTC di domani.",
+                "è valido sino alle ore 00:00 UTC di domani."
+            ],
+            "c": 2,
+            "id": "1.6.2-18"
+        },
+        {
+            "q": "La sezione \"Tendenza\" nel Meteomar indica:",
+            "a": [
+                "una possibile burrasca.",
+                "la direzione di provenienza e la forza del vento per le prossime 96 ore.",
+                "la tendenza dello stato del mare nelle 12 ore successive al periodo di validità della “Previsione”."
+            ],
+            "c": 2,
+            "id": "1.6.2-19"
+        },
+        {
+            "q": "Il Meteomar è trasmesso:",
+            "a": [
+                "dal Ministero dello Sviluppo Economico (ex Comunicazioni).",
+                "dalle Stazioni Radio costiere.",
+                "dalle Capitanerie di porto."
+            ],
+            "c": 1,
+            "id": "1.6.2-20"
+        },
+        {
+            "q": "Gli Avvisi di burrasca (Gale Warnings):",
+            "a": [
+                "sono diffusi via VHF con precedenza assoluta su tutti gli altri messaggi di natura meteorologica.",
+                "sono diffusi via VHF in coda con gli altri messaggi di natura meteorologica.",
+                "forniscono informazioni su venti forza 12."
+            ],
+            "c": 0,
+            "id": "1.6.2-21"
+        },
+        {
+            "q": "La sezione \"Tendenza” circa il vento indicato nel Meteomar:",
+            "a": [
+                "fornisce la tendenza del vento nelle 12 ore successive al periodo di validità del Meteomar medesimo.",
+                "fornisce la tendenza del vento nelle 24 ore successive al periodo di validità del Meteomar medesimo.",
+                "fornisce previsioni relative alle 48 ore successive al periodo di validità del Meteomar medesimo."
+            ],
+            "c": 0,
+            "id": "1.6.2-22"
+        },
+        {
+            "q": "Riguardo al bollettino meteomar:",
+            "a": [
+                "la trasmissione avviene tramite le Capitanerie di porto.",
+                "orari e canali di servizio sono riportati sulla pubblicazione Radioservizi per la navigazione edita dall'I.I.M.M.",
+                "orari e canali di servizio sono riportati sulla pubblicazione Radioservizi per la navigazione edita dall'A.M."
+            ],
+            "c": 1,
+            "id": "1.6.2-23"
+        },
+        {
+            "q": "Come possono suddividersi le carte meteorologiche?",
+            "a": [
+                "carte al suolo e carte in quota.",
+                "carte generali e carte particolari.",
+                "carte gnomoniche e carte equatoriali."
+            ],
+            "c": 0,
+            "id": "1.6.2-9"
+        }
+    ],
+    "s6": [
+        {
+            "q": "Nell'ambito delle previsioni locali, quali segni premonitori possono indicare il perdurare del bel tempo?",
+            "a": [
+                "repentino aumento della pressione atmosferica e presenza di cumulonembi all'orizzonte.",
+                "la pressione rimane costante o sale lentamente ed il sole si presenta di colore rosso nelle ore serali in condizioni di cielo chiaro.",
+                "repentino aumento della temperatura e basso tenore di umidità nell'atmosfera."
+            ],
+            "c": 1,
+            "id": "1.6.2-3"
+        },
+        {
+            "q": "Nell'ambito delle previsioni locali, quali segni premonitori possono indicare il possibile peggioramento del tempo?",
+            "a": [
+                "addensamento dei cirri in cirrostrati, repentina riduzione della pressione e presenza di vento sostenuto già dalle prime ore del mattino.",
+                "movimento delle nubi da Sud verso Nord e incremento repentino dell'umidità al tramonto.",
+                "rotazione del vento da Sud verso Est e riduzione del livello del mare indipendentemente dalla marea."
+            ],
+            "c": 0,
+            "id": "1.6.2-4"
+        },
+        {
+            "q": "Nell'ambito delle previsioni locali, quali segni premonitori possono indicare il possibile miglioramento del tempo?",
+            "a": [
+                "abbassamento delle nubi e brusco calo della pressione atmosferica.",
+                "innalzamento delle basi delle nubi, rotazione in senso orario del vento da Est verso Sud e poi Ovest e rapido innalzamento della pressione.",
+                "repentino annuvolamento del cielo e movimento delle nubi a differenti altezze e in diverse direzioni."
+            ],
+            "c": 1,
+            "id": "1.6.2-5"
+        },
+        {
+            "q": "Nell'ambito delle previsioni locali, quali segni premonitori possono indicare il possibile verificarsi di precipitazioni piovose?",
+            "a": [
+                "i venti da Sud calano di intensità, il barometro sale costantemente e il livello del mare tende a salire.",
+                "il barometro sale costantemente, con brusco calo della temperatura.",
+                "le nubi si addensano, i cirri assumono di una colorazione rossastra con calo repentino della pressione e rinforzo dei venti provenienti da Sud."
+            ],
+            "c": 2,
+            "id": "1.6.2-6"
+        },
+        {
+            "q": "Quali sono tra questi gli elementi che preannunciano l'approssimarsi di tempo cattivo durante la navigazione?",
+            "a": [
+                "brusca caduta della pressione atmosferica e presenza di nuvole ad alto sviluppo verticale.",
+                "presenza di mare lungo e nuvole stratificate.",
+                "diminuzione della temperatura di rugiada e presenza di mare lungo."
+            ],
+            "c": 0,
+            "id": "1.6.2-7"
+        },
+        {
+            "q": "Nell'ambito delle previsioni locali, quali segni premonitori possono indicare la possibile formazione di nebbia?",
+            "a": [
+                "movimento di un flusso di aria fredda e secca da una regione oceanica più calda ad una più fredda, presenza di acqua molto più calda rispetto all'aria sovrastante e presenza di vento teso.",
+                "movimento di un flusso di aria calda e umida da una regione oceanica più calda a una più fredda, presenza di acqua molto più fredda rispetto all'aria sovrastante e presenza di vento debole.",
+                "oscuramento del cielo durante le ore serali, presenza di aria secca e vento regolare."
+            ],
+            "c": 1,
+            "id": "1.6.2-8"
+        }
+    ],
+    "s7": [
+        {
+            "q": "Che tipo di fronte è rappresentato in figura?",
+            "a": [
+                "fronte freddo.",
+                "fronte occluso.",
+                "fronte caldo."
+            ],
+            "c": 2,
+            "id": "1.6.2-11",
+            "img": "immagini/89.png"
+        },
+        {
+            "q": "Che tipo di fronte è rappresentato in figura?",
+            "a": [
+                "fronte freddo.",
+                "fronte stazionario.",
+                "fronte caldo."
+            ],
+            "c": 1,
+            "id": "1.6.2-12",
+            "img": "immagini/90.png"
+        },
+        {
+            "q": "Che tipo di fronte è rappresentato in figura?",
+            "a": [
+                "fronte occluso",
+                "fronte stazionario.",
+                "fronte caldo."
+            ],
+            "c": 0,
+            "id": "1.6.2-13",
+            "img": "immagini/91.png"
+        },
+        {
+            "q": "Una \"Burrasca\":",
+            "a": [
+                "corrisponde a un termine descrittivo della Forza del vento.",
+                "corrisponde a uno stato del mare abbastanza agitato.",
+                "corrisponde a un gergo marinaro usato per esprimere un tempo perturbato in zone lontane."
+            ],
+            "c": 0,
+            "id": "1.6.2-24"
+        },
+        {
+            "q": "I \"Cirri\" sono:",
+            "a": [
+                "le nubi più alte che di norma indicano bel tempo se la pressione è stazionaria o in salita.",
+                "le nubi di altezza media tra 2000 e 6000 m.",
+                "le nubi da cui è possibile prevedere l'arrivo brusco di un fronte freddo e le piogge entro 6 ore."
+            ],
+            "c": 0,
+            "id": "1.6.2-25"
+        },
+        {
+            "q": "La violenza di un temporale è in funzione:",
+            "a": [
+                "dello sviluppo verticale della nube.",
+                "dell'escursione termica.",
+                "della stagione."
+            ],
+            "c": 0,
+            "id": "1.6.2-26"
+        },
+        {
+            "q": "Il fronte:",
+            "a": [
+                "è quella linea di separazione sussistente tra due correnti di stessa intensità ma con verso opposto.",
+                "è la linea che separa due strati di cumuli-nembi e nembo-strati.",
+                "è una linea che esprime la superficie di contatto o di discontinuità che separa due masse d'aria."
+            ],
+            "c": 2,
+            "id": "1.6.2-27"
+        },
+        {
+            "q": "I \"Cumuli\" sono:",
+            "a": [
+                "nubi grigie stratiformi.",
+                "le nubi più alte di aspetto chiaro e filamentoso.",
+                "nubi a sviluppo verticale."
+            ],
+            "c": 2,
+            "id": "1.6.2-28"
+        },
+        {
+            "q": "In genere la pressione aumenta se:",
+            "a": [
+                "spirano venti freddi dal 4° e 1° quadrante.",
+                "spirano venti freddi dal 2° e 3° quadrante.",
+                "nessuna delle due affermazioni suddette è corretta."
+            ],
+            "c": 0,
+            "id": "1.6.2-30"
+        },
+        {
+            "q": "Sono nuvole temporalesche:",
+            "a": [
+                "gli altocumuli",
+                "i cumulonembi.",
+                "i nembostrati."
+            ],
+            "c": 1,
+            "id": "1.6.2-31"
+        },
+        {
+            "q": "Generalmente, al passaggio di un fronte freddo:",
+            "a": [
+                "la pressione diminuisce in modo irregolare, inoltre la temperatura e l'umidità sono in aumento.",
+                "la visibilità peggiora, vi sono nubi di tipo altostratiforme e nebbie.",
+                "la pressione aumenta bruscamente, il vento rinforza con raffiche."
+            ],
+            "c": 2,
+            "id": "1.6.2-32"
+        },
+        {
+            "q": "Generalmente, con aria instabile si hanno precipitazioni:",
+            "a": [
+                "scarse.",
+                "di forte intensità e a intermittenza.",
+                "poco intense."
+            ],
+            "c": 1,
+            "id": "1.6.2-33"
+        },
+        {
+            "q": "In genere, con aria instabile la visibilità è:",
+            "a": [
+                "buona, a volte ottima.",
+                "scarsa.",
+                "nessuna delle due affermazioni suddette è corretta."
+            ],
+            "c": 0,
+            "id": "1.6.2-34"
+        },
+        {
+            "q": "Un fronte stazionario indica:",
+            "a": [
+                "una persistente situazione di stallo e di maltempo.",
+                "un fronte attivo di temporali.",
+                "un fronte che si muove poco."
+            ],
+            "c": 0,
+            "id": "1.6.2-35"
+        },
+        {
+            "q": "Il vento è teso quando:",
+            "a": [
+                "la direzione media e la velocità media si mantengono costanti per un certo periodo di tempo.",
+                "la direzione media muta continuamente mentre la velocità media rimane costante.",
+                "è a raffiche quando direzione e velocità medie variano notevolmente e improvvisamente."
+            ],
+            "c": 0,
+            "id": "1.6.2-36"
+        },
+        {
+            "q": "I vento è a raffiche quando:",
+            "a": [
+                "la direzione media rimane costante mentre la velocità media presenta improvvisi picchi con valori di almeno 10 nodi oltre la media e di durata inferiore al minuto.",
+                "quando la direzione media muta continuamente mentre la velocità media rimane costante per un certo periodo di tempo.",
+                "quando direzione e velocità medie non variano, come accade nel corso di temporali."
+            ],
+            "c": 0,
+            "id": "1.6.2-37"
+        },
+        {
+            "q": "Il Foehn (o Fohn) indica:",
+            "a": [
+                "un vento che discende forzatamente di quota lungo il versante sottovento di un ostacolo orografico.",
+                "un vento che, per effetto di un ostacolo orografico, è costretto a salire di quota lungo il versante sopravento.",
+                "un vento anabatico."
+            ],
+            "c": 0,
+            "id": "1.6.2-38"
+        },
+        {
+            "q": "Quant’è il valore di pressione media sul livello del mare?",
+            "a": [
+                "1053,2 hPa.",
+                "1003,2 mm.",
+                "1013,2 hPa."
+            ],
+            "c": 2,
+            "id": "1.6.2-47"
+        },
+        {
+            "q": "In genere, nella zona che precede un fronte caldo:",
+            "a": [
+                "la pressione aumenta rapidamente.",
+                "si ha pioggia intermittente.",
+                "la pressione cade rapidamente."
+            ],
+            "c": 2,
+            "id": "1.6.2-48"
+        },
+        {
+            "q": "Se la pressione sale bruscamente, cosa possiamo attenderci:",
+            "a": [
+                "il passaggio di un fronte freddo.",
+                "il passaggio di un fronte caldo.",
+                "il passaggio di un fronte occluso."
+            ],
+            "c": 0,
+            "id": "1.6.2-49"
+        },
+        {
+            "q": "Quali sono gli effetti di un fronte caldo?",
+            "a": [
+                "il rapido sollevamento dell’aria calda genera nubi di tipo cumulonembo generando fenomeni meteorologici anche violenti come rovesci, temporali e vento forte.",
+                "l'aria calda, raffreddandosi, causa piogge leggere al passaggio del fronte.",
+                "nebbia da irraggiamento."
+            ],
+            "c": 1,
+            "id": "1.6.2-50"
+        },
+        {
+            "q": "Che tipo di fronte è rappresentato in figura?",
+            "a": [
+                "fronte caldo.",
+                "fronte freddo.",
+                "fronte occluso."
+            ],
+            "c": 1,
+            "id": "1.6.2-10",
+            "img": "immagini/88.png"
+        },
+        {
+            "q": "Quali sono gli effetti di un fronte freddo?",
+            "a": [
+                "il rapido sollevamento dell’aria calda genera nubi di tipo cumulonembo, generando fenomeni meteorologici anche violenti come rovesci, temporali e vento forte.",
+                "l'aria calda, raffreddandosi, causa piogge leggere al passaggio del fronte.",
+                "nebbia da irraggiamento."
+            ],
+            "c": 0,
+            "id": "1.6.2-51"
+        },
+        {
+            "q": "Quale differenza c'è fra nebbia e foschia?",
+            "a": [
+                "nessuna.",
+                "entrambe riducono la visibilità, ma si ha la nebbia quando la visibilità viene ridotta a valori inferiori a 1 km.",
+                "entrambe riducono la visibilità, ma si ha la foschia quando la visibilità viene ridotta a valori inferiori a 1 km."
+            ],
+            "c": 1,
+            "id": "1.6.2-52"
+        },
+        {
+            "q": "Circa il gradiente barico, i venti saranno:",
+            "a": [
+                "sempre costanti fra un'isobara e l'altra.",
+                "più deboli quanto minore è la distanza tra una isobara e l'altra, perché minore è la differenza di pressione.",
+                "più forti quanto minore è la distanza tra una isobara e l'altra, perché maggiore è la differenza di pressione."
+            ],
+            "c": 2,
+            "id": "1.6.2-53"
+        }
+    ],
+    "s8": [
+        {
+            "q": "Il \"fetch minimo\" è:",
+            "a": [
+                "il tratto di mare, privo di ostacoli, sul quale soffia un vento per un certo periodo, oltre il quale tratto di mare le onde raggiungeranno la massima altezza per quel dato vento.",
+                "una condizione del mare caratterizzata da onde corte e ripide.",
+                "un vento caldo e secco discendente da una catena montuosa."
+            ],
+            "c": 0,
+            "id": "1.6.2-29"
+        },
+        {
+            "q": "Cosa provoca il moto ondoso?",
+            "a": [
+                "le maree alle quadrature.",
+                "la sabbia quando è vicina alle rocce.",
+                "il vento."
+            ],
+            "c": 2,
+            "id": "1.6.2-39"
+        },
+        {
+            "q": "La lunghezza di un'onda è data dalla distanza:",
+            "a": [
+                "orizzontale tra due incavi successivi.",
+                "orizzontale tra due creste successive.",
+                "verticale tra la cresta di un'onda e l'incavo dell'onda successiva."
+            ],
+            "c": 1,
+            "id": "1.6.2-40"
+        },
+        {
+            "q": "L'altezza di un'onda è data dalla distanza verticale:",
+            "a": [
+                "tra la cresta e l'incavo.",
+                "tra la cresta e il frangente.",
+                "tra il frangente e l'incavo."
+            ],
+            "c": 0,
+            "id": "1.6.2-41"
+        },
+        {
+            "q": "Generalmente un'onda frange quando:",
+            "a": [
+                "la profondità del fondale è maggiore del doppio dell'altezza dell'onda.",
+                "il rapporto tra altezza e lunghezza (ripidità) dell'onda è maggiore di 1/25.",
+                "il rapporto tra altezza e lunghezza (ripidità) dell'onda è maggiore di 1/7."
+            ],
+            "c": 2,
+            "id": "1.6.2-42"
+        },
+        {
+            "q": "Generalmente un'onda frange quando:",
+            "a": [
+                "il rapporto tra altezza e lunghezza (ripidità) dell'onda è maggiore di 1/8.",
+                "la profondità del fondale è maggiore del doppio dell'altezza dell'onda.",
+                "la profondità del fondale è minore del doppio dell'altezza dell'onda."
+            ],
+            "c": 2,
+            "id": "1.6.2-43"
+        },
+        {
+            "q": "Cosa si intende per \"mare vivo\"?",
+            "a": [
+                "quando l'onda proviene per propagazione da una zona lontana, rispetto all'osservatore, dove agisce un vento che lo sta generando.",
+                "è generato da un vento che agisce sul posto dove si trova l'osservatore.",
+                "è una zona ricca di pesce."
+            ],
+            "c": 1,
+            "id": "1.6.2-44"
+        },
+        {
+            "q": "Quando si ha il così detto \"mare lungo\" circa le onde?",
+            "a": [
+                "quando c'è vento ma non c'è onda.",
+                "quando si ha moto ondoso generato da un vento che agisce sul posto dove si trova l'osservatore.",
+                "quando si ha moto ondoso proveniente per propagazione da una zona lontana, rispetto all'osservatore, in cui è presente un \"mare vivo\"."
+            ],
+            "c": 2,
+            "id": "1.6.2-45"
+        },
+        {
+            "q": "L'osservatore valuta che sta navigando con un \"mare vecchio\" (o \"morto\") se il sistema di onde:",
+            "a": [
+                "persiste sul posto dove si trova l'osservatore pur in assenza dell'azione diretta del vento che lo aveva generato.",
+                "è generato da un vento che agisce sul posto dove si trova l'osservatore.",
+                "proviene per propagazione da una zona lontana, rispetto all'osservatore, in cui è presente un mare vivo."
+            ],
+            "c": 0,
+            "id": "1.6.2-46"
+        }
+    ],
+    "s9": [
+        {
+            "q": "Quali sono i venti del I quadrante?",
+            "a": [
+                "Mezzogiorno, Libeccio e Ponente.",
+                "Ponente, Maestrale e Tramontana.",
+                "Tramontana, Grecale e Levante."
+            ],
+            "c": 2,
+            "id": "1.6.3-1"
+        },
+        {
+            "q": "Quali sono i venti del II quadrante?",
+            "a": [
+                "Levante, Scirocco e Mezzogiorno.",
+                "Mezzogiorno, Libeccio e Ponente.",
+                "Ponente, Maestrale e Tramontana."
+            ],
+            "c": 0,
+            "id": "1.6.3-2"
+        },
+        {
+            "q": "Quali sono i venti del III quadrante?",
+            "a": [
+                "Tramontana, Grecale e Levante.",
+                "Ponente, Maestrale e Tramontana.",
+                "Mezzogiorno, Libeccio e Ponente."
+            ],
+            "c": 2,
+            "id": "1.6.3-3"
+        },
+        {
+            "q": "Quali sono i venti del IV quadrante?",
+            "a": [
+                "Ponente, Maestrale e Tramontana.",
+                "Tramontana, Grecale e Levante.",
+                "Levante, Scirocco e Mezzogiorno."
+            ],
+            "c": 0,
+            "id": "1.6.3-4"
+        },
+        {
+            "q": "La rosa dei venti rappresenta:",
+            "a": [
+                "nome, forza e direzione dei venti.",
+                "l'orizzonte visibile, con il nome e la direzione di provenienza dei venti tipici del Mediterraneo.",
+                "la destinazione dei venti principali."
+            ],
+            "c": 1,
+            "id": "1.6.3-5"
+        },
+        {
+            "q": "Da Est spira:",
+            "a": [
+                "Levante.",
+                "Ponente.",
+                "Tramontana."
+            ],
+            "c": 0,
+            "id": "1.6.3-11"
+        },
+        {
+            "q": "La direzione di provenienza:",
+            "a": [
+                "del Grecale è da E.",
+                "della tramontana è tra il II° e il III° quadrante.",
+                "del maestrale è da NW."
+            ],
+            "c": 2,
+            "id": "1.6.3-12"
+        },
+        {
+            "q": "Da quale direzione proviene il vento di Libeccio?",
+            "a": [
+                "Nord-Ovest.",
+                "Sud-Ovest.",
+                "Sud-Est"
+            ],
+            "c": 1,
+            "id": "1.6.3-13"
+        },
+        {
+            "q": "Il vento che viene da 270 gradi si chiama:",
+            "a": [
+                "Scirocco.",
+                "Ponente.",
+                "Levante."
+            ],
+            "c": 1,
+            "id": "1.6.3-14"
+        },
+        {
+            "q": "Ostro e Mezzogiorno:",
+            "a": [
+                "sono lo stesso vento.",
+                "non sono venti.",
+                "non sono lo stesso vento."
+            ],
+            "c": 0,
+            "id": "1.6.3-15"
+        },
+        {
+            "q": "Individuare la corretta direzione di provenienza:",
+            "a": [
+                "la Tramontana spira da N.",
+                "il Libeccio spira da 135 gradi.",
+                "l'Ostro spira da NW."
+            ],
+            "c": 0,
+            "id": "1.6.3-16"
+        },
+        {
+            "q": "Da quale direzione proviene il vento di Libeccio?",
+            "a": [
+                "Nord-Ovest.",
+                "Sud-Ovest.",
+                "Sud-Est."
+            ],
+            "c": 1,
+            "id": "1.6.3-17"
+        },
+        {
+            "q": "Individuare l'affermazione corretta:",
+            "a": [
+                "l'Ostro spira da 180 gradi.",
+                "lo Scirocco spira da 225 gradi.",
+                "il Levante spira da 135 gradi."
+            ],
+            "c": 0,
+            "id": "1.6.3-17"
+        },
+        {
+            "q": "Quale affermazione è corretta tra le seguenti:",
+            "a": [
+                "il vento di levante proviene da oriente.",
+                "il vento di libeccio è un vento cardinale.",
+                "il vento di ponente spira verso ovest."
+            ],
+            "c": 0,
+            "id": "1.6.3-18"
+        },
+        {
+            "q": "Quale affermazione è corretta tra le seguenti:",
+            "a": [
+                "il levante spira tra N e NNW.",
+                "il libeccio spira tra S e SSE.",
+                "lo scirocco spira da SE."
+            ],
+            "c": 2,
+            "id": "1.6.3-19"
+        },
+        {
+            "q": "I venti che spirano dai 4 punti intercardinali (NE, SE, SW, NW) prendono il nome dalla regione:",
+            "a": [
+                "di provenienza.",
+                "dove si manifestano più frequentemente (es.libeccio in Libia).",
+                "verso la quale si dirigono."
+            ],
+            "c": 0,
+            "id": "1.6.3-20"
+        },
+        {
+            "q": "Il Ponente spira dalla direzione cardinale:",
+            "a": [
+                "Est.",
+                "Nord.",
+                "Ovest."
+            ],
+            "c": 2,
+            "id": "1.6.3-6"
+        },
+        {
+            "q": "Da quale direzione proviene il vento di Scirocco?",
+            "a": [
+                "Sud-Est.",
+                "Sud-Ovest.",
+                "Nord-Ovest."
+            ],
+            "c": 0,
+            "id": "1.6.3-7"
+        },
+        {
+            "q": "Da quale direzione proviene il vento di Grecale?",
+            "a": [
+                "Nord-Est.",
+                "Sud-Est.",
+                "Sud-Ovest."
+            ],
+            "c": 0,
+            "id": "1.6.3-8"
+        },
+        {
+            "q": "Quale vento spira da 135 gradi?",
+            "a": [
+                "Grecale.",
+                "Levante.",
+                "Scirocco."
+            ],
+            "c": 2,
+            "id": "1.6.3-9"
+        },
+        {
+            "q": "Da Nord - Est spira il:",
+            "a": [
+                "Levante",
+                "Ponente.",
+                "Grecale."
+            ],
+            "c": 2,
+            "id": "1.6.3-10"
+        }
+    ]
+}

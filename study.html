@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schede di studio – Patente nautica</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="back-link" href="index.html">← Indice</a>
+  <h1>Schede di studio</h1>
+  <label class="reveal-label">
+    <input type="checkbox" id="reveal-toggle">
+    <span class="toggle-track"><span class="toggle-thumb"></span></span>
+    Risposte visibili
+  </label>
+</header>
+
+<div class="layout">
+  <main class="study-area" id="study-area">
+    <p style="padding:32px;color:#888">Caricamento...</p>
+  </main>
+
+  <div class="resize-handle" id="resize-handle"></div>
+
+  <aside class="quiz-panel" id="quiz-panel">
+    <div class="panel-header">
+      <span class="panel-title" id="panel-title">Quiz</span>
+      <button class="panel-close" id="panel-close" title="Chiudi">✕</button>
+    </div>
+    <div class="panel-body" id="panel-body">
+      <p class="no-quiz">Scorri le schede per vedere i quiz correlati.</p>
+    </div>
+  </aside>
+</div>
+
+<button class="panel-open-btn" id="panel-open">📝 Quiz</button>
+<div class="fig-overlay" id="fig-overlay"><img id="fig-overlay-img" src="" alt=""></div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
