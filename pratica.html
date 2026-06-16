@@ -75,11 +75,13 @@
       <div class="filter-row">
         <span class="filter-label">Mostra:</span>
         <button class="filter-btn" data-f="all">Tutte</button>
-        <button class="filter-btn" data-f="unseen">Mai viste</button>
-        <button class="filter-btn" data-f="wrong">Sbagliate</button>
+        <button class="filter-btn" data-f="unseen">❓ Mai viste</button>
+        <button class="filter-btn" data-f="correct">✅ Corrette</button>
+        <button class="filter-btn" data-f="wrong">❌ Sbagliate</button>
         <button class="filter-btn" data-f="red">🔴 Difficili</button>
         <button class="filter-btn" data-f="yellow">🟡 Medie</button>
         <button class="filter-btn" data-f="green">🟢 Facili</button>
+        <button class="filter-btn" data-f="unrated">⚪ Non valutate</button>
         <button class="filter-btn" data-f="red,yellow">⚠️ Difficili+Medie</button>
       </div>
       <div class="filter-row" id="topic-row">
@@ -155,12 +157,14 @@ function applyFilters() {
     const lastAns = qid ? ans[qid] : null;
     const rating  = qid ? (rat[qid] || '') : '';
     return filters.some(fi => {
-      if (fi === 'all')    return true;
-      if (fi === 'unseen') return lastAns == null;
-      if (fi === 'wrong')  return lastAns != null && !lastAns.c;
-      if (fi === 'green')  return rating === 'green';
-      if (fi === 'yellow') return rating === 'yellow';
-      if (fi === 'red')    return rating === 'red';
+      if (fi === 'all')     return true;
+      if (fi === 'unseen')  return lastAns == null;
+      if (fi === 'correct') return lastAns != null && lastAns.c;
+      if (fi === 'wrong')   return lastAns != null && !lastAns.c;
+      if (fi === 'green')   return rating === 'green';
+      if (fi === 'yellow')  return rating === 'yellow';
+      if (fi === 'red')     return rating === 'red';
+      if (fi === 'unrated') return rating === '';
       return false;
     });
   }));

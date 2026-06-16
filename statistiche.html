@@ -56,6 +56,10 @@
   .badge-g{background:#d4edda;color:#155724}
   .badge-y{background:#fff3cd;color:#856404}
   .badge-r{background:#f8d7da;color:#721c24}
+  .badge-unseen{background:#e8f0fa;color:#0d3b6e}
+  .badge-unrated{background:#ebebeb;color:#555}
+  a.badge{text-decoration:none;cursor:pointer}
+  a.badge:hover{filter:brightness(.85)}
   @media(max-width:540px){.cards-row{grid-template-columns:1fr 1fr}}
 </style>
 </head>
@@ -110,27 +114,38 @@ async function init() {
     else unrated++;
 
     const tk = q.topic;
-    if (!byTopic[tk]) byTopic[tk] = { label: q.topicLabel, total: 0, seen: 0, correct: 0, green: 0, yellow: 0, red: 0 };
+    if (!byTopic[tk]) byTopic[tk] = { label: q.topicLabel, total: 0, seen: 0, correct: 0, wrong: 0, green: 0, yellow: 0, red: 0, unrated: 0 };
     byTopic[tk].total++;
-    if (lastAns != null) { byTopic[tk].seen++; if (lastAns.c) byTopic[tk].correct++; }
+    if (lastAns != null) { byTopic[tk].seen++; if (lastAns.c) byTopic[tk].correct++; else byTopic[tk].wrong++; }
     if (rating === 'green')        byTopic[tk].green++;
     else if (rating === 'yellow')  byTopic[tk].yellow++;
     else if (rating === 'red')     byTopic[tk].red++;
+    else                           byTopic[tk].unrated++;
   }
 
   const pct = n => total ? Math.round(n / total * 100) : 0;
 
   const topicRows = Object.entries(byTopic).map(([tid, t]) => {
     const tp = t.total ? Math.round(t.seen / t.total * 100) : 0;
+    const tUnseen = t.total - t.seen;
+    const turl = encodeURIComponent(tid);
     return `<tr>
       <td>${esc(t.label)}</td>
-      <td>${t.seen}/${t.total}
+      <td><a class="filter-link" href="pratica.html?filter=all&topic=${turl}">${t.seen}/${t.total}</a>
         <div class="progress-bar"><div class="progress-fill" style="width:${tp}%"></div></div>
       </td>
-      <td>${t.correct}</td>
-      <td><span class="badge badge-g">🟢${t.green}</span> <span class="badge badge-y">🟡${t.yellow}</span> <span class="badge badge-r">🔴${t.red}</span></td>
       <td>
-        <a class="filter-link" href="pratica.html?filter=all&topic=${encodeURIComponent(tid)}">Allenati →</a>
+        <a class="badge badge-g" href="pratica.html?filter=correct&topic=${turl}">✅${t.correct}</a>
+        <a class="badge badge-r" href="pratica.html?filter=wrong&topic=${turl}">❌${t.wrong}</a>
+        <a class="badge badge-unseen" href="pratica.html?filter=unseen&topic=${turl}">❓${tUnseen}</a>
+      </td>
+      <td>
+        <a class="badge badge-g" href="pratica.html?filter=green&topic=${turl}">🟢${t.green}</a>
+        <a class="badge badge-y" href="pratica.html?filter=yellow&topic=${turl}">🟡${t.yellow}</a>
+        <a class="badge badge-r" href="pratica.html?filter=red&topic=${turl}">🔴${t.red}</a>
+        <a class="badge badge-unrated" href="pratica.html?filter=unrated&topic=${turl}">⚪${t.unrated}</a>
+      </td>
+      <td>
         <button class="topic-reset" data-tid="${esc(tid)}" onclick="resetTopic(this)">↺ cancella</button>
       </td>
     </tr>`;
@@ -194,7 +209,7 @@ async function init() {
         <tr>
           <th>Argomento</th>
           <th>Viste</th>
-          <th>✅ Corrette</th>
+          <th>Risposte</th>
           <th>Rating</th>
           <th></th>
         </tr>
