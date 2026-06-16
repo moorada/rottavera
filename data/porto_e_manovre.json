@@ -150,16 +150,6 @@
       ],
       "c": 2,
       "id": "1.4.1-12"
-    },
-    {
-      "q": "Ci troviamo in una condizione di rotta di collisione; di norma, l'unità con diritto di precedenza deve:",
-      "a": [
-        "accelerare con la propria unità in modo da scapolare quanto prima possibile l'altra unità che ha dato la precedenza.",
-        "ridurre la velocità.",
-        "mantenere rotta e velocità costante, accertandosi che l'altra unità dia la precedenza."
-      ],
-      "c": 2,
-      "id": "1.4.4-40"
     }
   ],
   "segnalamento-portuale-fanali-e-segnali-diurni": [
@@ -944,9 +934,7 @@
       "c": 2,
       "id": "1.4.3-53",
       "img": "immagini/24.png"
-    }
-  ],
-  "ormeggio-accosto-spring-corpo-morto-gavitello": [
+    },
     {
       "q": "Mi accingo ad ancorare e osservo la situazione rappresentata in figura, ne deduco.",
       "a": [
@@ -957,7 +945,9 @@
       "c": 2,
       "id": "1.4.4-1",
       "img": "immagini/24.png"
-    },
+    }
+  ],
+  "ormeggio-accosto-spring-corpo-morto-gavitello": [
     {
       "q": "Com'è composto un \"corpo morto\"?",
       "a": [

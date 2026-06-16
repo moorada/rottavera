@@ -899,6 +899,16 @@
       ],
       "c": 0,
       "id": "1.5.2-57"
+    },
+    {
+      "q": "Ci troviamo in una condizione di rotta di collisione; di norma, l'unità con diritto di precedenza deve:",
+      "a": [
+        "accelerare con la propria unità in modo da scapolare quanto prima possibile l'altra unità che ha dato la precedenza.",
+        "ridurre la velocità.",
+        "mantenere rotta e velocità costante, accertandosi che l'altra unità dia la precedenza."
+      ],
+      "c": 2,
+      "id": "1.4.4-40"
     }
   ],
   "precedenze-tra-unit-a-motore-e-rotte-incrociate": [

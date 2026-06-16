@@ -1,1 +1,2013 @@
-{"classi-di-incendio-e-tipi-di-estintori":[{"q":"Per quali classi di incendio (A, B, C, D) risulta idoneo l'impiego dell'estintore a polvere?","a":["tutte le classi.","fuochi da solidi e fuochi da gas.","fuochi da liquidi."],"c":0,"id":"1.3.1-1"},{"q":"Per quale tipologia di incendio risulta idoneo l'impiego dell'estintore a schiuma?","a":["fuochi da impianti elettrici.","fuochi da gas.","fuochi da solidi e fuochi da liquidi."],"c":2,"id":"1.3.1-2"},{"q":"Quale mezzo antincendio risulta più opportuno impiegare per estinguere incendi generati da apparecchiature o quadri elettrici?","a":["acqua di mare.","estintore a polvere ad anidride carbonica.","estintore a schiuma."],"c":1,"id":"1.3.1-6"},{"q":"Gli estintori a polvere si utilizzano per:","a":["estinguere incendi di sostanze liquide o gassose, nonché incendi di apparecchiature elettriche sotto tensione.","estinguere incendi di sostanze solide.","estinguere incendi di materiale in vetroresina o in legno."],"c":0,"id":"1.3.1-12"},{"q":"L'estintore a CO2 è utilizzabile per incendi di:","a":["materiali solidi o metalli combustibili.","gas inerti idraulici e materiali solidi.","liquidi infiammabili e materiali elettrici sotto tensione."],"c":2,"id":"1.3.1-13"},{"q":"Da cosa è generato un incendio di classe E?","a":["da liquidi infiammabili.","da apparecchiature elettriche in tensione.","da combustibili solidi."],"c":1,"id":"1.3.1-14"},{"q":"Un estintore a schiuma è utilizzabile per incendi:","a":["delle classi A e B.","di classe E.","di tutti i tipi."],"c":0,"id":"1.3.1-15"},{"q":"Da cosa è generato un incendio di classe A?","a":["da combustibili solidi.","da alcuni particolari metalli infiammabili.","da gas infiammabili."],"c":0,"id":"1.3.1-16"},{"q":"L'incendio di gas infiammabili è un incendio di:","a":["classe A.","classe B.","classe C."],"c":2,"id":"1.3.1-17"},{"q":"Per incendi da gas e da impianti elettrici (classi C ed E) è preferibile utilizzare:","a":["un estintore a schiuma.","un estintore a CO2.","un estintore a polvere."],"c":1,"id":"1.3.1-18"},{"q":"Principio d’incendio all'apparato radio VHF:","a":["si getta una secchiata d’acqua fresca sull’apparato radio.","si rimuove la radio il più velocemente possibile e la si getta in acqua.","si raffredda la radio utilizzando l’estintore ad anidride carbonica (CO2)."],"c":2,"id":"1.3.1-19"},{"q":"Utilizzo dell'acqua per spegnere un incendio da impianti elettrici (classe E):","a":["non ottengo lo spegnimento.","è un utilizzo molto pericoloso.","è un utilizzo efficace."],"c":1,"id":"1.3.1-20"},{"q":"Quale tra queste affermazioni è corretta?","a":["il getto degli estintori a schiuma deve essere diretto alla base delle fiamme e non deve essere impiegato per estinguere incendi di materiale elettrico sotto tensione.","il getto degli estintori a schiuma deve essere diretto verso la superficie delle fiamme ed impiegato principalmente per estinguere incendi di materiale elettrico sotto tensione.","l'estintore ad anidride carbonica va utilizzato solo all'aperto, perché agisce per raffreddamento."],"c":0,"id":"1.3.1-7"},{"q":"Utilizzo dell'acqua per spegnere fuochi da metalli:","a":["non ottengo lo spegnimento.","è un utilizzo efficace.","è un utilizzo pericoloso."],"c":2,"id":"1.3.1-8"},{"q":"Da cosa è generato un incendio di classe B?","a":["da apparecchiature elettriche in tensione.","da gas infiammabili.","da liquidi infiammabili."],"c":2,"id":"1.3.1-9"},{"q":"La sigla 13B sugli estintori indica:","a":["la classe di costruzione e confezionamento secondo la normativa CE.","dopo quanti mesi va revisionato.","classe di incendio e capacità estinguente."],"c":2,"id":"1.3.1-11"}],"triangolo-del-fuoco-e-principi-della-combustione":[{"q":"Quali sono gli elementi del cosiddetto \"triangolo del fuoco\" che alimentano un incendio?","a":["combustione, estinzione, reazione.","estintore, pressione, schiuma.","combustibile, comburente, calore."],"c":2,"id":"1.3.1-24"},{"q":"Come si può estinguere un incendio?","a":["esponendo la fiamma all'aria aperta.","se piove.","abbassando sensibilmente la temperatura."],"c":2,"id":"1.3.1-25"},{"q":"Un incendio si estingue:","a":["mancando l'ossigeno.","aumentando la temperatura.","aumentando la forza del vento."],"c":0,"id":"1.3.1-26"},{"q":"Come può definirsi la combustione?","a":["l'improvvisa emissione di gas inerte da parte di un liquido, generata da un'istantanea variazione di temperatura.","la reazione chimica che produce calore e che avviene tra il comburente ed il combustibile.","la reazione meccanica che produce una variazione di temperatura e che avviene tra un liquido più caldo e un solido più freddo."],"c":1,"id":"1.3.1-27"},{"q":"Da che cosa dipende la maggiore o minore combustibilità di un liquido?","a":["dalla temperatura di infiammabilità del liquido.","dalla temperatura dei solidi con cui il liquido viene a contatto.","dalla temperatura alla quale il liquido sublima, cioè passa dallo stato solido a quello aeriforme senza passare attraverso la fase liquida."],"c":0,"id":"1.3.1-28"},{"q":"Cos'è il comburente?","a":["la sostanza che alimenta la combustione mediante ossidazione del combustibile, generalmente l'ossigeno.","il materiale infiammabile.","il nome della fiamma."],"c":0,"id":"1.3.1-31"},{"q":"Viene introdotta aria in un locale aggredito da incendio:","a":["non accade nulla di nuovo.","il locale si raffredda.","si alimenta l'incendio."],"c":2,"id":"1.3.1-10"}],"estintori-revisione-sostituzione-posizionamento":[{"q":"Quali estintori devono essere omologati a norma CE?","a":["tutti.","solo quelli a CO2.","nessuno."],"c":0,"id":"1.3.1-4"},{"q":"Avuto riguardo alla prevenzione sugli incendi, quale tra queste affermazioni è corretta?","a":["determinate sostanze, quali stracci unti di olio abbandonati in coperta, possono raggiungere rapidamente la temperatura di infiammabilità determinando una combustione spontanea financo l'esplosione.","determinate sostanze, quali stracci unti di olio abbandonati in coperta, possono raggiungere rapidamente la temperatura di ignizione determinando una combustione spontanea.","determinate sostanze, quali stracci unti di olio abbandonati nel vano motore o in gavoni scarsamente ventilati, possono riscaldarsi lentamente determinando una combustione spontanea."],"c":2,"id":"1.3.1-5"},{"q":"Ogni quanto tempo va revisionato un estintore?","a":["ogni 4 anni.","quando la lancetta del manometro è sul rosso.","ogni 2 anni."],"c":1,"id":"1.3.1-21"},{"q":"Va revisionato un estintore?","a":["sì, ogni 2 anni.","sì, ogni anno.","mai, salvo che non sia stato utilizzato o vi sia stata perdita di pressione, è sufficiente verificare periodicamente che la lancetta del manometro stia sul verde."],"c":2,"id":"1.3.1-22"},{"q":"Ogni quanto tempo si deve sostituire un estintore?","a":["ogni 2 anni.","ogni anno.","quando è in cattivo stato."],"c":2,"id":"1.3.1-23"},{"q":"Il numero e il posizionamento degli estintori di una unità marcata CE è stabilito dalle ordinanze dell'Autorità marittima?","a":["si.","no, è stabilito dal proprietario","no, stabilito nel Manuale del proprietario."],"c":2,"id":"1.3.1-29"},{"q":"Per le imbarcazioni da diporto NON marcata CE (immesse sul mercato prima del 17 giugno 1998):","a":["il numero e il posizionamento degli estintori non è stabilito.","il numero e il posizionamento degli estintori è fissato dal Regolamento di attuazione al Codice della nautica secondo la potenza del motore e prevede un minimo di 1 estintore al posto di guida e 1 estintore in ciascuno degli altri locali.","il numero e il posizionamento degli estintori è stabilito dalle ordinanze dell'Autorità marittima, con il minimo di 1 estintore."],"c":1,"id":"1.3.1-30"}],"conduzione-in-stato-di-ebbrezza-e-sotto-effetto-di-sostanze":[{"q":"Se, in conseguenza della condotta di un'unità da diporto in stato di ebbrezza, deriva un danno o un pericolo di danno ambientale:","a":["è sempre disposta la revoca della patente nautica.","è sempre disposta la confisca dell'unità da diporto.","è disposta la vendita coatta dell'unità da diporto."],"c":0,"id":"1.3.2-1"},{"q":"Chiunque assume o ritiene il comando o la condotta ovvero la direzione nautica di un'unità da diporto in stato di ebbrezza è punito,","a":["con una sanzione amministrativa che varia da 1.000 euro a 5.000 euro in relazione al tasso alcolemico rilevato e la sanzione accessoria della revisione parziale della patente nautica prima della scadenza.","con una sanzione amministrativa che varia da 500 euro a 1.500 euro qualunque sia il tasso alcolemico rilevato.","con una sanzione amministrativa che varia da 2.755 euro a 15.000 euro in relazione al tasso alcolemico rilevato."],"c":2,"id":"1.3.2-2"},{"q":"Circa la condotta di un'unità da diporto in stato di ebbrezza:","a":["è sempre disposta la sospensione della patente nautica da 3 mesi a 24 mesi, in relazione al tasso alcolemico rilevato.","è disposta la sospensione della patente nautica da 3 mesi a 24 mesi in caso di sinistro marittimo.","è disposta la sospensione della patente nautica da 3 mesi a 24 mesi solo se ne deriva danno o pericolo di danno ambientale."],"c":0,"id":"1.3.2-3"},{"q":"Chi assume il comando o la condotta di un'unità da diporto in stato di alterazione psico-fisica dopo aver assunto sostanze stupefacenti o psicotrope è punito:","a":["con la sanzione amministrativa da 250 euro a 1.100 euro.","con la sanzione amministrativa da 2.755 euro a 11.017 euro.","con la sanzione amministrativa da 557 euro a 2.507 euro."],"c":1,"id":"1.3.2-4"},{"q":"Se nel commettere l'infrazione amministrativa inerente la condotta di un'unità da diporto in stato di ebbrezza, in conseguenza dell'uso di bevande alcoliche, da cui ne deriva danno o pericolo di danno ambientale:","a":["è sempre disposta la revoca della patente nautica.","è sempre disposta la sospensione della patente nautica da 1 a 6 mesi.","è sempre disposta la sospensione della patente nautica da 6 a 12 mesi."],"c":0,"id":"1.3.2-5"},{"q":"L'assunzione di farmaci sedativi:","a":["non compromette le facoltà mentali se si soffre d'ansia.","ha effetti molto pericolosi se contemporaneamente si assumono bevande alcoliche.","aiuta la concentrazione specialmente di notte."],"c":1,"id":"1.3.2-11"},{"q":"In caso di assunzione di una quantità eccessiva di bevande alcoliche:","a":["si recupera velocemente l'idoneità fisica se si assume caffè amaro.","si ha un livello di attenzione molto basso.","si recupera velocemente l'idoneità fisica se si assumono cibi piuttosto salati."],"c":1,"id":"1.3.2-12"},{"q":"In caso di conduzione sotto l'influenza dell'alcool di unità da diporto adibita a noleggio:","a":["le sanzioni previste sono aumentate di un terzo, qualora sia stato accertato un valore corrispondente a un tasso alcolemico superiore a 0,5 e non superiore a 0,8 grammi per litro.","le sanzioni previste sono aumentate solo qualora sia stato accertato un valore corrispondente a un tasso alcolemico superiore a 1,5 grammi per litro.","è disposta la vendita coatta dell'unità da diporto."],"c":0,"id":"1.3.2-6"},{"q":"Quale tra questi comportamenti prevede, oltre all'elevazione di un illecito amministrativo, anche l'applicazione della sanzione accessoria della sospensione della licenza di navigazione?","a":["l'abbandono dell'unità in pericolo da parte del comandante, non scendendo per ultimo da bordo.","l'omissione di tentare il salvataggio nei confronti di un'altra unità in pericolo di perdersi, qualora non comporti grave rischio per l'unità soccorritrice.","l'assunzione del comando o della condotta di un'unità da diporto in stato di ebbrezza."],"c":2,"id":"1.3.2-7"},{"q":"La sanzione per chi assume il comando o la condotta di un'unità da diporto in stato di alterazione psico-fisica:","a":["raddoppia in caso di sinistro.","è stabilita dalla Capitaneria di porto all'atto del fermo.","aumentata del 25% in caso di sinistro."],"c":0,"id":"1.3.2-8"},{"q":"Gli effetti dell'alcol:","a":["si riducono nel giro di pochi minuti.","perdurano anche fino a 5 ore.","si annullano dopo 2 ore."],"c":1,"id":"1.3.2-9"},{"q":"In caso di conduzione sotto l'influenza dell'alcool di unità da diporto adibita a noleggio:","a":["è disposta la vendita coatta dell'unità da diporto.","le sanzioni previste sono aumentate del 25%, qualora sia stato accertato un valore corrispondente a un tasso alcolemico superiore a 0,8 grammi per litro.","la patente nautica è sempre revocata, qualora sia stato accertato un valore corrispondente a un tasso alcolemico superiore a 1,5 grammi per litro ."],"c":2,"id":"1.3.2-10"}],"segnali-di-soccorso-boette-razzi-fuochi-a-mano":[{"q":"La \"boetta fumogena arancione\" è un segnale:","a":["diurno.","notturno.","che si può utilizzare solo in presenza di nebbia."],"c":0,"id":"1.3.3-3"},{"q":"Normalmente, qual è la portata in miglia dei fuochi a mano a luce rossa?","a":["7 miglia.","6 miglia.","5 miglia."],"c":1,"id":"1.3.3-16"},{"q":"Normalmente, di quanto è la portata notturna in miglia dei razzi a paracadute a luce rossa?","a":["6 miglia.","7 miglia.","25 miglia."],"c":2,"id":"1.3.3-17"},{"q":"Quanti fuochi a mano a luce rossa deve mantenere a bordo un'imbarcazione da diporto che naviga entro le 6 miglia nautiche dalla costa?","a":["2","3","4"],"c":0,"id":"1.3.3-18"},{"q":"Il fumo emesso dalla boetta fumogena, una volta attivata, è di colore:","a":["rosso.","giallo.","arancione."],"c":2,"id":"1.3.3-20"},{"q":"In genere, che scadenza hanno i segnali di emergenza e soccorso come i fuochi a mano, i razzi a paracadute e le boette fumogene?","a":["ogni 10 anni","ogni anno","ogni 4 anni"],"c":2,"id":"1.3.3-21"},{"q":"Normalmente, qual è all'incirca la portata diurna dei razzi a paracadute a luce rossa?","a":["9 miglia.","7 miglia.","5 miglia."],"c":1,"id":"1.3.3-28"},{"q":"Normalmente, qual è la durata di accensione dei razzi a paracadute a luce rossa utilizzata da un'imbarcazione da diporto?","a":["circa 2 minuti.","circa 3 minuti.","meno di 1 minuto."],"c":2,"id":"1.3.3-29"}],"epirb-radar-binocolo-e-radio-vhf-dotazioni-obbligatorie":[{"q":"Per un'imbarcazione da diporto quando è obbligatorio l'uso dell'apparato VHF?","a":["sempre.","solo quando si naviga fuori dalle acque territoriali.","quando naviga oltre le 6 miglia nautiche dalla costa."],"c":2,"id":"1.3.3-1"},{"q":"A bordo del natante da diporto, durante la navigazione entro le 6 miglia dalla costa, quanti estintori devono essere presenti a bordo?","a":["almeno 1.","non meno di 2.","non più di 4."],"c":0,"id":"1.3.3-2"},{"q":"L'E.P.I.R.B. (Emergency Position Indicator Radio Beacon) è obbligatorio:","a":["entro 12 miglia dalla costa.","entro 50 miglia dalla costa.","oltre 50 miglia dalla costa."],"c":2,"id":"1.3.3-22"},{"q":"Il riflettore radar è obbligatorio quando le imbarcazioni navigano:","a":["oltre 12 miglia dalla costa:","entro 6 miglia dalla costa.","entro 12 miglia dalla costa."],"c":0,"id":"1.3.3-24"},{"q":"E' obbligatorio il radar?","a":["si, sempre.","si solo oltre le 12 miglia dalla costa.","no, ma è consigliato per la navigazione notturna."],"c":2,"id":"1.3.3-30"},{"q":"Quali sono i range di dotazioni corrette per fanali e segnali luminosi?","a":["fino a 3 miglia, fino a 6 miglia, fino a 12 miglia, fino a 50 miglia, senza limiti dalla costa.","fino a 12 miglia, oltre 12 miglia dalla costa.","fino a 6 miglia, fino a 50 miglia, senza limiti dalla costa."],"c":0,"id":"1.3.3-31"},{"q":"Per un'imbarcazione da diporto quando è obbligatorio l'uso dell'EPIRB?","a":["quando naviga entro le 24 miglia nautiche dalla costa.","quando naviga oltre le 50 miglia nautiche dalla costa.","quando naviga entro le 50 miglia nautiche dalla costa."],"c":1,"id":"1.3.3-34"},{"q":"Per un'imbarcazione da diporto che naviga entro le 12 miglia nautiche dalla costa è obbligatorio avere a bordo la zattera di salvataggio (non costiera)?","a":["no, fino ad un massimo di sei persone a bordo.","sì, sempre.","No."],"c":2,"id":"1.3.3-39"},{"q":"Per un'imbarcazione da diporto quando è obbligatorio l'uso dell'apparato VHF?","a":["quando naviga entro le 6 miglia nautiche dalla costa.","quando è autorizzata alla navigazione occasionale.","quando naviga oltre le 6 miglia nautiche dalla costa."],"c":2,"id":"1.3.3-40"},{"q":"Per un'imbarcazione da diporto quando è obbligatorio l'uso del binocolo?","a":["sempre.","quando naviga entro le 12 miglia nautiche dalla costa.","quando naviga oltre le 12 miglia nautiche dalla costa."],"c":2,"id":"1.3.3-43"}],"cinture-di-salvataggio-giubbotti-e-mezzi-di-salvataggio-collettivi":[{"q":"Quali delle seguenti dotazioni devono essere obbligatoriamente a bordo di un'imbarcazione da diporto che naviga entro 12 miglia dalla costa?","a":["1 orologio.","1 bussola e tabelle delle deviazioni bussola.","1 binocolo."],"c":1,"id":"1.3.3-5"},{"q":"Secondo il Regolamento per la sicurezza della navigazione da diporto, quante boette fumogene deve avere un'imbarcazione abilitata a navigare entro le 12 miglia dalla costa?","a":["1","2","3"],"c":1,"id":"1.3.3-7"},{"q":"Su un’unità con a bordo 4 persone, abilitata al trasporto di 8 persone, quante cinture di salvataggio devono essere presenti?","a":["12","8","4"],"c":2,"id":"1.3.3-19"},{"q":"La quantità di cinture di salvataggio da tenere a bordo:","a":["deve essere il 20% in più del numero massimo di persone imbarcabili.","è in relazione al numero di persone imbarcate.","è in relazione al numero massimo di persone imbarcabili."],"c":1,"id":"1.3.3-27"},{"q":"Su quale documento è riportato il numero delle persone trasportabili sui natanti da diporto prodotti in serie?","a":["certificato di stazza.","certificazione di omologazione.","manuale del proprietario."],"c":1,"id":"1.3.3-37"},{"q":"A che distanza dalla costa i conduttori di tavole a vela hanno l'obbligo di indossare il mezzo di salvataggio individuale?","a":["entro 1 miglia dalla costa.","indipendentemente dalla distanza dalla costa.","entro 300 metri dalla costa."],"c":1,"id":"1.3.3-38"},{"q":"I conduttori di tavole a vela, acquascooter e unità similari:","a":["indossano permanentemente un mezzo di salvataggio individuale, comprese le persone trasportate, indipendentemente dalla distanza dalla costa in cui la navigazione si svolge.","indossano permanentemente un mezzo di salvataggio individuale, indipendentemente dalla distanza dalla costa in cui la navigazione si svolge, a esclusione delle persone trasportate.","indossano permanentemente un mezzo di salvataggio individuale, esclusivamente in navigazione entro le sei miglia nautiche dalla costa, incluse le persone trasportate."],"c":0,"id":"1.3.3-44"},{"q":"Quale tra queste affermazioni è corretta?","a":["le unità da diporto in navigazione entro le 12 miglia nautiche dalla costa devono essere dotate di una cassetta di pronto soccorso.","le unità da diporto in navigazione oltre le 12 miglia nautiche dalla costa devono essere dotate di una cassetta di pronto soccorso.","le unità da diporto in navigazione entro le 3 miglia nautiche dalla costa devono essere dotate di una cassetta di pronto soccorso."],"c":1,"id":"1.3.3-48"},{"q":"In base alla Tabella delle dotazioni di sicurezza minime da tenere a bordo (Allegato V al DM 146/2008), i fanali regolamentari di navigazione sono obbligatoriamente prescritti:","a":["in navigazione notturna entro 1 miglio dalla costa.","in navigazione notturna oltre 1 miglio dalla costa.","comunque e sempre, a prescindere dal tipo di navigazione effettuata."],"c":1,"id":"1.3.3-8"},{"q":"L’obbligo di legge di avere una cintura di salvataggio per ogni persona imbarcata è prescritto:","a":["non è prescritto per i natanti da diporto a motore.","per ogni tipo di navigazione oltre i 300 metri dalla costa.","per la navigazione entro le 12 miglia dalla costa."],"c":1,"id":"1.3.3-12"},{"q":"Per le imbarcazioni da diporto in navigazione entro le 3 miglia dalla costa, quale mezzo collettivo di salvataggio è prescritto?","a":["non è previsto il mezzo collettivo di salvataggio.","1 zattera di salvataggio costiera.","1 zattera di salvataggio omologata."],"c":0,"id":"1.3.3-13"},{"q":"In navigazione entro 300 metri dalla costa non vi è obbligo di alcuna dotazione di sicurezza e di salvataggio. Quanto detto vale anche per la navigazione nei fiumi?","a":["si, in quanto trattasi di navigazione fluviale, essa è considerata più sicura rispetto alla navigazione in mare.","no, bisogna avere a bordo almeno 1 salvagente anulare con cima e cinture di salvataggio per ogni persona presente a bordo.","no, sono sufficienti almeno 2 salvagenti anulari con cima."],"c":1,"id":"1.3.3-15"}],"cassetta-di-pronto-soccorso-e-dotazioni-sanitarie":[{"q":"Quali sono i medicinali e gli oggetti di medicazione di cui devono essere provviste le unità navali da diporto?","a":["sono stabilite nel Regolamento di esecuzione al Codice della navigazione.","sono fissate nel decreto 1° ottobre 2015 del Ministero della Salute.","sono stabilite dal comandante dell'unità."],"c":1,"id":"1.3.3-45"},{"q":"Le dotazione minima indispensabile del materiale sanitario di cui devono essere dotate le imbarcazioni da diporto impiegate in attività di noleggio \"senza limiti\" dalla costa è la medesima di quella delle unità non impiegate in attività di noleggio?","a":["si.","no, è fissata in un apposita tabella.","si, ma raddoppia la dotazione di cotone."],"c":1,"id":"1.3.3-46"},{"q":"Qual è la Tabella delle dotazioni contenente la quantità minima indispensabile del materiale sanitario di cui devono essere dotate le imbarcazioni da diporto abilitate alla navigazione senza alcun limite, senza personale imbarcato e non impiegate in attività di noleggio?","a":["Tabella \"A\".","Tabella \"B\".","Tabella \"D\"."],"c":2,"id":"1.3.3-47"},{"q":"La cassetta di pronto soccorso:","a":["è dimensionata al numero di persone trasportabili dall'unità.","è obbligatoria oltre le 6 miglia.","contiene medicinali e dotazioni previste da apposito decreto ministeriale."],"c":2,"id":"1.3.3-10"}],"certificato-di-sicurezza-rilascio-visite-rinnovo-e-convalida":[{"q":"Dove è possibile convalidare il certificato di sicurezza?","a":["presso qualsiasi agenzia di sicurezza per la navigazione.","non è possibile convalidare il certificato di sicurezza.","presso qualsiasi STED (Sportello Telematico del Diportista) in seguito alla visita ispettiva dell'Organismo tecnico."],"c":2,"id":"1.3.4-1"},{"q":"Un'unità da diporto deve essere sottoposta a visita occasionale:","a":["solo se l'unità viene messa a mare dopo essere stata a secco.","solo se l'unità viene fermata per un controllo della Capitaneria di porto - Guardia costiera.","a seguito di danni o mutamenti dello scafo o dell'apparato motore, se sono mutate le condizioni di navigabilità o di sicurezza."],"c":2,"id":"1.3.4-2"},{"q":"Un'imbarcazione da diporto munita di Marcatura CE, è soggetta a visite:","a":["periodiche ed occasionali.","solo su richiesta dell'Autorità marittima.","in caso di ritiro della licenza di navigazione."],"c":0,"id":"1.3.4-3"},{"q":"Quali unità da diporto sono soggette alle visite periodiche di sicurezza?","a":["solo le imbarcazioni da diporto.","solo i natanti da diporto.","solo le imbarcazioni e le navi da diporto."],"c":2,"id":"1.3.4-4"},{"q":"Il certificato di sicurezza per imbarcazioni da diporto è rilasciato:","a":["dall'Archivio telematico delle unità da diporto attraverso lo STED, Sportello telematico del diportista","dalla ditta costruttrice.","dall'Organismo tecnico notificato o autorizzato."],"c":0,"id":"1.3.4-5"},{"q":"La convalida del Certificato di Sicurezza di un'imbarcazione da diporto va effettuata:","a":["ogni qualvolta viene varata.","ogni 20 anni.","nel caso in cui l'unità abbia subito gravi avarie o siano state apportate innovazioni."],"c":2,"id":"1.3.4-11"},{"q":"Quali tra questi requisiti sono necessari per il rinnovo del Certificato di Sicurezza di un'unità da diporto?","a":["rilascio di apposita attestazione di idoneità da parte della Motorizzazione Civile territoriale.","rilascio di apposita attestazione di idoneità da parte di un Organismo Tecnico affidato.","rilascio di apposita attestazione di idoneità da parte dell'Ufficio Marittimo."],"c":1,"id":"1.3.4-12"},{"q":"Il Certificato di Sicurezza:","a":["si rinnova di diritto ogni 3 anni.","si rinnova ogni 5 anni.","si rinnova quando richiesto dall'Organismo Tecnico affidato."],"c":1,"id":"1.3.4-13"},{"q":"Il Certificato di Sicurezza di un'unità da diporto, in caso di primo rilascio:","a":["ha validità di otto anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione A e B.","ha validità di cinque anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione A e B.","ha validità di cinque anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione A, B e C."],"c":0,"id":"1.3.4-14"},{"q":"Il Certificato di Sicurezza di un'unità da diporto, in caso di primo rilascio,","a":["ha validità di otto anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione C e D.","ha validità di dieci anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione C e D.","ha validità di cinque anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione B, C e D."],"c":1,"id":"1.3.4-15"},{"q":"Il certificato di sicurezza di un'unità da diporto:","a":["riporta il certificato di stazza per le imbarcazioni non omologate.","è rinnovato con cadenza annuale.","è rinnovato in occasione delle visite periodiche."],"c":2,"id":"1.3.4-16"},{"q":"Un'unità da diporto munita di marcatura CE classe B effettua la prescritta visita periodica dopo:","a":["10 anni dalla data di immatricolazione; le successive ogni 5 anni.","8 anni dalla data di immatricolazione; le successive ogni 5 anni.","10 anni dalla data di costruzione; le successive ogni 8 anni."],"c":1,"id":"1.3.4-17"},{"q":"In quale documento viene annotato l'esito della visita eseguita dall'Organismo Tecnico notificato o autorizzato?","a":["certificato di sicurezza.","licenza di navigazione.","manuale del proprietario."],"c":0,"id":"1.3.4-18"},{"q":"Quale affermazione è vera tra le alternative di risposta sotto riportate?","a":["la patente nautica è sempre obbligatoria.","il certificato di sicurezza è soggetto a scadenza.","la licenza di navigazione è soggetta a scadenza."],"c":1,"id":"1.3.4-19"},{"q":"Nel corso della visita iniziale di sicurezza, l'Organismo tecnico notificato o autorizzato:","a":["rilascia la licenza di esercizio RTF.","determina il numero massimo delle persone trasportabili.","rilascia la Licenza di Navigazione."],"c":1,"id":"1.3.4-6"},{"q":"L'imbarcazione da diporto iscritta è sottoposta a visita occasionale:","a":["l'unità stessa viene iscritta in un registro straniero.","l'unità stessa deve affrontare una navigazione di trasferimento.","se ne verifica la necessità."],"c":2,"id":"1.3.4-7"},{"q":"Superata la prima scadenza del certificato di sicurezza, ogni quanti anni deve essere sottoposta a visita un'imbarcazione da diporto ai fini del rinnovo del certificato medesimo?","a":["8 anni.","5 anni.","10 anni."],"c":1,"id":"1.3.4-8"},{"q":"La licenza è sottoposta a convalida?","a":["si, ogni 3 anni.","si, ogni 5 anni.","no, si convalida il certificato di sicurezza."],"c":2,"id":"1.3.4-9"},{"q":"I natanti da diporto sono soggetti al rilascio del certificato di sicurezza?","a":["sì, ogni 3 anni.","sì, ogni 5 anni.","no, non sono soggetti."],"c":2,"id":"1.3.4-10"}],"falla-e-incaglio-gestione-e-manovre":[{"q":"In caso di falla irreparabile a bordo, il Comandante lancia via radio il:","a":["PAN PAN e mette l'equipaggio alle pompe di sentina.","SECURITE' ed aspetta i soccorsi.","MAYDAY e opera per la salvezza delle persone a bordo."],"c":2,"id":"1.3.5-1"},{"q":"In caso di falla, quale operazione è la più corretta tra quelle riportate nelle seguenti alternative risposta:","a":["imbarcare acqua per compensare la pressione.","tamponare la falla dall’esterno in modo che la pressione dell’acqua non faccia spostare il “tappo” di fortuna.","sbandare l'unità sul lato della falla."],"c":1,"id":"1.3.6-1"},{"q":"Quando può verificarsi l'incaglio volontario?","a":["quando si arrestano gli apparati di radio comunicazione.","quando si decide volontariamente di disattivare gli apparati di radio navigazione.","quando si conduce volontariamente l'unità navale ad incagliarsi per scongiurare un potenziale naufragio derivante da una falla, un incendio o una collisione con un'altra unità."],"c":2,"id":"1.3.6-2"},{"q":"Quali fattori devono essere tenuti in debita considerazione per procedere alle operazioni di disincaglio?","a":["tipo e rilievo dei fondali, entità dell'avaria subita, manovra più idonea da porre in essere in relazione alle caratteristiche dell'unità e del luogo in cui si è verificato il sinistro.","altezza del bordo libero.","tipo di timone di cui dispone l'unità navale."],"c":0,"id":"1.3.6-3"},{"q":"Avuto riguardo all'incaglio, quale tra queste affermazioni è corretta?","a":["l'incaglio può derivare a seguito della caduta di un uomo in mare.","l'incaglio può derivare a seguito della eccessiva cavitazione dell'elica.","l'incaglio può derivare da una scarsa accuratezza nella determinazione del punto nave in prossimità della costa."],"c":2,"id":"1.3.6-4"},{"q":"Avuto riguardo alla falla, quale tra queste affermazioni è corretta?","a":["se si verifica una falla nella parte prodiera è opportuno arrestare il moto dell'unità navale per evitare che l'avanzamento della stessa possa incrementare l'afflusso d'acqua nel suo interno.","se si verifica una falla a prua è opportuno aumentare la velocità dell'unità navale per diminuire il flusso dell'acqua che tende ad allagare i compartimenti prodieri.","se si verifica una falla a prua è opportuno spostare i pesi longitudinalmente verso proravia."],"c":0,"id":"1.3.6-5"},{"q":"Quale tra queste procedure può essere effettuata nel caso in cui un'unità abbia subito una falla di lieve entità?","a":["azionare la pompa di alimentazione.","azionare la pompa di sentina.","azionare la pompa di iniezione."],"c":1,"id":"1.3.6-6"},{"q":"Quale tra queste affermazioni è corretta?","a":["a seguito della presenza di una falla può aumentare la rigidità dello scafo dovuta all'effetto osmotico.","la falla può compromettere la galleggiabilità dell'unità navale in quanto si verifica una riduzione della riserva di spinta dell'unità stessa.","a seguito della presenza di una falla può aumentare la rigidità del fasciame dovuta all'effetto capillare."],"c":1,"id":"1.3.6-7"},{"q":"Quale soluzione può essere adottata al fine di disincagliare un'unità navale?","a":["attendere il sopraggiungere dell'alta marea.","mettere in folle il motore.","imbarcare pesi lungo la verticale del punto d'incaglio."],"c":0,"id":"1.3.6-8"},{"q":"Quale accorgimento può essere adottato al fine di ostruire al meglio una falla di notevoli dimensioni?","a":["travasare carburante nella zona ubicata a proravia della linea trasversale dell'unità navale.","tamponare la via d'acqua servendosi di materiali ingombranti quali, tele cerate, materassi ecc..","limitare l'ingresso d'acqua dalla falla sbandando l'unità navale sul medesimo lato a quello dove si è verificata la stessa."],"c":1,"id":"1.3.6-9"},{"q":"Quale tra le seguenti manovre può essere la più efficace per limitare i danni allorquando due unità sono in procinto di collidere?","a":["appennellare l'ancora e filare a mare l'ancora galleggiante.","azionare preventivamente tutti gli apparati di radiocomunicazione.","fermare il motore ed eventualmente ingranare la marcia indietro accostando contemporaneamente, per attenuare l'impatto."],"c":2,"id":"1.3.6-10"}],"incendio-a-bordo-gestione-dell-emergenza-e-manovre":[{"q":"Si sviluppa un incendio a bordo e siamo in vicinanza di un porto: è giusto accelerare per raggiungere al più presto il porto?","a":["no.","sì, se il porto è attrezzato per l'estinzione di incendi a bordo di unità.","sì, sempre."],"c":0,"id":"1.3.6-11"},{"q":"In caso di incendio nel vano motore, è necessario:","a":["per prima cosa tentare di chiudere la valvola del carburante.","aerare il più possibile il vano motore per spegnere le fiamme.","per prima cosa porre l'imbarcazione con le fiamme sopravento."],"c":0,"id":"1.3.6-12"},{"q":"In caso di incendio in coperta, è essenziale:","a":["porre l'imbarcazione con le fiamme sottovento.","spegnere il motore.","scollegare le batterie."],"c":0,"id":"1.3.6-13"},{"q":"In caso d'incendio con fiamma alta, dove dirigiamo il getto dell'estintore?","a":["sopra le fiamme in modo tale da allontanare anche il fumo.","al centro della fiamma.","alla base della fiamma."],"c":2,"id":"1.3.6-14"},{"q":"In caso di grave incendio a bordo:","a":["bisogna porre subito l'imbarcazione con le fiamme sopravento.","appronto le procedure per l'abbandono nave.","bisogna spegnere immediatamente le strumentazioni di bordo."],"c":1,"id":"1.3.6-15"},{"q":"Un quadro elettrico di bordo ha preso fuoco; estinguo l'incendio:","a":["utilizzando acqua di mare.","utilizzando un estintore a polvere.","utilizzando un estintore a schiuma."],"c":1,"id":"1.3.6-16"},{"q":"Il comandante a bordo, in caso di incendio, che ordine primario deve dare?","a":["gettate subito acqua sul fuoco.","indossare i giubbetti di salvataggio e allontanarsi dall'incendio.","abbandonare l'unità."],"c":1,"id":"1.3.6-17"},{"q":"C'è un incendio al vano poppiero motore, conduco l'unità in modo da:","a":["mettere la prora sottovento.","mettere l’incendio sottovento.","mettere l’incendio sopravento."],"c":1,"id":"1.3.6-18"},{"q":"In caso di incendio, mentre si manovra in porto, il primo intervento più opportuno è quello di:","a":["spegnere il motore e richiedere soccorso emettendo 5 o più suoni brevi.","tentare di allontanare l'unità dal porto operando per lo spegnimento.","dirigersi rapidamente verso l'ormeggio più vicino per ricevere dai servizi portuali l'aiuto allo spegnimento."],"c":1,"id":"1.3.6-19"},{"q":"A quale funzione assolve la ventilazione forzata a bordo delle unità navali da diporto dotate di motore a benzina?","a":["assicurare, prima dell'avvio del motore, il completo ricambio dell'aria.","sovralimentare l'impianto di alimentazione del carburante.","mantenere costante la temperatura della testata dell'apparato motore."],"c":0,"id":"1.3.6-20"},{"q":"Come si estingue un incendio derivante da combustione di sostanze comuni (legno, tessuti e carta)?","a":["con ossigeno ad alta pressione.","mediante azione di raffreddamento ottenuta attraverso getti d'acqua.","attraverso l'intensa aspirazione di vapori."],"c":1,"id":"1.3.6-21"},{"q":"Quale accorgimento è necessario adottare se l'incendio si sviluppa nella zona poppiera dell'unità navale?","a":["orientare la poppa al vento.","prendere il mare al giardinetto.","orientare la prua al vento."],"c":2,"id":"1.3.6-22"},{"q":"Come si estingue un incendio derivante da combustione di sostanze liquide?","a":["mediante l'azione di soffocamento generata, polvere chimica, schiuma, anidride carbonica (CO2) o altro gas inerte.","mediante la ventilazione forzata del locale interessato, riducendo il numero di giri del motore, azionando il circuito di condizionamento.","intercettando il pacco batterie e disattivando il gruppo generatore."],"c":0,"id":"1.3.6-23"},{"q":"Quali contromisure possono essere adottate in caso di incendio sviluppatosi nel locale apparato motore?","a":["chiudere immediatamente le vie d'aria e l'alimentazione del combustibile.","azionare immediatamente le turbine di sovralimentazione per favorire l'estinzione dell'incendio.","aprire tutti i boccaporti del locale motore per favorirne l'aerazione."],"c":0,"id":"1.3.6-24"},{"q":"Quale manovra può essere adottata in caso di incendio verificatosi nella zona prodiera di un'unità navale da diporto?","a":["porre la prora al vento e quindi la poppa sottovento.","incrementare repentinamente la velocità dell'unità navale.","porre la poppa al vento e quindi la prora sottovento."],"c":2,"id":"1.3.6-25"},{"q":"Il numero e il posizionamento degli estintori di una unità marcata CE:","a":["è fissato dal Codice della navigazione.","è stabilito dalle ordinanze dell'Autorità marittima.","è stabilito nel Manuale del proprietario."],"c":2,"id":"1.3.6-26"},{"q":"Per le imbarcazioni da diporto NON marcata CE (immesse sul mercato prima del 17 giugno 1998) il numero e il posizionamento degli estintori è stabilito dal Regolamento di attuazione al Codice della nautica secondo la potenza del motore?","a":["no, non è stabilito.","si, e prevede un minimo di 1 estintore al posto di guida e 1 estintore in ciascuno degli altri locali.","no, è stabilito dalle ordinanze dell'Autorità marittima, con il minimo di 1 estintore."],"c":1,"id":"1.3.6-27"}],"uomo-a-mare-manovre-di-recupero-e-precauzioni":[{"q":"Durante la manovra a motore di recupero di uomo a mare, come deve essere effettuato l'avvicinamento finale verso il naufrago?","a":["a velocità costante.","rapidamente, riducendo la velocità con l'elica a marcia indietro quando giunti in prossimità del naufrago, possibilmente sgasando.","con prudenza, dopo aver smaltito la velocità iniziale."],"c":2,"id":"1.3.6-28"},{"q":"Quali tra queste azioni è la più opportuna da compiere in caso di uomo in mare?","a":["arrestare immediatamente i motori dell'unità navale ingranando la marcia indietro.","aumentare al massimo la velocità con il timone alla banda per compiere un'evoluzione di 360° per fini perlustrativi.","lanciare il salvagente anulare presente a bordo in direzione del naufrago."],"c":2,"id":"1.3.6-29"},{"q":"Un uomo cade in mare di prora lato dritto, da una imbarcazione che procede a motore, quale delle tre manovre in figura a fianco è corretta?","a":["la manovra in figura A.","la manovra in figura B.","la manovra in figura C."],"c":1,"id":"1.3.6-30","img":"immagini/19.png"},{"q":"Al grido ”uomo in mare a ... (sinistra o a dritta)”:","a":["si accosta rapidamente dallo stesso lato dell’uomo in mare.","si accosta rapidamente dal lato opposto dell’uomo in mare.","si accelera per recuperare rapidamente l'uomo a mare, accostando indifferentemente a dritta oppure a sinistra."],"c":0,"id":"1.3.6-31"},{"q":"Quale tra queste precauzioni è la più opportuna adottare in caso di uomo in mare?","a":["dare fondo all'ancora.","mantenere un costante controllo visivo del naufrago.","collocare tutti i parabordi lungo l'opera morta."],"c":1,"id":"1.3.6-32"},{"q":"Qual è il motivo per cui in caso di uomo a mare si accosta tempestivamente dallo stesso lato dal quale è caduto il naufrago?","a":["per allontanare subito le eliche dell'unità quanto più possibile dal naufrago.","per orientare l'unità controvento.","per offrire al naufrago il ridosso dagli agenti meteomarini."],"c":0,"id":"1.3.6-33"},{"q":"Qual è il motivo per cui è opportuno mantenere il controllo visivo del naufrago subito dopo la sua caduta in mare?","a":["confortare il naufrago rassicurandolo circa l'intendimento dell'unità navale di trarlo in salvo.","per determinare la lunghezza di cima necessaria per lanciare il salvagente individuale.","agevolare le operazioni di recupero del naufrago durante la manovra evolutiva effettuata dall'unità, scongiurando il rischio che lo stesso possa disperdersi."],"c":2,"id":"1.3.6-34"},{"q":"Quale tra queste azioni è la più opportuna intraprendere durante le fasi di recupero di un uomo caduto in mare da un'unità navale?","a":["dare fondo all'ancora per mantenere fissa la posizione dell'unità navale durante le operazioni di recupero.","filare a mare l'ancora galleggiante in modo da mantenere la prua al vento durante le operazioni di recupero.","lanciare in mare il salvagente anulare quanto più possibile nelle vicinanze del naufrago per agevolarne il recupero."],"c":2,"id":"1.3.6-35"},{"q":"Nel caso in cui un membro dell'equipaggio cada in mare dal lato dritto dell'unità:","a":["occorre accostare immediatamente a sinistra mantenendo un adeguato servizio di vedetta sul medesimo lato al fine di prevenire eventuali collisioni con altre unità navali o ostacoli posti nelle immediate vicinanze.","si deve mettere immediatamente a folle il motore e successivamente ingranarlo a marcia indietro al fine di allontanarsi il meno possibile dal naufrago.","occorre accostare immediatamente il timone a dritta mantenendo il costante controllo visivo del naufrago."],"c":2,"id":"1.3.6-36"}],"abbandono-nave-zattera-di-salvataggio-grab-bag-e-soccorso-marittimo":[{"q":"In caso di sinistro e conseguente abbandono dell'unità il comandante:","a":["spegne il motore.","fa indossare a ciascuna persona a bordo il giubbotto di salvataggio.","prepara le bandiere di segnalamento."],"c":1,"id":"1.3.7-1"},{"q":"In caso di abbandono dell'imbarcazione:","a":["per prima cosa si lancia la zattera in mare.","la sagola della zattera deve essere fissata alla barca, prima di lanciarla in acqua.","si gonfia il tender."],"c":1,"id":"1.3.7-2"},{"q":"In quale posizione non è opportuno posizionare la zattera di salvataggio?","a":["sottocoperta.","sulla tuga.","sul pulpito di poppa."],"c":0,"id":"1.3.7-3"},{"q":"In quale posizione non è opportuno posizionare la zattera di salvataggio?","a":["in un vano ricavato nello specchio di poppa.","in un gavone chiuso in posizione difficilmente raggiungibile.","sulla tuga."],"c":1,"id":"1.3.7-4"},{"q":"Il \"Grab Bag\" è:","a":["è quel sacco contenente le dotazioni normalmente custodite all'interno della zattera di salvataggio.","la sacca contente i giubbotti i salvataggio quando sono riposti.","un'attrezzatura velica."],"c":0,"id":"1.3.7-5"},{"q":"Ai sensi del Codice della Navigazione, quale tra queste affermazioni è la più corretta per quanto concerne \"l'abbandono nave\"?","a":["il comandante dell'unità ordina \"l'abbandono\" della stessa solo dopo aver accertato di persona che tutti i mezzi suggeriti dall'arte nautica non sono in grado di salvarla.","il comandante dell'unità ordina \"l'abbandono\" della stessa solo dopo aver verificato di persona che oltre alla presenza di infiltrazioni nello scafo si sia verificata la contemporanea avaria degli organi propulsivi.","il comandante ordina \"l'abbandono\" della stessa solo dopo aver verificato di persona il mancato funzionamento di tutti gli apparati di navigazione."],"c":0,"id":"1.3.7-11"},{"q":"In caso di urto tra due o più unità navali, i Comandanti delle stesse sono obbligati a fornire alle altre unità navali coinvolte le notizie per identificare la propria?","a":["no.","si, nei limiti del possibile.","solo previo accordo tra i Comandanti delle unità navali coinvolte."],"c":1,"id":"1.3.7-12"},{"q":"Quale accorgimento deve adottare il comandante dell'unità da diporto prima di ordinare l'abbandono della stessa?","a":["accertarsi che tutte le persone imbarcate indossino le cinture di salvataggio e che l'eventuale mezzo collettivo di salvataggio (zattera) sia equipaggiato con le previste dotazioni di sicurezza.","accertarsi che i serbatoi di carburante siano stati svuotati.","accertarsi che sia stata intercettata la linea di alimentazione elettrica."],"c":0,"id":"1.3.7-13"},{"q":"Il \"Grab Bag\" deve:","a":["essere custodito e protetto in un gavone sottocoperta per evitare danneggiamenti al suo contenuto.","essere tenuto a portata di mano in modo da poter essere lanciato nella zattera di salvataggio in caso di abbandono della barca.","essere tenuto saldamente legato con una cinghia alla custodia rigida della zattera."],"c":1,"id":"1.3.7-6"},{"q":"Cosa si intende per soccorso marittimo?","a":["le attività tese a prendere a rimorchio un'unità in avaria.","tutte le attività finalizzate alla ricerca ed al salvataggio della vita umana in mare.","l'evacuazione medica a bordo di un'unità."],"c":1,"id":"1.3.7-7"},{"q":"Qual è l'organismo nazionale che assicura il coordinamento generale dei servizi di soccorso marittimo?","a":["il Comando Generale del Corpo delle Capitanerie di Porto.","il Dipartimento della Protezione Civile.","la stazione radio costiera."],"c":0,"id":"1.3.7-8"},{"q":"Quando l'Autorità Marittima può ordinare alle unità da diporto di partecipare alle attività di soccorso in mare?","a":["quando si trovano in porto o nelle vicinanze.","solo se in navigazione.","a prescindere dalla distanza in cui si trovano."],"c":0,"id":"1.3.7-9"},{"q":"In quali condizioni è obbligatorio per un comandante di un'unità da diporto prestare assistenza ad un'altra unità in pericolo?","a":["quando la distanza tra le due unità non è superiore alle 12 miglia nautiche e quando non sussiste il rischio per l'unità soccorritrice e delle persone ivi imbarcate.","quando a bordo dell'unita in difficoltà vi sono persone in pericolo di vita e quando non sussiste il rischio per l'unità soccorritrice e delle persone ivi imbarcate.","quando la distanza tra le due unità non è superiore alle 6 miglia nautiche e quando non sussiste il rischio per l'unità soccorritrice e delle persone ivi imbarcate."],"c":1,"id":"1.3.7-10"},{"q":"In caso di un grave infortunio occorso ad un membro dell'equipaggio durante la navigazione, quale Ente sarà opportuno contattare il prima possibile?","a":["guardia medica più vicina.","Centro Internazionale Radio Medico (CIRM).","Croce Rossa internazionale."],"c":1,"id":"1.3.2.113"}],"navigazione-con-cattivo-tempo-manovre-nebbia-risacca-e-sicurezza":[{"q":"Quale effetto si genera in navigazione abbassando il piede (trim negativo), in un'unità spinta da un motore fuoribordo?","a":["l'inclinazione della prua verso il basso per attutire gli impatti sulle onde con il mare formato.","si migliora il rendimento del circuito di raffreddamento.","si riduce la possibilità che l'imbarcazione possa ingavonarsi."],"c":0,"id":"1.3.8-1"},{"q":"Quali possono essere i principali accorgimenti che un'unità navale da diporto dovrà adottare qualora interessata da un brusco peggioramento delle condizioni meteo-marine?","a":["trasferire quanto più possibile il peso a prua.","chiudere immediatamente la presa a mare del raffreddamento motore ed intercettare la linea di alimentazione.","rizzare (fissare) tutti gli oggetti di bordo, chiudere accuratamente oblò e osterigi, istruire le persone imbarcate in merito al corretto uso dei mezzi collettivi e individuali di salvataggio."],"c":2,"id":"1.3.8-2"},{"q":"Quale accorgimento sarà opportuno adottare in caso di tempesta proveniente dalla terra ferma?","a":["appennellare l'ancora.","dirigersi in sicurezza verso la costa ove il moto ondoso è più attenuato.","prendere il mare solo al giardinetto."],"c":1,"id":"1.3.8-3"},{"q":"Quale accorgimento sarà opportuno adottare in caso di tempesta proveniente dal mare?","a":["si cercherà di prendere il mare in poppa.","condurre l'unità navale alla cappa.","trasmettere via radio apposito messaggio di soccorso diretto alle unità navali presenti nelle vicinanze."],"c":1,"id":"1.3.8-4"},{"q":"Quale accorgimento potrà essere adottato nel caso in cui un'unità navale da diporto navighi con mare particolarmente grosso in poppa causando brusche variazioni del motore?","a":["controllare il livello di carburante nel serbatoio.","aumentare la velocità.","ridurre opportunamente la velocità."],"c":2,"id":"1.3.8-5"},{"q":"In merito alla regolazione dei flaps, con moto ondoso contrario è opportuno:","a":["tenerli più o meno abbassati, secondo la tipologia di scafo, per contrastare la tendenza della carena ad alzare la prua a causa della massa d’acqua che scorre sotto la stessa.","tenerli più o meno alzati, secondo la tipologia di scafo, per aiutare ad alzare la prua e favorire il passaggio sull'onda.","disattivarli, poiché si tratta di dispositivi da usare solo con mare piatto."],"c":0,"id":"1.3.8-11"},{"q":"In merito alla regolazione dei flaps, con mare formato di poppa, è opportuno:","a":["disattivarli, poiché si tratta di dispositivi da usare solo con mare piatto.","tenere i flaps abbassati, per consentire alla prua di alzarsi sull'onda.","tenere i flaps alzati, per schiacciare la poppa verso il basso, per contrastare l'onda che tende a sollevare la poppa e a far immergere la prua."],"c":2,"id":"1.3.8-12"},{"q":"Normalmente, quando l’indicatore del flap è sullo zero, ciò significa:","a":["che in quel momento il flap è ”neutro”, ovvero orizzontale, quando invece vengono segnalati dei numeri negativi ciò significa che i flaps sono inclinati verso il basso.","che è regolato per alzare la prua sull'acqua.","che è regolato per abbassare la prua sull'acqua."],"c":0,"id":"1.3.8-13"},{"q":"In merito alla regolazione dei flaps, è possibile affermare:","a":["che possono essere regolati solo in maniera identica.","che generalmente possono essere regolati in maniera indipendente, così da poter variare non solo la regolazione della prua, ma anche l’equilibrio trasversale.","che se regolati in maniera indipendente possono compromettere l'equilibrio dell'unità."],"c":1,"id":"1.3.8-14"},{"q":"Lo \"stacco di sicurezza\" è:","a":["l'interruttore collegato tramite un cordino a spirale rosso (o con un dispositivo elettronico) a chi governa un fuoribordo, che spegne “automaticamente” il motore in caso di caduta in acqua.","il \"cordone ombelicale\" della cintura di sicurezza con cui ci si assicura allo scafo.","la valvola di chiusura del carburante."],"c":0,"id":"1.3.8-16"},{"q":"Improvvisamente la visibilità diviene scarsa:","a":["si emette un segnale acustico prolungato ogni 2 minuti.","si rallenta, si accendono i fanali e si emettono i segnali prescritti.","ci si deve fermare."],"c":1,"id":"1.3.8-17"},{"q":"Mettersi \"alla Cappa\", significa prendere il mare:","a":["di prora in modo da saltare la cresta dell'onda.","di poppa con motore a un regime tale da far stare l'unità da diporto sempre sulla cresta dell'onda.","al mascone con motore a un regime tale da consentire al'unità di scarrocciare lasciando sopravento una zona di remora che possa smorzare i frangenti prima di arrivare sulla fiancata sopravento."],"c":2,"id":"1.3.8-19"},{"q":"Cos'è la risacca?","a":["onde di riflusso.","è condizione che nasce da mare e vento incrociati.","è un vento locale di debole intensità."],"c":0,"id":"1.3.8-20"},{"q":"In caso di navigazione in solitario:","a":["avvisare il 1530.","indossare la cintura di sicurezza e assicurarsi al ponte.","accendere le luci di via anche di giorno."],"c":1,"id":"1.3.8-22"},{"q":"In caso di navigazione con cattivo tempo, qual è il provvedimento da adottare:","a":["si chiudono gli ombrinali.","si chiudono oblò, boccaporti e prese a mare, lasciando aperta solo quelle del motore.","si chiudono necessariamente le prese a mare del motore."],"c":1,"id":"1.3.8-23"},{"q":"Per attirare l'attenzione di un'altra unità in caso di pericolo:","a":["dopo l'installazione è necessaria un'ispezione dell'Autorità Marittima del luogo ove è stata eseguita l'installazione.","si effettua un movimento lento e ripetuto di entrambe le braccia allargate, dall'alto in basso.","è necessario il collaudo di un tecnico abilitato appartenente al Ministero dello Sviluppo Economico."],"c":1,"id":"1.3.8-24"},{"q":"Quale affermazione è corretta?","a":["per attirare l'attenzione di notte è possibile usare le boette fumogene.","per effettuare una chiamata di soccorso con il VHF è necessario un abbonamento.","il 1530 è il numero telefonico di emergenza della Guardia Costiera."],"c":2,"id":"1.3.8-25"},{"q":"Navigando in presenza di nebbia fitta, quali fattori possono indicare la possibile vicinanza della costa?","a":["aumento della corrente di superficie e brusca riduzione della temperatura dell'acqua.","mutamento del colore dell'acqua ed il fragore dei frangenti.","forti escursioni di marea e repentino abbassamento della temperatura delle acque."],"c":1,"id":"1.3.8-6"},{"q":"A quale funzione assolve il sistema DSC (Digital Selective Calling) installato su alcune tipologie di apparati radio?","a":["trasmettendo in frequenza MF, permette di inviare automaticamente un segnale di soccorso ad altre unità navali che si trovino entro un raggio non superiore alle 15 miglia nautiche.","trasmettendo in frequenza VHF e HF, permette di inviare automaticamente onde radio digitali, eliminando così le deviazioni che le stesse subiscono sottocosta per rifrazione elettromagnetica.","trasmettendo in frequenza VHF e HF, permette di inviare automaticamente un segnale di soccorso, di urgenza o di sicurezza ad altre navi nelle vicinanze, ai Centri di Coordinamento del Soccorso Marittimo e alle Stazioni Costiere."],"c":2,"id":"1.3.8-7"},{"q":"Navigando a motore con mare molto mosso:","a":["di poppa, sfrutto la spinta delle onde per aumentare la velocità di fuga.","faccio il possibile per non prendere le onde al traverso.","di prora, cerco di tagliare le onde esattamente con la prua."],"c":1,"id":"1.3.8-8"},{"q":"Per attenuare l'impatto con l'onda formata:","a":["è necessario prendere l'onda al traverso.","è necessario tagliare la cresta esattamente con la prua perpendicolare all'onda.","è opportuno puntare leggermente verso la cresta, per poi allontanarsene quando la barca scende nel cavo dell’onda."],"c":2,"id":"1.3.8-9"},{"q":"In navigazione con onda di poppa:","a":["si tiene il trim positivo (elica più sollevata) per alzare la prua e limitare i colpi sull'onda.","si tiene il trim neutro, per non alterare l'assetto della barca.","si tiene il trim negativo, (elica più immersa) per alzare la prua e limitare i colpi sull'onda."],"c":0,"id":"1.3.8-10"},{"q":"L’ancora galleggiante:","a":["serve a limitare l'intraversamento dell'unità.","è una dotazione di sicurezza obbligatoria.","serve a individuare un basso fondale."],"c":0,"id":"1.3.8-21"}],"radio-vhf-utilizzo-procedure-di-soccorso-e-canale-16":[{"q":"Quale titolo abilita il comandante di un'imbarcazione da diporto ad utilizzare un apparato ricetrasmittente VHF/FM?","a":["il certificato illimitato di radiotelefonista per navi.","il certificato limitato di radiotelefonista per naviglio minore.","nessun titolo."],"c":1,"id":"1.3.9-1"},{"q":"Cosa è l'indicativo di chiamata?","a":["consente di utilizzare il VHF a bordo di un natante da diporto.","consente di utilizzare il VHF a bordo di un'imbarcazione da diporto.","consente di utilizzare il VHF a bordo di una nave da diporto."],"c":0,"id":"1.3.9-2"},{"q":"Per installare a bordo un VHF di tipo fisso:","a":["dopo l'installazione è necessaria un'ispezione dell'Autorità Marittima del luogo ove è stata eseguita l'installazione.","è richiesto solo di controllare che l’apparato sia omologato.","è necessario il collaudo di un tecnico abilitato appartenente al Ministero dello Sviluppo Economico."],"c":1,"id":"1.3.9-3"},{"q":"Il nominativo internazionale consente di:","a":["identificare un natante da diporto non iscritto che sta navigando al di fuori delle acque nazionali.","utilizzare l'apparato VHF a bordo di imbarcazioni e navi da diporto.","utilizzare l'apparato VHF a bordo di un natante da diporto."],"c":1,"id":"1.3.9-4"},{"q":"Ogni quanto tempo gli apparati ricetrasmittenti installati a bordo sono sottoposti ad ispezioni ordinarie?","a":["ogni 10 anni.","ogni 5 anni.","sono esonerati dalle ispezioni ordinarie."],"c":2,"id":"1.3.9-5"},{"q":"Chi riceve una richiesta di soccorso:","a":["si occupa di coordinare i soccorsi.","si dirige verso il porto più vicino in cerca di aiuto.","rilancia la chiamata di soccorso ed eventualmente si adopera per prestare soccorso all'unità in pericolo."],"c":2,"id":"1.3.9-11"},{"q":"Da quale parola è preceduta la chiamata di soccorso?","a":["PAN PAN ripetuta tre volte.","SECURITE' ripetuta tre volte.","MAYDAY ripetuta tre volte."],"c":2,"id":"1.3.9-12"},{"q":"Da cosa è preceduta la chiamata di urgenza?","a":["la parola MAYDAY ripetuta tre volte.","le parole PAN PAN ripetute tre volte.","la parola SECURITE' ripetuta tre volte."],"c":1,"id":"1.3.9-13"},{"q":"La procedura per trasmettere correttamente un messaggio di soccorso:","a":["il messaggio di soccorso da trasmettere deve essere preceduto dalla parola SECURITE' e seguito dalla parola MAYDAY.","il messaggio di soccorso da trasmettere deve essere preceduto dalla parola MAYDAY ripetuta tre volte.","il messaggio di soccorso da trasmettere deve essere seguito dalla parola PAN ripetuta tre volte."],"c":1,"id":"1.3.9-14"},{"q":"Da quale parola è preceduta la chiamata di sicurezza?","a":["dalla parola SECURITE' ripetuta tre volte.","dalla parola MAYDAY ripetuta tre volte.","dalle parole PAN PAN ripetuta tre volte."],"c":0,"id":"1.3.9-15"},{"q":"Il Mayday va ripetuto durante la chiamata:","a":["1 volta.","3 volte.","5 volte."],"c":1,"id":"1.3.9-16"},{"q":"L'obbligo del silenzio radio sul canale 16 si ha:","a":["non esiste alcun obbligo.","ogni ora","nei primi 3 minuti successivi all'inizio dell'ora intera e della mezz'ora."],"c":2,"id":"1.3.9-17"},{"q":"Il canale 16 sulla banda di frequenza VHF è utilizzabile:","a":["tranquillamente, sempre se non c'è situazione di emergenza.","solo in caso di comunicazioni riguardanti la sicurezza.","solo per la prima chiamata; per proseguire la comunicazione bisogna poi spostarsi su un altro canale."],"c":2,"id":"1.3.9-18"},{"q":"Nel caso si renda necessario lanciare un MAYDAY via radio:","a":["lo si lancia a intervalli di tre minuti.","lo si lancia sulla frequenza di lavoro della stazione radio più vicina","si comunicano nell'ordine: nominativo internazionale, coordinate della posizione e tipo di pericolo in corso."],"c":2,"id":"1.3.9-19"},{"q":"Come si impone il silenzio radio col VHF ?","a":["pronunciando la parola SILENCE MAYDAY.","pronunciando la parola SECURITÈ.","pronunciando la parola PAN PAN."],"c":0,"id":"1.3.9-20"},{"q":"Per le comunicazioni tra barca e barca si possono usare i canali","a":["i canali 16 e 68.","i canali 6, 8, 72 o 77.","il canale 14."],"c":1,"id":"1.3.9-21"},{"q":"Per le comunicazioni tramite VHF con apparato fisso:","a":["è sempre opportuno usare la potenza massima di emissione di 25 watt, perché il segnale sia sempre chiaro.","quando si è a distanza ravvicinata è opportuno utilizzare la potenza ridotta di 1 watt.","si deve selezionare sempre la potenza di 1 watt."],"c":1,"id":"1.3.9-22"},{"q":"In tema di VHF, quale tra le seguenti affermazioni è corretta:","a":["tutti gli apparati ricetrasmittenti di bordo delle unità da diporto sono sottoposti a collaudo e a ispezioni ordinarie.","il VHF può essere utilizzato solo dal comandante dell'unità da diporto.","il comandante dell'unità da diporto è responsabile del corretto utilizzo degli impianti e degli apparati ricetrasmittenti di bordo."],"c":2,"id":"1.3.9-23"},{"q":"Le comunicazioni radio effettuate mediante apparati VHF possono essere effettuate qualora:","a":["le antenne di due stazioni comunicanti sono ubicate ad un'altezza di circa due metri al di sotto della linea dell'orizzonte.","le antenne di due stazioni comunicanti sono ubicate al di sopra della linea dell'orizzonte.","le antenne di due stazioni comunicanti sono ubicate ad un'altezza di circa un metro al di sotto della linea dell'orizzonte."],"c":1,"id":"1.3.9-24"},{"q":"Qual è di massima la portata dell'apparato VHF per le comunicazioni fra unità navali?","a":["inferiore a 5 miglia nautiche.","fra 10 e 20 miglia nautiche","circa 30 miglia nautiche."],"c":1,"id":"1.3.9-25"},{"q":"Qual è la portata massima dell'apparato VHF per le comunicazioni tra un'unità navale e le stazioni radio costiere?","a":["circa 40 miglia nautiche.","inferiore alle 20 miglia nautiche.","circa 150 miglia nautiche."],"c":0,"id":"1.3.9-26"},{"q":"A quale funzione assolve lo squelch di un ricevitore radio?","a":["attenuare il rumore di fondo durante le comunicazioni.","rafforzare l'eco del radar installato a bordo.","garantire il collegamento sul canale di lavoro restando in ricezione anche sul canale 16."],"c":0,"id":"1.3.9-27"},{"q":"A quale funzione assolve il riflettore radar, installato a bordo delle piccole unità da diporto?","a":["intensificare l'eco di ritorno al radar, permettendo di attenuare i disturbi di origine meteorologica.","intensificare l'eco di ritorno al radar, permettendo di identificare anche una piccola unità navale su cui è installato, sia a grande distanza che tra i vari echi del mare.","intensificare l'eco di ritorno al radar, permettendo di amplificare i campi magnetici di bordo."],"c":1,"id":"1.3.9-28"},{"q":"Per motivi di sicurezza, quali sono gli intervalli temporali per i quali è vietato effettuare comunicazioni radio?","a":["tra i minuti 00-03 e 30-33 di ogni ora.","tra i minuti 03-06 e 33-36 delle ore pari.","tra i minuti 00-03 e 30-33 delle ore pari."],"c":0,"id":"1.3.9-29"},{"q":"In caso di richiesta di soccorso, in che occasione si utilizzano i \"razzi a paracadute a luce rossa\"?","a":["sempre.","solo se sono ben visibili le luci di una nave, di un aeroplano, della costa.","se si presume la presenza di una nave, di un aeroplano, della costa."],"c":2,"id":"1.3.9-6"},{"q":"In caso di richiesta di soccorso, in che occasione si utilizzano i \"fuochi a mano a luce rossa\"?","a":["se sono ben visibili le luci di una nave, di un aeroplano, della costa.","se si presume la presenza di una nave, di un aeroplano o della costa.","sempre."],"c":0,"id":"1.3.9-7"},{"q":"Quale canale radio VHF/FM è utilizzato per le chiamate di soccorso?","a":["il canale 18.","il canale 68.","il canale 16."],"c":2,"id":"1.3.9-8"},{"q":"Di norma, i razzi a paracadute a luce rossa, quando sparati in aria raggiungono una quota minima:","a":["di 50 metri.","di 100 metri.","di 300 metri."],"c":2,"id":"1.3.9-9"},{"q":"La frequenza del Canale 16 è la:","a":["102.5 MHz.","099.7 MHz.","156.8 Mhz."],"c":2,"id":"1.3.9-10"}]}
+{
+  "classi-di-incendio-e-tipi-di-estintori": [
+    {
+      "q": "Per quali classi di incendio (A, B, C, D) risulta idoneo l'impiego dell'estintore a polvere?",
+      "a": [
+        "tutte le classi.",
+        "fuochi da solidi e fuochi da gas.",
+        "fuochi da liquidi."
+      ],
+      "c": 0,
+      "id": "1.3.1-1"
+    },
+    {
+      "q": "Per quale tipologia di incendio risulta idoneo l'impiego dell'estintore a schiuma?",
+      "a": [
+        "fuochi da impianti elettrici.",
+        "fuochi da gas.",
+        "fuochi da solidi e fuochi da liquidi."
+      ],
+      "c": 2,
+      "id": "1.3.1-2"
+    },
+    {
+      "q": "Quale mezzo antincendio risulta più opportuno impiegare per estinguere incendi generati da apparecchiature o quadri elettrici?",
+      "a": [
+        "acqua di mare.",
+        "estintore a polvere ad anidride carbonica.",
+        "estintore a schiuma."
+      ],
+      "c": 1,
+      "id": "1.3.1-6"
+    },
+    {
+      "q": "Gli estintori a polvere si utilizzano per:",
+      "a": [
+        "estinguere incendi di sostanze liquide o gassose, nonché incendi di apparecchiature elettriche sotto tensione.",
+        "estinguere incendi di sostanze solide.",
+        "estinguere incendi di materiale in vetroresina o in legno."
+      ],
+      "c": 0,
+      "id": "1.3.1-12"
+    },
+    {
+      "q": "L'estintore a CO2 è utilizzabile per incendi di:",
+      "a": [
+        "materiali solidi o metalli combustibili.",
+        "gas inerti idraulici e materiali solidi.",
+        "liquidi infiammabili e materiali elettrici sotto tensione."
+      ],
+      "c": 2,
+      "id": "1.3.1-13"
+    },
+    {
+      "q": "Da cosa è generato un incendio di classe E?",
+      "a": [
+        "da liquidi infiammabili.",
+        "da apparecchiature elettriche in tensione.",
+        "da combustibili solidi."
+      ],
+      "c": 1,
+      "id": "1.3.1-14"
+    },
+    {
+      "q": "Un estintore a schiuma è utilizzabile per incendi:",
+      "a": [
+        "delle classi A e B.",
+        "di classe E.",
+        "di tutti i tipi."
+      ],
+      "c": 0,
+      "id": "1.3.1-15"
+    },
+    {
+      "q": "Da cosa è generato un incendio di classe A?",
+      "a": [
+        "da combustibili solidi.",
+        "da alcuni particolari metalli infiammabili.",
+        "da gas infiammabili."
+      ],
+      "c": 0,
+      "id": "1.3.1-16"
+    },
+    {
+      "q": "L'incendio di gas infiammabili è un incendio di:",
+      "a": [
+        "classe A.",
+        "classe B.",
+        "classe C."
+      ],
+      "c": 2,
+      "id": "1.3.1-17"
+    },
+    {
+      "q": "Per incendi da gas e da impianti elettrici (classi C ed E) è preferibile utilizzare:",
+      "a": [
+        "un estintore a schiuma.",
+        "un estintore a CO2.",
+        "un estintore a polvere."
+      ],
+      "c": 1,
+      "id": "1.3.1-18"
+    },
+    {
+      "q": "Principio d’incendio all'apparato radio VHF:",
+      "a": [
+        "si getta una secchiata d’acqua fresca sull’apparato radio.",
+        "si rimuove la radio il più velocemente possibile e la si getta in acqua.",
+        "si raffredda la radio utilizzando l’estintore ad anidride carbonica (CO2)."
+      ],
+      "c": 2,
+      "id": "1.3.1-19"
+    },
+    {
+      "q": "Utilizzo dell'acqua per spegnere un incendio da impianti elettrici (classe E):",
+      "a": [
+        "non ottengo lo spegnimento.",
+        "è un utilizzo molto pericoloso.",
+        "è un utilizzo efficace."
+      ],
+      "c": 1,
+      "id": "1.3.1-20"
+    },
+    {
+      "q": "Quale tra queste affermazioni è corretta?",
+      "a": [
+        "il getto degli estintori a schiuma deve essere diretto alla base delle fiamme e non deve essere impiegato per estinguere incendi di materiale elettrico sotto tensione.",
+        "il getto degli estintori a schiuma deve essere diretto verso la superficie delle fiamme ed impiegato principalmente per estinguere incendi di materiale elettrico sotto tensione.",
+        "l'estintore ad anidride carbonica va utilizzato solo all'aperto, perché agisce per raffreddamento."
+      ],
+      "c": 0,
+      "id": "1.3.1-7"
+    },
+    {
+      "q": "Utilizzo dell'acqua per spegnere fuochi da metalli:",
+      "a": [
+        "non ottengo lo spegnimento.",
+        "è un utilizzo efficace.",
+        "è un utilizzo pericoloso."
+      ],
+      "c": 2,
+      "id": "1.3.1-8"
+    },
+    {
+      "q": "Da cosa è generato un incendio di classe B?",
+      "a": [
+        "da apparecchiature elettriche in tensione.",
+        "da gas infiammabili.",
+        "da liquidi infiammabili."
+      ],
+      "c": 2,
+      "id": "1.3.1-9"
+    },
+    {
+      "q": "La sigla 13B sugli estintori indica:",
+      "a": [
+        "la classe di costruzione e confezionamento secondo la normativa CE.",
+        "dopo quanti mesi va revisionato.",
+        "classe di incendio e capacità estinguente."
+      ],
+      "c": 2,
+      "id": "1.3.1-11"
+    },
+    {
+      "q": "Un quadro elettrico di bordo ha preso fuoco; estinguo l'incendio:",
+      "a": [
+        "utilizzando acqua di mare.",
+        "utilizzando un estintore a polvere.",
+        "utilizzando un estintore a schiuma."
+      ],
+      "c": 1,
+      "id": "1.3.6-16"
+    },
+    {
+      "q": "Come si estingue un incendio derivante da combustione di sostanze comuni (legno, tessuti e carta)?",
+      "a": [
+        "con ossigeno ad alta pressione.",
+        "mediante azione di raffreddamento ottenuta attraverso getti d'acqua.",
+        "attraverso l'intensa aspirazione di vapori."
+      ],
+      "c": 1,
+      "id": "1.3.6-21"
+    },
+    {
+      "q": "Come si estingue un incendio derivante da combustione di sostanze liquide?",
+      "a": [
+        "mediante l'azione di soffocamento generata, polvere chimica, schiuma, anidride carbonica (CO2) o altro gas inerte.",
+        "mediante la ventilazione forzata del locale interessato, riducendo il numero di giri del motore, azionando il circuito di condizionamento.",
+        "intercettando il pacco batterie e disattivando il gruppo generatore."
+      ],
+      "c": 0,
+      "id": "1.3.6-23"
+    }
+  ],
+  "triangolo-del-fuoco-e-principi-della-combustione": [
+    {
+      "q": "Quali sono gli elementi del cosiddetto \"triangolo del fuoco\" che alimentano un incendio?",
+      "a": [
+        "combustione, estinzione, reazione.",
+        "estintore, pressione, schiuma.",
+        "combustibile, comburente, calore."
+      ],
+      "c": 2,
+      "id": "1.3.1-24"
+    },
+    {
+      "q": "Come si può estinguere un incendio?",
+      "a": [
+        "esponendo la fiamma all'aria aperta.",
+        "se piove.",
+        "abbassando sensibilmente la temperatura."
+      ],
+      "c": 2,
+      "id": "1.3.1-25"
+    },
+    {
+      "q": "Un incendio si estingue:",
+      "a": [
+        "mancando l'ossigeno.",
+        "aumentando la temperatura.",
+        "aumentando la forza del vento."
+      ],
+      "c": 0,
+      "id": "1.3.1-26"
+    },
+    {
+      "q": "Come può definirsi la combustione?",
+      "a": [
+        "l'improvvisa emissione di gas inerte da parte di un liquido, generata da un'istantanea variazione di temperatura.",
+        "la reazione chimica che produce calore e che avviene tra il comburente ed il combustibile.",
+        "la reazione meccanica che produce una variazione di temperatura e che avviene tra un liquido più caldo e un solido più freddo."
+      ],
+      "c": 1,
+      "id": "1.3.1-27"
+    },
+    {
+      "q": "Da che cosa dipende la maggiore o minore combustibilità di un liquido?",
+      "a": [
+        "dalla temperatura di infiammabilità del liquido.",
+        "dalla temperatura dei solidi con cui il liquido viene a contatto.",
+        "dalla temperatura alla quale il liquido sublima, cioè passa dallo stato solido a quello aeriforme senza passare attraverso la fase liquida."
+      ],
+      "c": 0,
+      "id": "1.3.1-28"
+    },
+    {
+      "q": "Cos'è il comburente?",
+      "a": [
+        "la sostanza che alimenta la combustione mediante ossidazione del combustibile, generalmente l'ossigeno.",
+        "il materiale infiammabile.",
+        "il nome della fiamma."
+      ],
+      "c": 0,
+      "id": "1.3.1-31"
+    },
+    {
+      "q": "Viene introdotta aria in un locale aggredito da incendio:",
+      "a": [
+        "non accade nulla di nuovo.",
+        "il locale si raffredda.",
+        "si alimenta l'incendio."
+      ],
+      "c": 2,
+      "id": "1.3.1-10"
+    }
+  ],
+  "estintori-revisione-sostituzione-posizionamento": [
+    {
+      "q": "Quali estintori devono essere omologati a norma CE?",
+      "a": [
+        "tutti.",
+        "solo quelli a CO2.",
+        "nessuno."
+      ],
+      "c": 0,
+      "id": "1.3.1-4"
+    },
+    {
+      "q": "Avuto riguardo alla prevenzione sugli incendi, quale tra queste affermazioni è corretta?",
+      "a": [
+        "determinate sostanze, quali stracci unti di olio abbandonati in coperta, possono raggiungere rapidamente la temperatura di infiammabilità determinando una combustione spontanea financo l'esplosione.",
+        "determinate sostanze, quali stracci unti di olio abbandonati in coperta, possono raggiungere rapidamente la temperatura di ignizione determinando una combustione spontanea.",
+        "determinate sostanze, quali stracci unti di olio abbandonati nel vano motore o in gavoni scarsamente ventilati, possono riscaldarsi lentamente determinando una combustione spontanea."
+      ],
+      "c": 2,
+      "id": "1.3.1-5"
+    },
+    {
+      "q": "Ogni quanto tempo va revisionato un estintore?",
+      "a": [
+        "ogni 4 anni.",
+        "quando la lancetta del manometro è sul rosso.",
+        "ogni 2 anni."
+      ],
+      "c": 1,
+      "id": "1.3.1-21"
+    },
+    {
+      "q": "Va revisionato un estintore?",
+      "a": [
+        "sì, ogni 2 anni.",
+        "sì, ogni anno.",
+        "mai, salvo che non sia stato utilizzato o vi sia stata perdita di pressione, è sufficiente verificare periodicamente che la lancetta del manometro stia sul verde."
+      ],
+      "c": 2,
+      "id": "1.3.1-22"
+    },
+    {
+      "q": "Ogni quanto tempo si deve sostituire un estintore?",
+      "a": [
+        "ogni 2 anni.",
+        "ogni anno.",
+        "quando è in cattivo stato."
+      ],
+      "c": 2,
+      "id": "1.3.1-23"
+    },
+    {
+      "q": "Il numero e il posizionamento degli estintori di una unità marcata CE è stabilito dalle ordinanze dell'Autorità marittima?",
+      "a": [
+        "si.",
+        "no, è stabilito dal proprietario",
+        "no, stabilito nel Manuale del proprietario."
+      ],
+      "c": 2,
+      "id": "1.3.1-29"
+    },
+    {
+      "q": "Per le imbarcazioni da diporto NON marcata CE (immesse sul mercato prima del 17 giugno 1998):",
+      "a": [
+        "il numero e il posizionamento degli estintori non è stabilito.",
+        "il numero e il posizionamento degli estintori è fissato dal Regolamento di attuazione al Codice della nautica secondo la potenza del motore e prevede un minimo di 1 estintore al posto di guida e 1 estintore in ciascuno degli altri locali.",
+        "il numero e il posizionamento degli estintori è stabilito dalle ordinanze dell'Autorità marittima, con il minimo di 1 estintore."
+      ],
+      "c": 1,
+      "id": "1.3.1-30"
+    },
+    {
+      "q": "Il numero e il posizionamento degli estintori di una unità marcata CE:",
+      "a": [
+        "è fissato dal Codice della navigazione.",
+        "è stabilito dalle ordinanze dell'Autorità marittima.",
+        "è stabilito nel Manuale del proprietario."
+      ],
+      "c": 2,
+      "id": "1.3.6-26"
+    },
+    {
+      "q": "Per le imbarcazioni da diporto NON marcata CE (immesse sul mercato prima del 17 giugno 1998) il numero e il posizionamento degli estintori è stabilito dal Regolamento di attuazione al Codice della nautica secondo la potenza del motore?",
+      "a": [
+        "no, non è stabilito.",
+        "si, e prevede un minimo di 1 estintore al posto di guida e 1 estintore in ciascuno degli altri locali.",
+        "no, è stabilito dalle ordinanze dell'Autorità marittima, con il minimo di 1 estintore."
+      ],
+      "c": 1,
+      "id": "1.3.6-27"
+    }
+  ],
+  "conduzione-in-stato-di-ebbrezza-e-sotto-effetto-di-sostanze": [
+    {
+      "q": "Se, in conseguenza della condotta di un'unità da diporto in stato di ebbrezza, deriva un danno o un pericolo di danno ambientale:",
+      "a": [
+        "è sempre disposta la revoca della patente nautica.",
+        "è sempre disposta la confisca dell'unità da diporto.",
+        "è disposta la vendita coatta dell'unità da diporto."
+      ],
+      "c": 0,
+      "id": "1.3.2-1"
+    },
+    {
+      "q": "Chiunque assume o ritiene il comando o la condotta ovvero la direzione nautica di un'unità da diporto in stato di ebbrezza è punito,",
+      "a": [
+        "con una sanzione amministrativa che varia da 1.000 euro a 5.000 euro in relazione al tasso alcolemico rilevato e la sanzione accessoria della revisione parziale della patente nautica prima della scadenza.",
+        "con una sanzione amministrativa che varia da 500 euro a 1.500 euro qualunque sia il tasso alcolemico rilevato.",
+        "con una sanzione amministrativa che varia da 2.755 euro a 15.000 euro in relazione al tasso alcolemico rilevato."
+      ],
+      "c": 2,
+      "id": "1.3.2-2"
+    },
+    {
+      "q": "Circa la condotta di un'unità da diporto in stato di ebbrezza:",
+      "a": [
+        "è sempre disposta la sospensione della patente nautica da 3 mesi a 24 mesi, in relazione al tasso alcolemico rilevato.",
+        "è disposta la sospensione della patente nautica da 3 mesi a 24 mesi in caso di sinistro marittimo.",
+        "è disposta la sospensione della patente nautica da 3 mesi a 24 mesi solo se ne deriva danno o pericolo di danno ambientale."
+      ],
+      "c": 0,
+      "id": "1.3.2-3"
+    },
+    {
+      "q": "Chi assume il comando o la condotta di un'unità da diporto in stato di alterazione psico-fisica dopo aver assunto sostanze stupefacenti o psicotrope è punito:",
+      "a": [
+        "con la sanzione amministrativa da 250 euro a 1.100 euro.",
+        "con la sanzione amministrativa da 2.755 euro a 11.017 euro.",
+        "con la sanzione amministrativa da 557 euro a 2.507 euro."
+      ],
+      "c": 1,
+      "id": "1.3.2-4"
+    },
+    {
+      "q": "Se nel commettere l'infrazione amministrativa inerente la condotta di un'unità da diporto in stato di ebbrezza, in conseguenza dell'uso di bevande alcoliche, da cui ne deriva danno o pericolo di danno ambientale:",
+      "a": [
+        "è sempre disposta la revoca della patente nautica.",
+        "è sempre disposta la sospensione della patente nautica da 1 a 6 mesi.",
+        "è sempre disposta la sospensione della patente nautica da 6 a 12 mesi."
+      ],
+      "c": 0,
+      "id": "1.3.2-5"
+    },
+    {
+      "q": "L'assunzione di farmaci sedativi:",
+      "a": [
+        "non compromette le facoltà mentali se si soffre d'ansia.",
+        "ha effetti molto pericolosi se contemporaneamente si assumono bevande alcoliche.",
+        "aiuta la concentrazione specialmente di notte."
+      ],
+      "c": 1,
+      "id": "1.3.2-11"
+    },
+    {
+      "q": "In caso di assunzione di una quantità eccessiva di bevande alcoliche:",
+      "a": [
+        "si recupera velocemente l'idoneità fisica se si assume caffè amaro.",
+        "si ha un livello di attenzione molto basso.",
+        "si recupera velocemente l'idoneità fisica se si assumono cibi piuttosto salati."
+      ],
+      "c": 1,
+      "id": "1.3.2-12"
+    },
+    {
+      "q": "In caso di conduzione sotto l'influenza dell'alcool di unità da diporto adibita a noleggio:",
+      "a": [
+        "le sanzioni previste sono aumentate di un terzo, qualora sia stato accertato un valore corrispondente a un tasso alcolemico superiore a 0,5 e non superiore a 0,8 grammi per litro.",
+        "le sanzioni previste sono aumentate solo qualora sia stato accertato un valore corrispondente a un tasso alcolemico superiore a 1,5 grammi per litro.",
+        "è disposta la vendita coatta dell'unità da diporto."
+      ],
+      "c": 0,
+      "id": "1.3.2-6"
+    },
+    {
+      "q": "Quale tra questi comportamenti prevede, oltre all'elevazione di un illecito amministrativo, anche l'applicazione della sanzione accessoria della sospensione della licenza di navigazione?",
+      "a": [
+        "l'abbandono dell'unità in pericolo da parte del comandante, non scendendo per ultimo da bordo.",
+        "l'omissione di tentare il salvataggio nei confronti di un'altra unità in pericolo di perdersi, qualora non comporti grave rischio per l'unità soccorritrice.",
+        "l'assunzione del comando o della condotta di un'unità da diporto in stato di ebbrezza."
+      ],
+      "c": 2,
+      "id": "1.3.2-7"
+    },
+    {
+      "q": "La sanzione per chi assume il comando o la condotta di un'unità da diporto in stato di alterazione psico-fisica:",
+      "a": [
+        "raddoppia in caso di sinistro.",
+        "è stabilita dalla Capitaneria di porto all'atto del fermo.",
+        "aumentata del 25% in caso di sinistro."
+      ],
+      "c": 0,
+      "id": "1.3.2-8"
+    },
+    {
+      "q": "Gli effetti dell'alcol:",
+      "a": [
+        "si riducono nel giro di pochi minuti.",
+        "perdurano anche fino a 5 ore.",
+        "si annullano dopo 2 ore."
+      ],
+      "c": 1,
+      "id": "1.3.2-9"
+    },
+    {
+      "q": "In caso di conduzione sotto l'influenza dell'alcool di unità da diporto adibita a noleggio:",
+      "a": [
+        "è disposta la vendita coatta dell'unità da diporto.",
+        "le sanzioni previste sono aumentate del 25%, qualora sia stato accertato un valore corrispondente a un tasso alcolemico superiore a 0,8 grammi per litro.",
+        "la patente nautica è sempre revocata, qualora sia stato accertato un valore corrispondente a un tasso alcolemico superiore a 1,5 grammi per litro ."
+      ],
+      "c": 2,
+      "id": "1.3.2-10"
+    }
+  ],
+  "segnali-di-soccorso-boette-razzi-fuochi-a-mano": [
+    {
+      "q": "La \"boetta fumogena arancione\" è un segnale:",
+      "a": [
+        "diurno.",
+        "notturno.",
+        "che si può utilizzare solo in presenza di nebbia."
+      ],
+      "c": 0,
+      "id": "1.3.3-3"
+    },
+    {
+      "q": "Normalmente, qual è la portata in miglia dei fuochi a mano a luce rossa?",
+      "a": [
+        "7 miglia.",
+        "6 miglia.",
+        "5 miglia."
+      ],
+      "c": 1,
+      "id": "1.3.3-16"
+    },
+    {
+      "q": "Normalmente, di quanto è la portata notturna in miglia dei razzi a paracadute a luce rossa?",
+      "a": [
+        "6 miglia.",
+        "7 miglia.",
+        "25 miglia."
+      ],
+      "c": 2,
+      "id": "1.3.3-17"
+    },
+    {
+      "q": "Quanti fuochi a mano a luce rossa deve mantenere a bordo un'imbarcazione da diporto che naviga entro le 6 miglia nautiche dalla costa?",
+      "a": [
+        "2",
+        "3",
+        "4"
+      ],
+      "c": 0,
+      "id": "1.3.3-18"
+    },
+    {
+      "q": "Il fumo emesso dalla boetta fumogena, una volta attivata, è di colore:",
+      "a": [
+        "rosso.",
+        "giallo.",
+        "arancione."
+      ],
+      "c": 2,
+      "id": "1.3.3-20"
+    },
+    {
+      "q": "In genere, che scadenza hanno i segnali di emergenza e soccorso come i fuochi a mano, i razzi a paracadute e le boette fumogene?",
+      "a": [
+        "ogni 10 anni",
+        "ogni anno",
+        "ogni 4 anni"
+      ],
+      "c": 2,
+      "id": "1.3.3-21"
+    },
+    {
+      "q": "Normalmente, qual è all'incirca la portata diurna dei razzi a paracadute a luce rossa?",
+      "a": [
+        "9 miglia.",
+        "7 miglia.",
+        "5 miglia."
+      ],
+      "c": 1,
+      "id": "1.3.3-28"
+    },
+    {
+      "q": "Normalmente, qual è la durata di accensione dei razzi a paracadute a luce rossa utilizzata da un'imbarcazione da diporto?",
+      "a": [
+        "circa 2 minuti.",
+        "circa 3 minuti.",
+        "meno di 1 minuto."
+      ],
+      "c": 2,
+      "id": "1.3.3-29"
+    },
+    {
+      "q": "In caso di richiesta di soccorso, in che occasione si utilizzano i \"razzi a paracadute a luce rossa\"?",
+      "a": [
+        "sempre.",
+        "solo se sono ben visibili le luci di una nave, di un aeroplano, della costa.",
+        "se si presume la presenza di una nave, di un aeroplano, della costa."
+      ],
+      "c": 2,
+      "id": "1.3.9-6"
+    },
+    {
+      "q": "In caso di richiesta di soccorso, in che occasione si utilizzano i \"fuochi a mano a luce rossa\"?",
+      "a": [
+        "se sono ben visibili le luci di una nave, di un aeroplano, della costa.",
+        "se si presume la presenza di una nave, di un aeroplano o della costa.",
+        "sempre."
+      ],
+      "c": 0,
+      "id": "1.3.9-7"
+    },
+    {
+      "q": "Di norma, i razzi a paracadute a luce rossa, quando sparati in aria raggiungono una quota minima:",
+      "a": [
+        "di 50 metri.",
+        "di 100 metri.",
+        "di 300 metri."
+      ],
+      "c": 2,
+      "id": "1.3.9-9"
+    }
+  ],
+  "epirb-radar-binocolo-e-radio-vhf-dotazioni-obbligatorie": [
+    {
+      "q": "Per un'imbarcazione da diporto quando è obbligatorio l'uso dell'apparato VHF?",
+      "a": [
+        "sempre.",
+        "solo quando si naviga fuori dalle acque territoriali.",
+        "quando naviga oltre le 6 miglia nautiche dalla costa."
+      ],
+      "c": 2,
+      "id": "1.3.3-1"
+    },
+    {
+      "q": "A bordo del natante da diporto, durante la navigazione entro le 6 miglia dalla costa, quanti estintori devono essere presenti a bordo?",
+      "a": [
+        "almeno 1.",
+        "non meno di 2.",
+        "non più di 4."
+      ],
+      "c": 0,
+      "id": "1.3.3-2"
+    },
+    {
+      "q": "L'E.P.I.R.B. (Emergency Position Indicator Radio Beacon) è obbligatorio:",
+      "a": [
+        "entro 12 miglia dalla costa.",
+        "entro 50 miglia dalla costa.",
+        "oltre 50 miglia dalla costa."
+      ],
+      "c": 2,
+      "id": "1.3.3-22"
+    },
+    {
+      "q": "Il riflettore radar è obbligatorio quando le imbarcazioni navigano:",
+      "a": [
+        "oltre 12 miglia dalla costa:",
+        "entro 6 miglia dalla costa.",
+        "entro 12 miglia dalla costa."
+      ],
+      "c": 0,
+      "id": "1.3.3-24"
+    },
+    {
+      "q": "E' obbligatorio il radar?",
+      "a": [
+        "si, sempre.",
+        "si solo oltre le 12 miglia dalla costa.",
+        "no, ma è consigliato per la navigazione notturna."
+      ],
+      "c": 2,
+      "id": "1.3.3-30"
+    },
+    {
+      "q": "Quali sono i range di dotazioni corrette per fanali e segnali luminosi?",
+      "a": [
+        "fino a 3 miglia, fino a 6 miglia, fino a 12 miglia, fino a 50 miglia, senza limiti dalla costa.",
+        "fino a 12 miglia, oltre 12 miglia dalla costa.",
+        "fino a 6 miglia, fino a 50 miglia, senza limiti dalla costa."
+      ],
+      "c": 0,
+      "id": "1.3.3-31"
+    },
+    {
+      "q": "Per un'imbarcazione da diporto quando è obbligatorio l'uso dell'EPIRB?",
+      "a": [
+        "quando naviga entro le 24 miglia nautiche dalla costa.",
+        "quando naviga oltre le 50 miglia nautiche dalla costa.",
+        "quando naviga entro le 50 miglia nautiche dalla costa."
+      ],
+      "c": 1,
+      "id": "1.3.3-34"
+    },
+    {
+      "q": "Per un'imbarcazione da diporto che naviga entro le 12 miglia nautiche dalla costa è obbligatorio avere a bordo la zattera di salvataggio (non costiera)?",
+      "a": [
+        "no, fino ad un massimo di sei persone a bordo.",
+        "sì, sempre.",
+        "No."
+      ],
+      "c": 2,
+      "id": "1.3.3-39"
+    },
+    {
+      "q": "Per un'imbarcazione da diporto quando è obbligatorio l'uso dell'apparato VHF?",
+      "a": [
+        "quando naviga entro le 6 miglia nautiche dalla costa.",
+        "quando è autorizzata alla navigazione occasionale.",
+        "quando naviga oltre le 6 miglia nautiche dalla costa."
+      ],
+      "c": 2,
+      "id": "1.3.3-40"
+    },
+    {
+      "q": "Per un'imbarcazione da diporto quando è obbligatorio l'uso del binocolo?",
+      "a": [
+        "sempre.",
+        "quando naviga entro le 12 miglia nautiche dalla costa.",
+        "quando naviga oltre le 12 miglia nautiche dalla costa."
+      ],
+      "c": 2,
+      "id": "1.3.3-43"
+    }
+  ],
+  "cinture-di-salvataggio-giubbotti-e-mezzi-di-salvataggio-collettivi": [
+    {
+      "q": "Quali delle seguenti dotazioni devono essere obbligatoriamente a bordo di un'imbarcazione da diporto che naviga entro 12 miglia dalla costa?",
+      "a": [
+        "1 orologio.",
+        "1 bussola e tabelle delle deviazioni bussola.",
+        "1 binocolo."
+      ],
+      "c": 1,
+      "id": "1.3.3-5"
+    },
+    {
+      "q": "Secondo il Regolamento per la sicurezza della navigazione da diporto, quante boette fumogene deve avere un'imbarcazione abilitata a navigare entro le 12 miglia dalla costa?",
+      "a": [
+        "1",
+        "2",
+        "3"
+      ],
+      "c": 1,
+      "id": "1.3.3-7"
+    },
+    {
+      "q": "Su un’unità con a bordo 4 persone, abilitata al trasporto di 8 persone, quante cinture di salvataggio devono essere presenti?",
+      "a": [
+        "12",
+        "8",
+        "4"
+      ],
+      "c": 2,
+      "id": "1.3.3-19"
+    },
+    {
+      "q": "La quantità di cinture di salvataggio da tenere a bordo:",
+      "a": [
+        "deve essere il 20% in più del numero massimo di persone imbarcabili.",
+        "è in relazione al numero di persone imbarcate.",
+        "è in relazione al numero massimo di persone imbarcabili."
+      ],
+      "c": 1,
+      "id": "1.3.3-27"
+    },
+    {
+      "q": "Su quale documento è riportato il numero delle persone trasportabili sui natanti da diporto prodotti in serie?",
+      "a": [
+        "certificato di stazza.",
+        "certificazione di omologazione.",
+        "manuale del proprietario."
+      ],
+      "c": 1,
+      "id": "1.3.3-37"
+    },
+    {
+      "q": "A che distanza dalla costa i conduttori di tavole a vela hanno l'obbligo di indossare il mezzo di salvataggio individuale?",
+      "a": [
+        "entro 1 miglia dalla costa.",
+        "indipendentemente dalla distanza dalla costa.",
+        "entro 300 metri dalla costa."
+      ],
+      "c": 1,
+      "id": "1.3.3-38"
+    },
+    {
+      "q": "I conduttori di tavole a vela, acquascooter e unità similari:",
+      "a": [
+        "indossano permanentemente un mezzo di salvataggio individuale, comprese le persone trasportate, indipendentemente dalla distanza dalla costa in cui la navigazione si svolge.",
+        "indossano permanentemente un mezzo di salvataggio individuale, indipendentemente dalla distanza dalla costa in cui la navigazione si svolge, a esclusione delle persone trasportate.",
+        "indossano permanentemente un mezzo di salvataggio individuale, esclusivamente in navigazione entro le sei miglia nautiche dalla costa, incluse le persone trasportate."
+      ],
+      "c": 0,
+      "id": "1.3.3-44"
+    },
+    {
+      "q": "Quale tra queste affermazioni è corretta?",
+      "a": [
+        "le unità da diporto in navigazione entro le 12 miglia nautiche dalla costa devono essere dotate di una cassetta di pronto soccorso.",
+        "le unità da diporto in navigazione oltre le 12 miglia nautiche dalla costa devono essere dotate di una cassetta di pronto soccorso.",
+        "le unità da diporto in navigazione entro le 3 miglia nautiche dalla costa devono essere dotate di una cassetta di pronto soccorso."
+      ],
+      "c": 1,
+      "id": "1.3.3-48"
+    },
+    {
+      "q": "In base alla Tabella delle dotazioni di sicurezza minime da tenere a bordo (Allegato V al DM 146/2008), i fanali regolamentari di navigazione sono obbligatoriamente prescritti:",
+      "a": [
+        "in navigazione notturna entro 1 miglio dalla costa.",
+        "in navigazione notturna oltre 1 miglio dalla costa.",
+        "comunque e sempre, a prescindere dal tipo di navigazione effettuata."
+      ],
+      "c": 1,
+      "id": "1.3.3-8"
+    },
+    {
+      "q": "L’obbligo di legge di avere una cintura di salvataggio per ogni persona imbarcata è prescritto:",
+      "a": [
+        "non è prescritto per i natanti da diporto a motore.",
+        "per ogni tipo di navigazione oltre i 300 metri dalla costa.",
+        "per la navigazione entro le 12 miglia dalla costa."
+      ],
+      "c": 1,
+      "id": "1.3.3-12"
+    },
+    {
+      "q": "Per le imbarcazioni da diporto in navigazione entro le 3 miglia dalla costa, quale mezzo collettivo di salvataggio è prescritto?",
+      "a": [
+        "non è previsto il mezzo collettivo di salvataggio.",
+        "1 zattera di salvataggio costiera.",
+        "1 zattera di salvataggio omologata."
+      ],
+      "c": 0,
+      "id": "1.3.3-13"
+    },
+    {
+      "q": "In navigazione entro 300 metri dalla costa non vi è obbligo di alcuna dotazione di sicurezza e di salvataggio. Quanto detto vale anche per la navigazione nei fiumi?",
+      "a": [
+        "si, in quanto trattasi di navigazione fluviale, essa è considerata più sicura rispetto alla navigazione in mare.",
+        "no, bisogna avere a bordo almeno 1 salvagente anulare con cima e cinture di salvataggio per ogni persona presente a bordo.",
+        "no, sono sufficienti almeno 2 salvagenti anulari con cima."
+      ],
+      "c": 1,
+      "id": "1.3.3-15"
+    }
+  ],
+  "cassetta-di-pronto-soccorso-e-dotazioni-sanitarie": [
+    {
+      "q": "Quali sono i medicinali e gli oggetti di medicazione di cui devono essere provviste le unità navali da diporto?",
+      "a": [
+        "sono stabilite nel Regolamento di esecuzione al Codice della navigazione.",
+        "sono fissate nel decreto 1° ottobre 2015 del Ministero della Salute.",
+        "sono stabilite dal comandante dell'unità."
+      ],
+      "c": 1,
+      "id": "1.3.3-45"
+    },
+    {
+      "q": "Le dotazione minima indispensabile del materiale sanitario di cui devono essere dotate le imbarcazioni da diporto impiegate in attività di noleggio \"senza limiti\" dalla costa è la medesima di quella delle unità non impiegate in attività di noleggio?",
+      "a": [
+        "si.",
+        "no, è fissata in un apposita tabella.",
+        "si, ma raddoppia la dotazione di cotone."
+      ],
+      "c": 1,
+      "id": "1.3.3-46"
+    },
+    {
+      "q": "Qual è la Tabella delle dotazioni contenente la quantità minima indispensabile del materiale sanitario di cui devono essere dotate le imbarcazioni da diporto abilitate alla navigazione senza alcun limite, senza personale imbarcato e non impiegate in attività di noleggio?",
+      "a": [
+        "Tabella \"A\".",
+        "Tabella \"B\".",
+        "Tabella \"D\"."
+      ],
+      "c": 2,
+      "id": "1.3.3-47"
+    },
+    {
+      "q": "La cassetta di pronto soccorso:",
+      "a": [
+        "è dimensionata al numero di persone trasportabili dall'unità.",
+        "è obbligatoria oltre le 6 miglia.",
+        "contiene medicinali e dotazioni previste da apposito decreto ministeriale."
+      ],
+      "c": 2,
+      "id": "1.3.3-10"
+    },
+    {
+      "q": "In caso di un grave infortunio occorso ad un membro dell'equipaggio durante la navigazione, quale Ente sarà opportuno contattare il prima possibile?",
+      "a": [
+        "guardia medica più vicina.",
+        "Centro Internazionale Radio Medico (CIRM).",
+        "Croce Rossa internazionale."
+      ],
+      "c": 1,
+      "id": "1.3.2.113"
+    }
+  ],
+  "certificato-di-sicurezza-rilascio-visite-rinnovo-e-convalida": [
+    {
+      "q": "Dove è possibile convalidare il certificato di sicurezza?",
+      "a": [
+        "presso qualsiasi agenzia di sicurezza per la navigazione.",
+        "non è possibile convalidare il certificato di sicurezza.",
+        "presso qualsiasi STED (Sportello Telematico del Diportista) in seguito alla visita ispettiva dell'Organismo tecnico."
+      ],
+      "c": 2,
+      "id": "1.3.4-1"
+    },
+    {
+      "q": "Un'unità da diporto deve essere sottoposta a visita occasionale:",
+      "a": [
+        "solo se l'unità viene messa a mare dopo essere stata a secco.",
+        "solo se l'unità viene fermata per un controllo della Capitaneria di porto - Guardia costiera.",
+        "a seguito di danni o mutamenti dello scafo o dell'apparato motore, se sono mutate le condizioni di navigabilità o di sicurezza."
+      ],
+      "c": 2,
+      "id": "1.3.4-2"
+    },
+    {
+      "q": "Un'imbarcazione da diporto munita di Marcatura CE, è soggetta a visite:",
+      "a": [
+        "periodiche ed occasionali.",
+        "solo su richiesta dell'Autorità marittima.",
+        "in caso di ritiro della licenza di navigazione."
+      ],
+      "c": 0,
+      "id": "1.3.4-3"
+    },
+    {
+      "q": "Quali unità da diporto sono soggette alle visite periodiche di sicurezza?",
+      "a": [
+        "solo le imbarcazioni da diporto.",
+        "solo i natanti da diporto.",
+        "solo le imbarcazioni e le navi da diporto."
+      ],
+      "c": 2,
+      "id": "1.3.4-4"
+    },
+    {
+      "q": "Il certificato di sicurezza per imbarcazioni da diporto è rilasciato:",
+      "a": [
+        "dall'Archivio telematico delle unità da diporto attraverso lo STED, Sportello telematico del diportista",
+        "dalla ditta costruttrice.",
+        "dall'Organismo tecnico notificato o autorizzato."
+      ],
+      "c": 0,
+      "id": "1.3.4-5"
+    },
+    {
+      "q": "La convalida del Certificato di Sicurezza di un'imbarcazione da diporto va effettuata:",
+      "a": [
+        "ogni qualvolta viene varata.",
+        "ogni 20 anni.",
+        "nel caso in cui l'unità abbia subito gravi avarie o siano state apportate innovazioni."
+      ],
+      "c": 2,
+      "id": "1.3.4-11"
+    },
+    {
+      "q": "Quali tra questi requisiti sono necessari per il rinnovo del Certificato di Sicurezza di un'unità da diporto?",
+      "a": [
+        "rilascio di apposita attestazione di idoneità da parte della Motorizzazione Civile territoriale.",
+        "rilascio di apposita attestazione di idoneità da parte di un Organismo Tecnico affidato.",
+        "rilascio di apposita attestazione di idoneità da parte dell'Ufficio Marittimo."
+      ],
+      "c": 1,
+      "id": "1.3.4-12"
+    },
+    {
+      "q": "Il Certificato di Sicurezza:",
+      "a": [
+        "si rinnova di diritto ogni 3 anni.",
+        "si rinnova ogni 5 anni.",
+        "si rinnova quando richiesto dall'Organismo Tecnico affidato."
+      ],
+      "c": 1,
+      "id": "1.3.4-13"
+    },
+    {
+      "q": "Il Certificato di Sicurezza di un'unità da diporto, in caso di primo rilascio:",
+      "a": [
+        "ha validità di otto anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione A e B.",
+        "ha validità di cinque anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione A e B.",
+        "ha validità di cinque anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione A, B e C."
+      ],
+      "c": 0,
+      "id": "1.3.4-14"
+    },
+    {
+      "q": "Il Certificato di Sicurezza di un'unità da diporto, in caso di primo rilascio,",
+      "a": [
+        "ha validità di otto anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione C e D.",
+        "ha validità di dieci anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione C e D.",
+        "ha validità di cinque anni dall'immatricolazione per le unità appartenenti alle categorie di progettazione B, C e D."
+      ],
+      "c": 1,
+      "id": "1.3.4-15"
+    },
+    {
+      "q": "Il certificato di sicurezza di un'unità da diporto:",
+      "a": [
+        "riporta il certificato di stazza per le imbarcazioni non omologate.",
+        "è rinnovato con cadenza annuale.",
+        "è rinnovato in occasione delle visite periodiche."
+      ],
+      "c": 2,
+      "id": "1.3.4-16"
+    },
+    {
+      "q": "Un'unità da diporto munita di marcatura CE classe B effettua la prescritta visita periodica dopo:",
+      "a": [
+        "10 anni dalla data di immatricolazione; le successive ogni 5 anni.",
+        "8 anni dalla data di immatricolazione; le successive ogni 5 anni.",
+        "10 anni dalla data di costruzione; le successive ogni 8 anni."
+      ],
+      "c": 1,
+      "id": "1.3.4-17"
+    },
+    {
+      "q": "In quale documento viene annotato l'esito della visita eseguita dall'Organismo Tecnico notificato o autorizzato?",
+      "a": [
+        "certificato di sicurezza.",
+        "licenza di navigazione.",
+        "manuale del proprietario."
+      ],
+      "c": 0,
+      "id": "1.3.4-18"
+    },
+    {
+      "q": "Quale affermazione è vera tra le alternative di risposta sotto riportate?",
+      "a": [
+        "la patente nautica è sempre obbligatoria.",
+        "il certificato di sicurezza è soggetto a scadenza.",
+        "la licenza di navigazione è soggetta a scadenza."
+      ],
+      "c": 1,
+      "id": "1.3.4-19"
+    },
+    {
+      "q": "Nel corso della visita iniziale di sicurezza, l'Organismo tecnico notificato o autorizzato:",
+      "a": [
+        "rilascia la licenza di esercizio RTF.",
+        "determina il numero massimo delle persone trasportabili.",
+        "rilascia la Licenza di Navigazione."
+      ],
+      "c": 1,
+      "id": "1.3.4-6"
+    },
+    {
+      "q": "L'imbarcazione da diporto iscritta è sottoposta a visita occasionale:",
+      "a": [
+        "l'unità stessa viene iscritta in un registro straniero.",
+        "l'unità stessa deve affrontare una navigazione di trasferimento.",
+        "se ne verifica la necessità."
+      ],
+      "c": 2,
+      "id": "1.3.4-7"
+    },
+    {
+      "q": "Superata la prima scadenza del certificato di sicurezza, ogni quanti anni deve essere sottoposta a visita un'imbarcazione da diporto ai fini del rinnovo del certificato medesimo?",
+      "a": [
+        "8 anni.",
+        "5 anni.",
+        "10 anni."
+      ],
+      "c": 1,
+      "id": "1.3.4-8"
+    },
+    {
+      "q": "La licenza è sottoposta a convalida?",
+      "a": [
+        "si, ogni 3 anni.",
+        "si, ogni 5 anni.",
+        "no, si convalida il certificato di sicurezza."
+      ],
+      "c": 2,
+      "id": "1.3.4-9"
+    },
+    {
+      "q": "I natanti da diporto sono soggetti al rilascio del certificato di sicurezza?",
+      "a": [
+        "sì, ogni 3 anni.",
+        "sì, ogni 5 anni.",
+        "no, non sono soggetti."
+      ],
+      "c": 2,
+      "id": "1.3.4-10"
+    }
+  ],
+  "falla-e-incaglio-gestione-e-manovre": [
+    {
+      "q": "In caso di falla irreparabile a bordo, il Comandante lancia via radio il:",
+      "a": [
+        "PAN PAN e mette l'equipaggio alle pompe di sentina.",
+        "SECURITE' ed aspetta i soccorsi.",
+        "MAYDAY e opera per la salvezza delle persone a bordo."
+      ],
+      "c": 2,
+      "id": "1.3.5-1"
+    },
+    {
+      "q": "In caso di falla, quale operazione è la più corretta tra quelle riportate nelle seguenti alternative risposta:",
+      "a": [
+        "imbarcare acqua per compensare la pressione.",
+        "tamponare la falla dall’esterno in modo che la pressione dell’acqua non faccia spostare il “tappo” di fortuna.",
+        "sbandare l'unità sul lato della falla."
+      ],
+      "c": 1,
+      "id": "1.3.6-1"
+    },
+    {
+      "q": "Quando può verificarsi l'incaglio volontario?",
+      "a": [
+        "quando si arrestano gli apparati di radio comunicazione.",
+        "quando si decide volontariamente di disattivare gli apparati di radio navigazione.",
+        "quando si conduce volontariamente l'unità navale ad incagliarsi per scongiurare un potenziale naufragio derivante da una falla, un incendio o una collisione con un'altra unità."
+      ],
+      "c": 2,
+      "id": "1.3.6-2"
+    },
+    {
+      "q": "Quali fattori devono essere tenuti in debita considerazione per procedere alle operazioni di disincaglio?",
+      "a": [
+        "tipo e rilievo dei fondali, entità dell'avaria subita, manovra più idonea da porre in essere in relazione alle caratteristiche dell'unità e del luogo in cui si è verificato il sinistro.",
+        "altezza del bordo libero.",
+        "tipo di timone di cui dispone l'unità navale."
+      ],
+      "c": 0,
+      "id": "1.3.6-3"
+    },
+    {
+      "q": "Avuto riguardo all'incaglio, quale tra queste affermazioni è corretta?",
+      "a": [
+        "l'incaglio può derivare a seguito della caduta di un uomo in mare.",
+        "l'incaglio può derivare a seguito della eccessiva cavitazione dell'elica.",
+        "l'incaglio può derivare da una scarsa accuratezza nella determinazione del punto nave in prossimità della costa."
+      ],
+      "c": 2,
+      "id": "1.3.6-4"
+    },
+    {
+      "q": "Avuto riguardo alla falla, quale tra queste affermazioni è corretta?",
+      "a": [
+        "se si verifica una falla nella parte prodiera è opportuno arrestare il moto dell'unità navale per evitare che l'avanzamento della stessa possa incrementare l'afflusso d'acqua nel suo interno.",
+        "se si verifica una falla a prua è opportuno aumentare la velocità dell'unità navale per diminuire il flusso dell'acqua che tende ad allagare i compartimenti prodieri.",
+        "se si verifica una falla a prua è opportuno spostare i pesi longitudinalmente verso proravia."
+      ],
+      "c": 0,
+      "id": "1.3.6-5"
+    },
+    {
+      "q": "Quale tra queste procedure può essere effettuata nel caso in cui un'unità abbia subito una falla di lieve entità?",
+      "a": [
+        "azionare la pompa di alimentazione.",
+        "azionare la pompa di sentina.",
+        "azionare la pompa di iniezione."
+      ],
+      "c": 1,
+      "id": "1.3.6-6"
+    },
+    {
+      "q": "Quale tra queste affermazioni è corretta?",
+      "a": [
+        "a seguito della presenza di una falla può aumentare la rigidità dello scafo dovuta all'effetto osmotico.",
+        "la falla può compromettere la galleggiabilità dell'unità navale in quanto si verifica una riduzione della riserva di spinta dell'unità stessa.",
+        "a seguito della presenza di una falla può aumentare la rigidità del fasciame dovuta all'effetto capillare."
+      ],
+      "c": 1,
+      "id": "1.3.6-7"
+    },
+    {
+      "q": "Quale soluzione può essere adottata al fine di disincagliare un'unità navale?",
+      "a": [
+        "attendere il sopraggiungere dell'alta marea.",
+        "mettere in folle il motore.",
+        "imbarcare pesi lungo la verticale del punto d'incaglio."
+      ],
+      "c": 0,
+      "id": "1.3.6-8"
+    },
+    {
+      "q": "Quale accorgimento può essere adottato al fine di ostruire al meglio una falla di notevoli dimensioni?",
+      "a": [
+        "travasare carburante nella zona ubicata a proravia della linea trasversale dell'unità navale.",
+        "tamponare la via d'acqua servendosi di materiali ingombranti quali, tele cerate, materassi ecc..",
+        "limitare l'ingresso d'acqua dalla falla sbandando l'unità navale sul medesimo lato a quello dove si è verificata la stessa."
+      ],
+      "c": 1,
+      "id": "1.3.6-9"
+    },
+    {
+      "q": "Quale tra le seguenti manovre può essere la più efficace per limitare i danni allorquando due unità sono in procinto di collidere?",
+      "a": [
+        "appennellare l'ancora e filare a mare l'ancora galleggiante.",
+        "azionare preventivamente tutti gli apparati di radiocomunicazione.",
+        "fermare il motore ed eventualmente ingranare la marcia indietro accostando contemporaneamente, per attenuare l'impatto."
+      ],
+      "c": 2,
+      "id": "1.3.6-10"
+    }
+  ],
+  "incendio-a-bordo-gestione-dell-emergenza-e-manovre": [
+    {
+      "q": "Si sviluppa un incendio a bordo e siamo in vicinanza di un porto: è giusto accelerare per raggiungere al più presto il porto?",
+      "a": [
+        "no.",
+        "sì, se il porto è attrezzato per l'estinzione di incendi a bordo di unità.",
+        "sì, sempre."
+      ],
+      "c": 0,
+      "id": "1.3.6-11"
+    },
+    {
+      "q": "In caso di incendio nel vano motore, è necessario:",
+      "a": [
+        "per prima cosa tentare di chiudere la valvola del carburante.",
+        "aerare il più possibile il vano motore per spegnere le fiamme.",
+        "per prima cosa porre l'imbarcazione con le fiamme sopravento."
+      ],
+      "c": 0,
+      "id": "1.3.6-12"
+    },
+    {
+      "q": "In caso di incendio in coperta, è essenziale:",
+      "a": [
+        "porre l'imbarcazione con le fiamme sottovento.",
+        "spegnere il motore.",
+        "scollegare le batterie."
+      ],
+      "c": 0,
+      "id": "1.3.6-13"
+    },
+    {
+      "q": "In caso d'incendio con fiamma alta, dove dirigiamo il getto dell'estintore?",
+      "a": [
+        "sopra le fiamme in modo tale da allontanare anche il fumo.",
+        "al centro della fiamma.",
+        "alla base della fiamma."
+      ],
+      "c": 2,
+      "id": "1.3.6-14"
+    },
+    {
+      "q": "In caso di grave incendio a bordo:",
+      "a": [
+        "bisogna porre subito l'imbarcazione con le fiamme sopravento.",
+        "appronto le procedure per l'abbandono nave.",
+        "bisogna spegnere immediatamente le strumentazioni di bordo."
+      ],
+      "c": 1,
+      "id": "1.3.6-15"
+    },
+    {
+      "q": "Il comandante a bordo, in caso di incendio, che ordine primario deve dare?",
+      "a": [
+        "gettate subito acqua sul fuoco.",
+        "indossare i giubbetti di salvataggio e allontanarsi dall'incendio.",
+        "abbandonare l'unità."
+      ],
+      "c": 1,
+      "id": "1.3.6-17"
+    },
+    {
+      "q": "C'è un incendio al vano poppiero motore, conduco l'unità in modo da:",
+      "a": [
+        "mettere la prora sottovento.",
+        "mettere l’incendio sottovento.",
+        "mettere l’incendio sopravento."
+      ],
+      "c": 1,
+      "id": "1.3.6-18"
+    },
+    {
+      "q": "In caso di incendio, mentre si manovra in porto, il primo intervento più opportuno è quello di:",
+      "a": [
+        "spegnere il motore e richiedere soccorso emettendo 5 o più suoni brevi.",
+        "tentare di allontanare l'unità dal porto operando per lo spegnimento.",
+        "dirigersi rapidamente verso l'ormeggio più vicino per ricevere dai servizi portuali l'aiuto allo spegnimento."
+      ],
+      "c": 1,
+      "id": "1.3.6-19"
+    },
+    {
+      "q": "A quale funzione assolve la ventilazione forzata a bordo delle unità navali da diporto dotate di motore a benzina?",
+      "a": [
+        "assicurare, prima dell'avvio del motore, il completo ricambio dell'aria.",
+        "sovralimentare l'impianto di alimentazione del carburante.",
+        "mantenere costante la temperatura della testata dell'apparato motore."
+      ],
+      "c": 0,
+      "id": "1.3.6-20"
+    },
+    {
+      "q": "Quale accorgimento è necessario adottare se l'incendio si sviluppa nella zona poppiera dell'unità navale?",
+      "a": [
+        "orientare la poppa al vento.",
+        "prendere il mare al giardinetto.",
+        "orientare la prua al vento."
+      ],
+      "c": 2,
+      "id": "1.3.6-22"
+    },
+    {
+      "q": "Quali contromisure possono essere adottate in caso di incendio sviluppatosi nel locale apparato motore?",
+      "a": [
+        "chiudere immediatamente le vie d'aria e l'alimentazione del combustibile.",
+        "azionare immediatamente le turbine di sovralimentazione per favorire l'estinzione dell'incendio.",
+        "aprire tutti i boccaporti del locale motore per favorirne l'aerazione."
+      ],
+      "c": 0,
+      "id": "1.3.6-24"
+    },
+    {
+      "q": "Quale manovra può essere adottata in caso di incendio verificatosi nella zona prodiera di un'unità navale da diporto?",
+      "a": [
+        "porre la prora al vento e quindi la poppa sottovento.",
+        "incrementare repentinamente la velocità dell'unità navale.",
+        "porre la poppa al vento e quindi la prora sottovento."
+      ],
+      "c": 2,
+      "id": "1.3.6-25"
+    }
+  ],
+  "uomo-a-mare-manovre-di-recupero-e-precauzioni": [
+    {
+      "q": "Durante la manovra a motore di recupero di uomo a mare, come deve essere effettuato l'avvicinamento finale verso il naufrago?",
+      "a": [
+        "a velocità costante.",
+        "rapidamente, riducendo la velocità con l'elica a marcia indietro quando giunti in prossimità del naufrago, possibilmente sgasando.",
+        "con prudenza, dopo aver smaltito la velocità iniziale."
+      ],
+      "c": 2,
+      "id": "1.3.6-28"
+    },
+    {
+      "q": "Quali tra queste azioni è la più opportuna da compiere in caso di uomo in mare?",
+      "a": [
+        "arrestare immediatamente i motori dell'unità navale ingranando la marcia indietro.",
+        "aumentare al massimo la velocità con il timone alla banda per compiere un'evoluzione di 360° per fini perlustrativi.",
+        "lanciare il salvagente anulare presente a bordo in direzione del naufrago."
+      ],
+      "c": 2,
+      "id": "1.3.6-29"
+    },
+    {
+      "q": "Un uomo cade in mare di prora lato dritto, da una imbarcazione che procede a motore, quale delle tre manovre in figura a fianco è corretta?",
+      "a": [
+        "la manovra in figura A.",
+        "la manovra in figura B.",
+        "la manovra in figura C."
+      ],
+      "c": 1,
+      "id": "1.3.6-30",
+      "img": "immagini/19.png"
+    },
+    {
+      "q": "Al grido ”uomo in mare a ... (sinistra o a dritta)”:",
+      "a": [
+        "si accosta rapidamente dallo stesso lato dell’uomo in mare.",
+        "si accosta rapidamente dal lato opposto dell’uomo in mare.",
+        "si accelera per recuperare rapidamente l'uomo a mare, accostando indifferentemente a dritta oppure a sinistra."
+      ],
+      "c": 0,
+      "id": "1.3.6-31"
+    },
+    {
+      "q": "Quale tra queste precauzioni è la più opportuna adottare in caso di uomo in mare?",
+      "a": [
+        "dare fondo all'ancora.",
+        "mantenere un costante controllo visivo del naufrago.",
+        "collocare tutti i parabordi lungo l'opera morta."
+      ],
+      "c": 1,
+      "id": "1.3.6-32"
+    },
+    {
+      "q": "Qual è il motivo per cui in caso di uomo a mare si accosta tempestivamente dallo stesso lato dal quale è caduto il naufrago?",
+      "a": [
+        "per allontanare subito le eliche dell'unità quanto più possibile dal naufrago.",
+        "per orientare l'unità controvento.",
+        "per offrire al naufrago il ridosso dagli agenti meteomarini."
+      ],
+      "c": 0,
+      "id": "1.3.6-33"
+    },
+    {
+      "q": "Qual è il motivo per cui è opportuno mantenere il controllo visivo del naufrago subito dopo la sua caduta in mare?",
+      "a": [
+        "confortare il naufrago rassicurandolo circa l'intendimento dell'unità navale di trarlo in salvo.",
+        "per determinare la lunghezza di cima necessaria per lanciare il salvagente individuale.",
+        "agevolare le operazioni di recupero del naufrago durante la manovra evolutiva effettuata dall'unità, scongiurando il rischio che lo stesso possa disperdersi."
+      ],
+      "c": 2,
+      "id": "1.3.6-34"
+    },
+    {
+      "q": "Quale tra queste azioni è la più opportuna intraprendere durante le fasi di recupero di un uomo caduto in mare da un'unità navale?",
+      "a": [
+        "dare fondo all'ancora per mantenere fissa la posizione dell'unità navale durante le operazioni di recupero.",
+        "filare a mare l'ancora galleggiante in modo da mantenere la prua al vento durante le operazioni di recupero.",
+        "lanciare in mare il salvagente anulare quanto più possibile nelle vicinanze del naufrago per agevolarne il recupero."
+      ],
+      "c": 2,
+      "id": "1.3.6-35"
+    },
+    {
+      "q": "Nel caso in cui un membro dell'equipaggio cada in mare dal lato dritto dell'unità:",
+      "a": [
+        "occorre accostare immediatamente a sinistra mantenendo un adeguato servizio di vedetta sul medesimo lato al fine di prevenire eventuali collisioni con altre unità navali o ostacoli posti nelle immediate vicinanze.",
+        "si deve mettere immediatamente a folle il motore e successivamente ingranarlo a marcia indietro al fine di allontanarsi il meno possibile dal naufrago.",
+        "occorre accostare immediatamente il timone a dritta mantenendo il costante controllo visivo del naufrago."
+      ],
+      "c": 2,
+      "id": "1.3.6-36"
+    }
+  ],
+  "abbandono-nave-zattera-di-salvataggio-grab-bag-e-soccorso-marittimo": [
+    {
+      "q": "In caso di sinistro e conseguente abbandono dell'unità il comandante:",
+      "a": [
+        "spegne il motore.",
+        "fa indossare a ciascuna persona a bordo il giubbotto di salvataggio.",
+        "prepara le bandiere di segnalamento."
+      ],
+      "c": 1,
+      "id": "1.3.7-1"
+    },
+    {
+      "q": "In caso di abbandono dell'imbarcazione:",
+      "a": [
+        "per prima cosa si lancia la zattera in mare.",
+        "la sagola della zattera deve essere fissata alla barca, prima di lanciarla in acqua.",
+        "si gonfia il tender."
+      ],
+      "c": 1,
+      "id": "1.3.7-2"
+    },
+    {
+      "q": "In quale posizione non è opportuno posizionare la zattera di salvataggio?",
+      "a": [
+        "sottocoperta.",
+        "sulla tuga.",
+        "sul pulpito di poppa."
+      ],
+      "c": 0,
+      "id": "1.3.7-3"
+    },
+    {
+      "q": "In quale posizione non è opportuno posizionare la zattera di salvataggio?",
+      "a": [
+        "in un vano ricavato nello specchio di poppa.",
+        "in un gavone chiuso in posizione difficilmente raggiungibile.",
+        "sulla tuga."
+      ],
+      "c": 1,
+      "id": "1.3.7-4"
+    },
+    {
+      "q": "Il \"Grab Bag\" è:",
+      "a": [
+        "è quel sacco contenente le dotazioni normalmente custodite all'interno della zattera di salvataggio.",
+        "la sacca contente i giubbotti i salvataggio quando sono riposti.",
+        "un'attrezzatura velica."
+      ],
+      "c": 0,
+      "id": "1.3.7-5"
+    },
+    {
+      "q": "Ai sensi del Codice della Navigazione, quale tra queste affermazioni è la più corretta per quanto concerne \"l'abbandono nave\"?",
+      "a": [
+        "il comandante dell'unità ordina \"l'abbandono\" della stessa solo dopo aver accertato di persona che tutti i mezzi suggeriti dall'arte nautica non sono in grado di salvarla.",
+        "il comandante dell'unità ordina \"l'abbandono\" della stessa solo dopo aver verificato di persona che oltre alla presenza di infiltrazioni nello scafo si sia verificata la contemporanea avaria degli organi propulsivi.",
+        "il comandante ordina \"l'abbandono\" della stessa solo dopo aver verificato di persona il mancato funzionamento di tutti gli apparati di navigazione."
+      ],
+      "c": 0,
+      "id": "1.3.7-11"
+    },
+    {
+      "q": "In caso di urto tra due o più unità navali, i Comandanti delle stesse sono obbligati a fornire alle altre unità navali coinvolte le notizie per identificare la propria?",
+      "a": [
+        "no.",
+        "si, nei limiti del possibile.",
+        "solo previo accordo tra i Comandanti delle unità navali coinvolte."
+      ],
+      "c": 1,
+      "id": "1.3.7-12"
+    },
+    {
+      "q": "Quale accorgimento deve adottare il comandante dell'unità da diporto prima di ordinare l'abbandono della stessa?",
+      "a": [
+        "accertarsi che tutte le persone imbarcate indossino le cinture di salvataggio e che l'eventuale mezzo collettivo di salvataggio (zattera) sia equipaggiato con le previste dotazioni di sicurezza.",
+        "accertarsi che i serbatoi di carburante siano stati svuotati.",
+        "accertarsi che sia stata intercettata la linea di alimentazione elettrica."
+      ],
+      "c": 0,
+      "id": "1.3.7-13"
+    },
+    {
+      "q": "Il \"Grab Bag\" deve:",
+      "a": [
+        "essere custodito e protetto in un gavone sottocoperta per evitare danneggiamenti al suo contenuto.",
+        "essere tenuto a portata di mano in modo da poter essere lanciato nella zattera di salvataggio in caso di abbandono della barca.",
+        "essere tenuto saldamente legato con una cinghia alla custodia rigida della zattera."
+      ],
+      "c": 1,
+      "id": "1.3.7-6"
+    },
+    {
+      "q": "Cosa si intende per soccorso marittimo?",
+      "a": [
+        "le attività tese a prendere a rimorchio un'unità in avaria.",
+        "tutte le attività finalizzate alla ricerca ed al salvataggio della vita umana in mare.",
+        "l'evacuazione medica a bordo di un'unità."
+      ],
+      "c": 1,
+      "id": "1.3.7-7"
+    },
+    {
+      "q": "Qual è l'organismo nazionale che assicura il coordinamento generale dei servizi di soccorso marittimo?",
+      "a": [
+        "il Comando Generale del Corpo delle Capitanerie di Porto.",
+        "il Dipartimento della Protezione Civile.",
+        "la stazione radio costiera."
+      ],
+      "c": 0,
+      "id": "1.3.7-8"
+    },
+    {
+      "q": "Quando l'Autorità Marittima può ordinare alle unità da diporto di partecipare alle attività di soccorso in mare?",
+      "a": [
+        "quando si trovano in porto o nelle vicinanze.",
+        "solo se in navigazione.",
+        "a prescindere dalla distanza in cui si trovano."
+      ],
+      "c": 0,
+      "id": "1.3.7-9"
+    },
+    {
+      "q": "In quali condizioni è obbligatorio per un comandante di un'unità da diporto prestare assistenza ad un'altra unità in pericolo?",
+      "a": [
+        "quando la distanza tra le due unità non è superiore alle 12 miglia nautiche e quando non sussiste il rischio per l'unità soccorritrice e delle persone ivi imbarcate.",
+        "quando a bordo dell'unita in difficoltà vi sono persone in pericolo di vita e quando non sussiste il rischio per l'unità soccorritrice e delle persone ivi imbarcate.",
+        "quando la distanza tra le due unità non è superiore alle 6 miglia nautiche e quando non sussiste il rischio per l'unità soccorritrice e delle persone ivi imbarcate."
+      ],
+      "c": 1,
+      "id": "1.3.7-10"
+    }
+  ],
+  "navigazione-con-cattivo-tempo-manovre-nebbia-risacca-e-sicurezza": [
+    {
+      "q": "Quale effetto si genera in navigazione abbassando il piede (trim negativo), in un'unità spinta da un motore fuoribordo?",
+      "a": [
+        "l'inclinazione della prua verso il basso per attutire gli impatti sulle onde con il mare formato.",
+        "si migliora il rendimento del circuito di raffreddamento.",
+        "si riduce la possibilità che l'imbarcazione possa ingavonarsi."
+      ],
+      "c": 0,
+      "id": "1.3.8-1"
+    },
+    {
+      "q": "Quali possono essere i principali accorgimenti che un'unità navale da diporto dovrà adottare qualora interessata da un brusco peggioramento delle condizioni meteo-marine?",
+      "a": [
+        "trasferire quanto più possibile il peso a prua.",
+        "chiudere immediatamente la presa a mare del raffreddamento motore ed intercettare la linea di alimentazione.",
+        "rizzare (fissare) tutti gli oggetti di bordo, chiudere accuratamente oblò e osterigi, istruire le persone imbarcate in merito al corretto uso dei mezzi collettivi e individuali di salvataggio."
+      ],
+      "c": 2,
+      "id": "1.3.8-2"
+    },
+    {
+      "q": "Quale accorgimento sarà opportuno adottare in caso di tempesta proveniente dalla terra ferma?",
+      "a": [
+        "appennellare l'ancora.",
+        "dirigersi in sicurezza verso la costa ove il moto ondoso è più attenuato.",
+        "prendere il mare solo al giardinetto."
+      ],
+      "c": 1,
+      "id": "1.3.8-3"
+    },
+    {
+      "q": "Quale accorgimento sarà opportuno adottare in caso di tempesta proveniente dal mare?",
+      "a": [
+        "si cercherà di prendere il mare in poppa.",
+        "condurre l'unità navale alla cappa.",
+        "trasmettere via radio apposito messaggio di soccorso diretto alle unità navali presenti nelle vicinanze."
+      ],
+      "c": 1,
+      "id": "1.3.8-4"
+    },
+    {
+      "q": "Quale accorgimento potrà essere adottato nel caso in cui un'unità navale da diporto navighi con mare particolarmente grosso in poppa causando brusche variazioni del motore?",
+      "a": [
+        "controllare il livello di carburante nel serbatoio.",
+        "aumentare la velocità.",
+        "ridurre opportunamente la velocità."
+      ],
+      "c": 2,
+      "id": "1.3.8-5"
+    },
+    {
+      "q": "In merito alla regolazione dei flaps, con moto ondoso contrario è opportuno:",
+      "a": [
+        "tenerli più o meno abbassati, secondo la tipologia di scafo, per contrastare la tendenza della carena ad alzare la prua a causa della massa d’acqua che scorre sotto la stessa.",
+        "tenerli più o meno alzati, secondo la tipologia di scafo, per aiutare ad alzare la prua e favorire il passaggio sull'onda.",
+        "disattivarli, poiché si tratta di dispositivi da usare solo con mare piatto."
+      ],
+      "c": 0,
+      "id": "1.3.8-11"
+    },
+    {
+      "q": "In merito alla regolazione dei flaps, con mare formato di poppa, è opportuno:",
+      "a": [
+        "disattivarli, poiché si tratta di dispositivi da usare solo con mare piatto.",
+        "tenere i flaps abbassati, per consentire alla prua di alzarsi sull'onda.",
+        "tenere i flaps alzati, per schiacciare la poppa verso il basso, per contrastare l'onda che tende a sollevare la poppa e a far immergere la prua."
+      ],
+      "c": 2,
+      "id": "1.3.8-12"
+    },
+    {
+      "q": "Normalmente, quando l’indicatore del flap è sullo zero, ciò significa:",
+      "a": [
+        "che in quel momento il flap è ”neutro”, ovvero orizzontale, quando invece vengono segnalati dei numeri negativi ciò significa che i flaps sono inclinati verso il basso.",
+        "che è regolato per alzare la prua sull'acqua.",
+        "che è regolato per abbassare la prua sull'acqua."
+      ],
+      "c": 0,
+      "id": "1.3.8-13"
+    },
+    {
+      "q": "In merito alla regolazione dei flaps, è possibile affermare:",
+      "a": [
+        "che possono essere regolati solo in maniera identica.",
+        "che generalmente possono essere regolati in maniera indipendente, così da poter variare non solo la regolazione della prua, ma anche l’equilibrio trasversale.",
+        "che se regolati in maniera indipendente possono compromettere l'equilibrio dell'unità."
+      ],
+      "c": 1,
+      "id": "1.3.8-14"
+    },
+    {
+      "q": "Lo \"stacco di sicurezza\" è:",
+      "a": [
+        "l'interruttore collegato tramite un cordino a spirale rosso (o con un dispositivo elettronico) a chi governa un fuoribordo, che spegne “automaticamente” il motore in caso di caduta in acqua.",
+        "il \"cordone ombelicale\" della cintura di sicurezza con cui ci si assicura allo scafo.",
+        "la valvola di chiusura del carburante."
+      ],
+      "c": 0,
+      "id": "1.3.8-16"
+    },
+    {
+      "q": "Improvvisamente la visibilità diviene scarsa:",
+      "a": [
+        "si emette un segnale acustico prolungato ogni 2 minuti.",
+        "si rallenta, si accendono i fanali e si emettono i segnali prescritti.",
+        "ci si deve fermare."
+      ],
+      "c": 1,
+      "id": "1.3.8-17"
+    },
+    {
+      "q": "Mettersi \"alla Cappa\", significa prendere il mare:",
+      "a": [
+        "di prora in modo da saltare la cresta dell'onda.",
+        "di poppa con motore a un regime tale da far stare l'unità da diporto sempre sulla cresta dell'onda.",
+        "al mascone con motore a un regime tale da consentire al'unità di scarrocciare lasciando sopravento una zona di remora che possa smorzare i frangenti prima di arrivare sulla fiancata sopravento."
+      ],
+      "c": 2,
+      "id": "1.3.8-19"
+    },
+    {
+      "q": "Cos'è la risacca?",
+      "a": [
+        "onde di riflusso.",
+        "è condizione che nasce da mare e vento incrociati.",
+        "è un vento locale di debole intensità."
+      ],
+      "c": 0,
+      "id": "1.3.8-20"
+    },
+    {
+      "q": "In caso di navigazione in solitario:",
+      "a": [
+        "avvisare il 1530.",
+        "indossare la cintura di sicurezza e assicurarsi al ponte.",
+        "accendere le luci di via anche di giorno."
+      ],
+      "c": 1,
+      "id": "1.3.8-22"
+    },
+    {
+      "q": "In caso di navigazione con cattivo tempo, qual è il provvedimento da adottare:",
+      "a": [
+        "si chiudono gli ombrinali.",
+        "si chiudono oblò, boccaporti e prese a mare, lasciando aperta solo quelle del motore.",
+        "si chiudono necessariamente le prese a mare del motore."
+      ],
+      "c": 1,
+      "id": "1.3.8-23"
+    },
+    {
+      "q": "Per attirare l'attenzione di un'altra unità in caso di pericolo:",
+      "a": [
+        "dopo l'installazione è necessaria un'ispezione dell'Autorità Marittima del luogo ove è stata eseguita l'installazione.",
+        "si effettua un movimento lento e ripetuto di entrambe le braccia allargate, dall'alto in basso.",
+        "è necessario il collaudo di un tecnico abilitato appartenente al Ministero dello Sviluppo Economico."
+      ],
+      "c": 1,
+      "id": "1.3.8-24"
+    },
+    {
+      "q": "Navigando in presenza di nebbia fitta, quali fattori possono indicare la possibile vicinanza della costa?",
+      "a": [
+        "aumento della corrente di superficie e brusca riduzione della temperatura dell'acqua.",
+        "mutamento del colore dell'acqua ed il fragore dei frangenti.",
+        "forti escursioni di marea e repentino abbassamento della temperatura delle acque."
+      ],
+      "c": 1,
+      "id": "1.3.8-6"
+    },
+    {
+      "q": "Navigando a motore con mare molto mosso:",
+      "a": [
+        "di poppa, sfrutto la spinta delle onde per aumentare la velocità di fuga.",
+        "faccio il possibile per non prendere le onde al traverso.",
+        "di prora, cerco di tagliare le onde esattamente con la prua."
+      ],
+      "c": 1,
+      "id": "1.3.8-8"
+    },
+    {
+      "q": "Per attenuare l'impatto con l'onda formata:",
+      "a": [
+        "è necessario prendere l'onda al traverso.",
+        "è necessario tagliare la cresta esattamente con la prua perpendicolare all'onda.",
+        "è opportuno puntare leggermente verso la cresta, per poi allontanarsene quando la barca scende nel cavo dell’onda."
+      ],
+      "c": 2,
+      "id": "1.3.8-9"
+    },
+    {
+      "q": "In navigazione con onda di poppa:",
+      "a": [
+        "si tiene il trim positivo (elica più sollevata) per alzare la prua e limitare i colpi sull'onda.",
+        "si tiene il trim neutro, per non alterare l'assetto della barca.",
+        "si tiene il trim negativo, (elica più immersa) per alzare la prua e limitare i colpi sull'onda."
+      ],
+      "c": 0,
+      "id": "1.3.8-10"
+    },
+    {
+      "q": "L’ancora galleggiante:",
+      "a": [
+        "serve a limitare l'intraversamento dell'unità.",
+        "è una dotazione di sicurezza obbligatoria.",
+        "serve a individuare un basso fondale."
+      ],
+      "c": 0,
+      "id": "1.3.8-21"
+    }
+  ],
+  "radio-vhf-utilizzo-procedure-di-soccorso-e-canale-16": [
+    {
+      "q": "Quale titolo abilita il comandante di un'imbarcazione da diporto ad utilizzare un apparato ricetrasmittente VHF/FM?",
+      "a": [
+        "il certificato illimitato di radiotelefonista per navi.",
+        "il certificato limitato di radiotelefonista per naviglio minore.",
+        "nessun titolo."
+      ],
+      "c": 1,
+      "id": "1.3.9-1"
+    },
+    {
+      "q": "Cosa è l'indicativo di chiamata?",
+      "a": [
+        "consente di utilizzare il VHF a bordo di un natante da diporto.",
+        "consente di utilizzare il VHF a bordo di un'imbarcazione da diporto.",
+        "consente di utilizzare il VHF a bordo di una nave da diporto."
+      ],
+      "c": 0,
+      "id": "1.3.9-2"
+    },
+    {
+      "q": "Per installare a bordo un VHF di tipo fisso:",
+      "a": [
+        "dopo l'installazione è necessaria un'ispezione dell'Autorità Marittima del luogo ove è stata eseguita l'installazione.",
+        "è richiesto solo di controllare che l’apparato sia omologato.",
+        "è necessario il collaudo di un tecnico abilitato appartenente al Ministero dello Sviluppo Economico."
+      ],
+      "c": 1,
+      "id": "1.3.9-3"
+    },
+    {
+      "q": "Il nominativo internazionale consente di:",
+      "a": [
+        "identificare un natante da diporto non iscritto che sta navigando al di fuori delle acque nazionali.",
+        "utilizzare l'apparato VHF a bordo di imbarcazioni e navi da diporto.",
+        "utilizzare l'apparato VHF a bordo di un natante da diporto."
+      ],
+      "c": 1,
+      "id": "1.3.9-4"
+    },
+    {
+      "q": "Ogni quanto tempo gli apparati ricetrasmittenti installati a bordo sono sottoposti ad ispezioni ordinarie?",
+      "a": [
+        "ogni 10 anni.",
+        "ogni 5 anni.",
+        "sono esonerati dalle ispezioni ordinarie."
+      ],
+      "c": 2,
+      "id": "1.3.9-5"
+    },
+    {
+      "q": "Chi riceve una richiesta di soccorso:",
+      "a": [
+        "si occupa di coordinare i soccorsi.",
+        "si dirige verso il porto più vicino in cerca di aiuto.",
+        "rilancia la chiamata di soccorso ed eventualmente si adopera per prestare soccorso all'unità in pericolo."
+      ],
+      "c": 2,
+      "id": "1.3.9-11"
+    },
+    {
+      "q": "Da quale parola è preceduta la chiamata di soccorso?",
+      "a": [
+        "PAN PAN ripetuta tre volte.",
+        "SECURITE' ripetuta tre volte.",
+        "MAYDAY ripetuta tre volte."
+      ],
+      "c": 2,
+      "id": "1.3.9-12"
+    },
+    {
+      "q": "Da cosa è preceduta la chiamata di urgenza?",
+      "a": [
+        "la parola MAYDAY ripetuta tre volte.",
+        "le parole PAN PAN ripetute tre volte.",
+        "la parola SECURITE' ripetuta tre volte."
+      ],
+      "c": 1,
+      "id": "1.3.9-13"
+    },
+    {
+      "q": "La procedura per trasmettere correttamente un messaggio di soccorso:",
+      "a": [
+        "il messaggio di soccorso da trasmettere deve essere preceduto dalla parola SECURITE' e seguito dalla parola MAYDAY.",
+        "il messaggio di soccorso da trasmettere deve essere preceduto dalla parola MAYDAY ripetuta tre volte.",
+        "il messaggio di soccorso da trasmettere deve essere seguito dalla parola PAN ripetuta tre volte."
+      ],
+      "c": 1,
+      "id": "1.3.9-14"
+    },
+    {
+      "q": "Da quale parola è preceduta la chiamata di sicurezza?",
+      "a": [
+        "dalla parola SECURITE' ripetuta tre volte.",
+        "dalla parola MAYDAY ripetuta tre volte.",
+        "dalle parole PAN PAN ripetuta tre volte."
+      ],
+      "c": 0,
+      "id": "1.3.9-15"
+    },
+    {
+      "q": "Il Mayday va ripetuto durante la chiamata:",
+      "a": [
+        "1 volta.",
+        "3 volte.",
+        "5 volte."
+      ],
+      "c": 1,
+      "id": "1.3.9-16"
+    },
+    {
+      "q": "L'obbligo del silenzio radio sul canale 16 si ha:",
+      "a": [
+        "non esiste alcun obbligo.",
+        "ogni ora",
+        "nei primi 3 minuti successivi all'inizio dell'ora intera e della mezz'ora."
+      ],
+      "c": 2,
+      "id": "1.3.9-17"
+    },
+    {
+      "q": "Il canale 16 sulla banda di frequenza VHF è utilizzabile:",
+      "a": [
+        "tranquillamente, sempre se non c'è situazione di emergenza.",
+        "solo in caso di comunicazioni riguardanti la sicurezza.",
+        "solo per la prima chiamata; per proseguire la comunicazione bisogna poi spostarsi su un altro canale."
+      ],
+      "c": 2,
+      "id": "1.3.9-18"
+    },
+    {
+      "q": "Nel caso si renda necessario lanciare un MAYDAY via radio:",
+      "a": [
+        "lo si lancia a intervalli di tre minuti.",
+        "lo si lancia sulla frequenza di lavoro della stazione radio più vicina",
+        "si comunicano nell'ordine: nominativo internazionale, coordinate della posizione e tipo di pericolo in corso."
+      ],
+      "c": 2,
+      "id": "1.3.9-19"
+    },
+    {
+      "q": "Come si impone il silenzio radio col VHF ?",
+      "a": [
+        "pronunciando la parola SILENCE MAYDAY.",
+        "pronunciando la parola SECURITÈ.",
+        "pronunciando la parola PAN PAN."
+      ],
+      "c": 0,
+      "id": "1.3.9-20"
+    },
+    {
+      "q": "Per le comunicazioni tra barca e barca si possono usare i canali",
+      "a": [
+        "i canali 16 e 68.",
+        "i canali 6, 8, 72 o 77.",
+        "il canale 14."
+      ],
+      "c": 1,
+      "id": "1.3.9-21"
+    },
+    {
+      "q": "Per le comunicazioni tramite VHF con apparato fisso:",
+      "a": [
+        "è sempre opportuno usare la potenza massima di emissione di 25 watt, perché il segnale sia sempre chiaro.",
+        "quando si è a distanza ravvicinata è opportuno utilizzare la potenza ridotta di 1 watt.",
+        "si deve selezionare sempre la potenza di 1 watt."
+      ],
+      "c": 1,
+      "id": "1.3.9-22"
+    },
+    {
+      "q": "In tema di VHF, quale tra le seguenti affermazioni è corretta:",
+      "a": [
+        "tutti gli apparati ricetrasmittenti di bordo delle unità da diporto sono sottoposti a collaudo e a ispezioni ordinarie.",
+        "il VHF può essere utilizzato solo dal comandante dell'unità da diporto.",
+        "il comandante dell'unità da diporto è responsabile del corretto utilizzo degli impianti e degli apparati ricetrasmittenti di bordo."
+      ],
+      "c": 2,
+      "id": "1.3.9-23"
+    },
+    {
+      "q": "Le comunicazioni radio effettuate mediante apparati VHF possono essere effettuate qualora:",
+      "a": [
+        "le antenne di due stazioni comunicanti sono ubicate ad un'altezza di circa due metri al di sotto della linea dell'orizzonte.",
+        "le antenne di due stazioni comunicanti sono ubicate al di sopra della linea dell'orizzonte.",
+        "le antenne di due stazioni comunicanti sono ubicate ad un'altezza di circa un metro al di sotto della linea dell'orizzonte."
+      ],
+      "c": 1,
+      "id": "1.3.9-24"
+    },
+    {
+      "q": "Qual è di massima la portata dell'apparato VHF per le comunicazioni fra unità navali?",
+      "a": [
+        "inferiore a 5 miglia nautiche.",
+        "fra 10 e 20 miglia nautiche",
+        "circa 30 miglia nautiche."
+      ],
+      "c": 1,
+      "id": "1.3.9-25"
+    },
+    {
+      "q": "Qual è la portata massima dell'apparato VHF per le comunicazioni tra un'unità navale e le stazioni radio costiere?",
+      "a": [
+        "circa 40 miglia nautiche.",
+        "inferiore alle 20 miglia nautiche.",
+        "circa 150 miglia nautiche."
+      ],
+      "c": 0,
+      "id": "1.3.9-26"
+    },
+    {
+      "q": "A quale funzione assolve lo squelch di un ricevitore radio?",
+      "a": [
+        "attenuare il rumore di fondo durante le comunicazioni.",
+        "rafforzare l'eco del radar installato a bordo.",
+        "garantire il collegamento sul canale di lavoro restando in ricezione anche sul canale 16."
+      ],
+      "c": 0,
+      "id": "1.3.9-27"
+    },
+    {
+      "q": "A quale funzione assolve il riflettore radar, installato a bordo delle piccole unità da diporto?",
+      "a": [
+        "intensificare l'eco di ritorno al radar, permettendo di attenuare i disturbi di origine meteorologica.",
+        "intensificare l'eco di ritorno al radar, permettendo di identificare anche una piccola unità navale su cui è installato, sia a grande distanza che tra i vari echi del mare.",
+        "intensificare l'eco di ritorno al radar, permettendo di amplificare i campi magnetici di bordo."
+      ],
+      "c": 1,
+      "id": "1.3.9-28"
+    },
+    {
+      "q": "Per motivi di sicurezza, quali sono gli intervalli temporali per i quali è vietato effettuare comunicazioni radio?",
+      "a": [
+        "tra i minuti 00-03 e 30-33 di ogni ora.",
+        "tra i minuti 03-06 e 33-36 delle ore pari.",
+        "tra i minuti 00-03 e 30-33 delle ore pari."
+      ],
+      "c": 0,
+      "id": "1.3.9-29"
+    },
+    {
+      "q": "Quale canale radio VHF/FM è utilizzato per le chiamate di soccorso?",
+      "a": [
+        "il canale 18.",
+        "il canale 68.",
+        "il canale 16."
+      ],
+      "c": 2,
+      "id": "1.3.9-8"
+    },
+    {
+      "q": "La frequenza del Canale 16 è la:",
+      "a": [
+        "102.5 MHz.",
+        "099.7 MHz.",
+        "156.8 Mhz."
+      ],
+      "c": 2,
+      "id": "1.3.9-10"
+    },
+    {
+      "q": "Quale affermazione è corretta?",
+      "a": [
+        "per attirare l'attenzione di notte è possibile usare le boette fumogene.",
+        "per effettuare una chiamata di soccorso con il VHF è necessario un abbonamento.",
+        "il 1530 è il numero telefonico di emergenza della Guardia Costiera."
+      ],
+      "c": 2,
+      "id": "1.3.8-25"
+    },
+    {
+      "q": "A quale funzione assolve il sistema DSC (Digital Selective Calling) installato su alcune tipologie di apparati radio?",
+      "a": [
+        "trasmettendo in frequenza MF, permette di inviare automaticamente un segnale di soccorso ad altre unità navali che si trovino entro un raggio non superiore alle 15 miglia nautiche.",
+        "trasmettendo in frequenza VHF e HF, permette di inviare automaticamente onde radio digitali, eliminando così le deviazioni che le stesse subiscono sottocosta per rifrazione elettromagnetica.",
+        "trasmettendo in frequenza VHF e HF, permette di inviare automaticamente un segnale di soccorso, di urgenza o di sicurezza ad altre navi nelle vicinanze, ai Centri di Coordinamento del Soccorso Marittimo e alle Stazioni Costiere."
+      ],
+      "c": 2,
+      "id": "1.3.8-7"
+    }
+  ]
+}
