@@ -16,6 +16,15 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f4f8;color:#1a1a2e;di
 .toggle-thumb{position:absolute;top:2px;left:2px;width:16px;height:16px;background:white;border-radius:50%;transition:transform .2s;box-shadow:0 1px 3px rgba(0,0,0,.25)}
 .reveal-label input:checked+.toggle-track .toggle-thumb{transform:translateX(18px)}
 
+/* COLOR FILTER BAR */
+.cf-bar{display:flex;align-items:center;gap:5px;flex-shrink:0}
+.cf-bar .cf-lbl{font-size:.75em;color:#9cc8f5;white-space:nowrap}
+.cf-btn{width:26px;height:26px;border-radius:50%;border:2px solid transparent;cursor:pointer;background:none;padding:0;font-size:15px;line-height:1;opacity:.28;transition:opacity .15s,border-color .15s;flex-shrink:0}
+.cf-btn.active{opacity:1;border-color:rgba(255,255,255,.7)}
+.cf-btn:hover{opacity:.7}
+.cf-all,.cf-none{font-size:.72em;color:#9cc8f5;background:none;border:1px solid rgba(148,193,245,.4);border-radius:5px;padding:2px 7px;cursor:pointer;white-space:nowrap;transition:color .12s,border-color .12s}
+.cf-all:hover,.cf-none:hover{color:white;border-color:rgba(255,255,255,.6)}
+
 /* LAYOUT */
 .layout{display:flex;flex:1;overflow:hidden}
 
@@ -31,6 +40,10 @@ body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f4f8;color:#1a1a2e;di
 .toc a:hover{text-decoration:underline}
 section{scroll-margin-top:10px}
 section h2{color:#0d3b6e;background:linear-gradient(90deg,#cce0f5,#e8f3ff);padding:9px 15px;border-left:6px solid #0d3b6e;margin:22px 0 10px;border-radius:0 6px 6px 0;font-size:1em}
+.concept-explanation{background:#f0f7ff;border:1px solid #aac8e8;border-radius:8px;padding:16px 20px;margin-bottom:12px;line-height:1.7}
+.concept-explanation h3{color:#0d3b6e;margin:14px 0 5px;font-size:.92em;font-weight:700}
+.concept-explanation h3:first-child{margin-top:0}
+.concept-explanation p{margin:5px 0;font-size:.9em}
 .summary-card{background:#fff;border:1px solid #c5d8ee;border-radius:8px;padding:16px 20px;margin-bottom:8px;line-height:1.6}
 .summary-card h3{color:#0d3b6e;margin:12px 0 4px;font-size:.9em;border-bottom:1px solid #e0eaf5;padding-bottom:3px}
 .summary-card p,.summary-card ul,.summary-card ol{margin:5px 0;font-size:.9em}

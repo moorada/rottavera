@@ -61,7 +61,7 @@ Navigando Rv 180° (Sud) → cambia solo la <strong>latitudine</strong>.</p>
 <tr><td>Carte di atterraggio</td><td>circa 1:300.000</td><td>Avvicinamento alla costa</td></tr>
 <tr><td>Carte costiere</td><td><strong>1:100.000</strong></td><td>Navigazione costiera; la n°5 usata agli esami è <strong>1:100.000</strong></td></tr>
 <tr><td>Carte dei litorali</td><td>1:50.000</td><td>Zone specifiche, accessi ai porti, stretti — scala maggiore delle costiere</td></tr>
-<tr><td>Piani nautici (pianetti)</td><td><strong>1:5.000</strong></td><td>Porti, rade, isolotti</td></tr>
+<tr><td>Piani nautici (pianetti)</td><td><strong>1:5.000</strong></td><td>Porti, rade, isolotti — dettagli su banchine, fondali, ormeggi</td></tr>
 </table>
 <div class="key-value">Attenzione: la scala 1:50.000 è classificata come "costiera a grande scala" o "carta dei litorali" — entrambe le definizioni si trovano nelle domande. Identifica una carta utilizzabile per la <strong>navigazione costiera</strong> con più dettaglio rispetto alla <strong>1:100.000</strong>.</div>
 <h3>Concetti fondamentali sulle scale</h3>
@@ -76,6 +76,34 @@ Navigando Rv 180° (Sud) → cambia solo la <strong>latitudine</strong>.</p>
 </section>
 <section id="proiezione-di-mercatore-isogonia-lossodromia-e-caratteristic">
 <h2>4. Proiezione di Mercatore – isogonia, lossodromia e caratteristiche</h2>
+
+<div class="concept-explanation">
+<h3>Il problema: come mettere una sfera su un foglio piatto</h3>
+<p>La Terra è sferica, ma una carta nautica è piatta. Per "aprire" la sfera su un piano si usano delle <strong>proiezioni</strong>: ogni proiezione distorce qualcosa (angoli, distanze, superfici). La scelta della proiezione dipende da cosa vogliamo conservare.</p>
+
+<h3>La carta di Mercatore: cosa fa e perché si usa</h3>
+<p>Immagina di avvolgere un cilindro attorno alla Terra all'equatore e di proiettare su di esso i punti della superficie terrestre dal centro del pianeta. Poi "srotoli" il cilindro e ottieni la carta di Mercatore.</p>
+<p>Il risultato è che meridiani e paralleli diventano tutti <strong>rette che si incrociano a 90°</strong>. Questo è utilissimo perché vuol dire che sulla carta gli angoli sono conservati esattamente come nella realtà: se misuri un angolo tra una rotta e un meridiano sulla carta, quello è l'angolo reale. Questa proprietà si chiama <strong>isogonia</strong> (dal greco: "stessi angoli").</p>
+
+<h3>Il prezzo da pagare: i paralleli si allontanano verso i poli</h3>
+<p>Per mantenere gli angoli corretti vicino ai poli (dove i meridiani nella realtà convergono, ma sulla carta rimangono paralleli), Mercatore è costretto ad allargare progressivamente la distanza tra i paralleli man mano che ci si avvicina ai poli. Questa distorsione si chiama <strong>latitudini crescenti</strong>.</p>
+<p>Conseguenza: la Groenlandia sulla carta di Mercatore sembra grande quanto l'Africa, ma in realtà è 14 volte più piccola. Più ci si avvicina ai poli, più la distorsione è enorme — ecco perché la carta di Mercatore <strong>non è usabile oltre ±70° di latitudine</strong>.</p>
+<p>Altra conseguenza: sulla scala verticale (latitudini) un minuto non vale sempre lo stesso: vale di più in alto che in basso. Per questo quando misuri distanze con il compasso devi sempre riportarlo <strong>alla stessa latitudine della zona misurata</strong> sulla scala laterale.</p>
+
+<h3>Lossodromia: la rotta "comoda"</h3>
+<p>Navigare mantenendo lo stesso angolo rispetto ai meridiani per tutta la traversata si chiama seguire una <strong>lossodromia</strong> (o rotta lossodromica). In pratica: "tieni la bussola sempre su 045° Nord-Est e vai avanti". Sulla carta di Mercatore la lossodromia diventa una <strong>linea retta</strong>, quindi pianificare e seguire la rotta è semplicissimo.</p>
+<p>Lo svantaggio: la lossodromia <em>non è il percorso più breve</em> tra due punti. Curva leggermente rispetto al percorso minimo.</p>
+
+<h3>Ortodromia: il percorso più breve</h3>
+<p>Il percorso più breve tra due punti sulla sfera è un arco di <strong>circolo massimo</strong> (lo stesso tipo di cerchio dell'equatore o dei meridiani). Questo percorso si chiama <strong>ortodromia</strong>. Il problema: sull'ortodromia l'angolo rispetto ai meridiani cambia continuamente, quindi dovresti correggere la rotta in continuazione.</p>
+<p>Sulla carta di Mercatore l'ortodromia non è una retta ma una <strong>curva</strong> che si incurva verso il polo. Per tracciarla si usa la <strong>carta gnomonica</strong> (dove invece i circoli massimi diventano rette): si pianifica lì la rotta oceanica, poi si trasferisce il percorso sulla carta di Mercatore suddividendolo in segmenti lossodromici.</p>
+
+<div class="mnemonic">
+<strong>Mercatore = isogonia = angoli giusti = lossodromia retta.</strong><br>
+Ricorda: <em>losso</em>dromia → <em>liscia</em> (dritta sulla carta). <em>Orto</em>dromia → percorso più <em>corto</em> ma curvo sulla carta.
+</div>
+</div>
+
 <div class="summary-card">
 <h3>Proiezione di Mercatore – caratteristiche chiave</h3>
 <ul>
@@ -123,7 +151,6 @@ Navigando Rv 180° (Sud) → cambia solo la <strong>latitudine</strong>.</p>
 <li><strong>Compasso (a punte secche)</strong>: misurare e riportare distanze (preserva la carta).</li>
 <li><strong>Squadrette nautiche + parallele</strong>: misurare e tracciare rotte/rilevamenti.</li>
 <li><strong>Linee batimetriche (isobate)</strong>: uniscono punti di uguale profondità.</li>
-<li><strong>Pianetti</strong>: piani nautici di porti con dettagli su banchine, fondali, ormeggi.</li>
 </ul>
 </div>
 </section>

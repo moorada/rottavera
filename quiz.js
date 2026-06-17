@@ -31,6 +31,53 @@
   const panelClose   = document.getElementById('panel-close');
   const panelOpenBtn = document.getElementById('panel-open');
 
+  /* ── Color filters ── */
+  const CF_KEY = 'nautica-cf';
+  const cfDefault = { green: true, red: true, yellow: true, white: true };
+  const cfActive = Object.assign({}, cfDefault, JSON.parse(localStorage.getItem(CF_KEY) || '{}'));
+
+  function saveCf() { localStorage.setItem(CF_KEY, JSON.stringify(cfActive)); }
+
+  function applyColorFilter() {
+    panelBody.querySelectorAll('.quiz-item').forEach(function (item) {
+      const last = item.dataset.last;        // '1', '0', or undefined
+      const rat  = item.dataset.rat || '';
+      const show =
+        (cfActive.green  && last === '1') ||
+        (cfActive.red    && last === '0') ||
+        (cfActive.yellow && rat === 'yellow') ||
+        (cfActive.white  && last === undefined);
+      item.style.display = show ? '' : 'none';
+    });
+  }
+
+  function initCfButtons() {
+    document.querySelectorAll('.cf-btn').forEach(function (btn) {
+      const key = btn.dataset.cf;
+      btn.classList.toggle('active', !!cfActive[key]);
+      btn.addEventListener('click', function () {
+        cfActive[key] = !cfActive[key];
+        btn.classList.toggle('active', cfActive[key]);
+        saveCf();
+        applyColorFilter();
+      });
+    });
+    const cfAll  = document.getElementById('cf-all');
+    const cfNone = document.getElementById('cf-none');
+    if (cfAll) cfAll.addEventListener('click', function () {
+      Object.keys(cfActive).forEach(function (k) { cfActive[k] = true; });
+      document.querySelectorAll('.cf-btn').forEach(function (b) { b.classList.add('active'); });
+      saveCf(); applyColorFilter();
+    });
+    if (cfNone) cfNone.addEventListener('click', function () {
+      Object.keys(cfActive).forEach(function (k) { cfActive[k] = false; });
+      document.querySelectorAll('.cf-btn').forEach(function (b) { b.classList.remove('active'); });
+      saveCf(); applyColorFilter();
+    });
+  }
+
+  initCfButtons();
+
   revealToggle.checked = localStorage.getItem('nautica-reveal') === '1';
   revealToggle.addEventListener('change', () => {
     localStorage.setItem('nautica-reveal', revealToggle.checked ? '1' : '0');
@@ -115,7 +162,7 @@
         const resetBtn = qid
           ? '<button class="q-reset" data-qid="' + qid + '" title="Cancella risposta">↺</button>'
           : '';
-        return '<div class="quiz-item" data-qi="' + qi + '" data-qid="' + qid + '"' + lastAttr + '>' +
+        return '<div class="quiz-item" data-qi="' + qi + '" data-qid="' + qid + '"' + lastAttr + ' data-rat="' + rating + '">' +
           (q.img ? '<img class="quiz-img" src="' + q.img + '" alt="" data-lightbox>' : '') +
           resetBtn +
           '<div class="quiz-q">' + escHtml(q.q) + '</div>' +
@@ -129,6 +176,7 @@
       }).join('');
 
     panelBody.scrollTop = 0;
+    applyColorFilter();
 
     if (!revealed) {
       panelBody.querySelectorAll('.quiz-item').forEach(function (item) {
@@ -167,6 +215,7 @@
       anss[qid] = { c: isCorrect, ts: Date.now() };
       saveState('nautica-ans', anss);
       item.dataset.last = isCorrect ? '1' : '0';
+      applyColorFilter();
     }
   }
 
@@ -184,6 +233,7 @@
       b.classList.remove('show-correct', 'show-wrong', 'show-neutral');
       b.addEventListener('click', onAnswer);
     });
+    applyColorFilter();
   }
 
   function onRating(e) {
@@ -195,9 +245,11 @@
     else rats[qid] = r;
     saveState('nautica-rat', rats);
     const item = btn.closest('.quiz-item');
+    item.dataset.rat = rats[qid] || '';
     item.querySelectorAll('.rating-btn').forEach(function (b) {
       b.classList.toggle('active', b.dataset.r === rats[qid]);
     });
+    applyColorFilter();
   }
 
   /* ── Lightbox ── */
