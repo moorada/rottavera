@@ -121,6 +121,14 @@
 
   studyArea.addEventListener('scroll', updateActive, { passive: true });
 
+  function histDots(entry) {
+    if (!entry) return '<div class="q-history"></div>';
+    const h = Array.isArray(entry.h) ? entry.h : (entry.c != null ? [entry.c] : []);
+    return '<div class="q-history">' + h.map(function (c) {
+      return '<span class="hist-dot ' + (c ? 'g' : 'r') + '"></span>';
+    }).join('') + '</div>';
+  }
+
   function escHtml(s) {
     return String(s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;')
@@ -171,6 +179,7 @@
             const dis = revealed ? ' disabled' : '';
             return '<button class="' + cls + '" data-ai="' + ai + '" data-correct="' + q.c + '"' + dis + '>' + escHtml(ansText) + '</button>';
           }).join('') +
+          histDots(qid ? ans[qid] : null) +
           ratingHtml + '</div>';
       }).join('');
 
@@ -211,9 +220,15 @@
     const qid = item.dataset.qid;
     if (qid) {
       const anss = loadState('nautica-ans');
-      anss[qid] = { c: isCorrect, ts: Date.now() };
+      const prev = anss[qid];
+      const h = Array.isArray(prev && prev.h) ? prev.h.slice() : (prev && prev.c != null ? [prev.c] : []);
+      h.push(isCorrect);
+      if (h.length > 5) h.shift();
+      anss[qid] = { c: isCorrect, ts: Date.now(), h };
       saveState('nautica-ans', anss);
       item.dataset.last = isCorrect ? '1' : '0';
+      const histEl = item.querySelector('.q-history');
+      if (histEl) histEl.innerHTML = h.map(function (c) { return '<span class="hist-dot ' + (c ? 'g' : 'r') + '"></span>'; }).join('');
       applyColorFilter();
     }
   }

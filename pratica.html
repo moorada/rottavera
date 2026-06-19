@@ -6,6 +6,7 @@
 <title>Pratica – Patente nautica</title>
 <style>
   *,*::before,*::after{box-sizing:border-box}
+  html{scroll-padding-top:56px}
   body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f4f8;color:#1a1a2e;margin:0;padding:0;min-height:100vh}
   header{background:#0d3b6e;color:white;padding:10px 16px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:100}
   .back-link{color:rgba(255,255,255,.85);text-decoration:none;font-size:.9em;white-space:nowrap}
@@ -52,6 +53,10 @@
   .nav-btn:hover{background:#1a5a9e}
   .nav-btn.sec{background:white;color:#0d3b6e;border:2px solid #0d3b6e}
   .nav-btn.sec:hover{background:#e8f0fa}
+  .q-history{display:flex;gap:4px;margin-top:8px;align-items:center}
+  .hist-dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex-shrink:0}
+  .hist-dot.g{background:#28a745}
+  .hist-dot.r{background:#dc3545}
   .fig-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.78);z-index:1000;align-items:center;justify-content:center;cursor:zoom-out}
   .fig-overlay.open{display:flex}
   .fig-overlay img{max-width:92vw;max-height:90vh;border-radius:6px}
@@ -119,6 +124,11 @@
 function loadState(key) { try { return JSON.parse(localStorage.getItem(key)||'{}'); } catch(e){return {};} }
 function saveState(key, data) { localStorage.setItem(key, JSON.stringify(data)); }
 function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function histDots(entry) {
+  if (!entry) return '<div class="q-history"></div>';
+  const h = Array.isArray(entry.h) ? entry.h : (entry.c != null ? [entry.c] : []);
+  return '<div class="q-history">' + h.map(c => `<span class="hist-dot ${c?'g':'r'}"></span>`).join('') + '</div>';
+}
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length-1; i > 0; i--) { const j = Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
@@ -209,6 +219,7 @@ function renderAll() {
       ${q.img ? `<img class="quiz-img" src="${esc(q.img)}" alt="" data-lightbox>` : ''}
       <div class="quiz-q">${esc(q.q)}</div>
       ${q.a.map((t,ai) => `<button class="ans-btn" data-ai="${ai}" data-correct="${q.c}">${esc(t)}</button>`).join('')}
+      ${histDots(qid ? ans[qid] : null)}
       ${ratingHtml}
     </div>`;
   }).join('');
@@ -249,14 +260,20 @@ function onAnswer(e) {
   const qid = item.dataset.qid;
   if (qid) {
     const anss = loadState('nautica-ans');
-    anss[qid] = { c: isCorrect, ts: Date.now() };
+    const prev = anss[qid];
+    const h = Array.isArray(prev && prev.h) ? prev.h.slice() : (prev && prev.c != null ? [prev.c] : []);
+    h.push(isCorrect);
+    if (h.length > 5) h.shift();
+    anss[qid] = { c: isCorrect, ts: Date.now(), h };
     saveState('nautica-ans', anss);
     item.dataset.last = isCorrect ? '1' : '0';
+    const histEl = item.querySelector('.q-history');
+    if (histEl) histEl.innerHTML = h.map(c => `<span class="hist-dot ${c?'g':'r'}"></span>`).join('');
   }
   updateProgress();
   setTimeout(() => {
     const next = document.getElementById('q-' + (parseInt(item.dataset.qi) + 1));
-    if (next && !next.dataset.done) next.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (next && !next.dataset.done) next.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }, 600);
 }
 
