@@ -40,13 +40,12 @@
 
   function applyColorFilter() {
     panelBody.querySelectorAll('.quiz-item').forEach(function (item) {
-      const last = item.dataset.last;        // '1', '0', or undefined
       const rat  = item.dataset.rat || '';
       const show =
-        (cfActive.green  && last === '1') ||
-        (cfActive.red    && last === '0') ||
+        (cfActive.green  && rat === 'green') ||
+        (cfActive.red    && rat === 'red') ||
         (cfActive.yellow && rat === 'yellow') ||
-        (cfActive.white  && last === undefined);
+        (cfActive.white  && rat === '');
       item.style.display = show ? '' : 'none';
     });
   }
