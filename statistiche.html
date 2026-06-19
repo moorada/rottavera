@@ -105,7 +105,7 @@ async function init() {
     const lastAns = qid ? ans[qid] : null;
     const rating  = qid ? (rat[qid] || '') : '';
 
-    if (lastAns != null) { seen++; if (lastAns.c) correct++; else wrong++; }
+    if (lastAns != null || rating !== '') { seen++; if (lastAns != null) { if (lastAns.c) correct++; else wrong++; } }
     else unseen++;
 
     if (rating === 'green')  green++;
@@ -116,7 +116,7 @@ async function init() {
     const tk = q.topic;
     if (!byTopic[tk]) byTopic[tk] = { label: q.topicLabel, total: 0, seen: 0, correct: 0, wrong: 0, green: 0, yellow: 0, red: 0, unrated: 0 };
     byTopic[tk].total++;
-    if (lastAns != null) { byTopic[tk].seen++; if (lastAns.c) byTopic[tk].correct++; else byTopic[tk].wrong++; }
+    if (lastAns != null || rating !== '') { byTopic[tk].seen++; if (lastAns != null) { if (lastAns.c) byTopic[tk].correct++; else byTopic[tk].wrong++; } }
     if (rating === 'green')        byTopic[tk].green++;
     else if (rating === 'yellow')  byTopic[tk].yellow++;
     else if (rating === 'red')     byTopic[tk].red++;
