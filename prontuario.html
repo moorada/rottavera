@@ -20,6 +20,18 @@
   tr:nth-child(even) td{background:#f5f9ff}
   .amount{font-weight:700;color:#0d3b6e;white-space:nowrap}
   .note{font-size:.78em;color:#888;margin-top:10px;font-style:italic}
+  h3{color:#0d3b6e;font-size:.9em;font-weight:700;margin:16px 0 6px;border-bottom:1px solid #dde8f4;padding-bottom:3px}
+  ul.c{margin:4px 0 10px;padding-left:18px}
+  ul.c li{font-size:.87em;margin-bottom:4px;line-height:1.45}
+  .mnem{background:#fff8e1;border-left:4px solid #ffc107;border-radius:0 5px 5px 0;padding:7px 12px;font-size:.85em;margin:7px 0;font-weight:600}
+  .trap{background:#fdecea;border-left:4px solid #dc3545;border-radius:0 5px 5px 0;padding:7px 12px;font-size:.85em;margin:7px 0}
+  .tip{background:#e8f5e9;border-left:4px solid #28a745;border-radius:0 5px 5px 0;padding:7px 12px;font-size:.85em;margin:7px 0}
+  .img-row{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0}
+  .img-row img{max-height:170px;max-width:240px;border-radius:6px;border:1px solid #d0dce8;object-fit:contain;background:white}
+  .img-cap{font-size:.75em;color:#667;text-align:center;margin-top:3px}
+  .img-box{display:flex;flex-direction:column;align-items:center}
+  .sound-row{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;font-size:.87em;margin:6px 0}
+  .sound-row b{white-space:nowrap;color:#0d3b6e}
 </style>
 </head>
 <body>
@@ -79,6 +91,154 @@
     </tbody>
   </table>
   <p class="note">¹ Nel dataset compaiono due importi minimi leggermente diversi per l'attività commerciale abusiva (2.755 € e 2.775 €): entrambi sono presenti nelle domande d'esame.</p>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ COLREG -->
+<h2>COLREG – Fanali e Segnali Diurni</h2>
+<div class="card">
+
+  <h3>Navi a motore</h3>
+  <ul class="c">
+    <li><strong>Nave &gt;50 m</strong>: obbligo di un secondo fanale bianco in testa d'albero (settore 225°), posto più alto del primo.</li>
+    <li><strong>Nave a cuscino d'aria non dislocante</strong>: fanale giallo lampeggiante aggiuntivo. Se è dislocante → fanali normali.</li>
+    <li><strong>Rimorchio</strong>: sia rimorchiatrice che rimorchiata portano fanali normali. Solo se il cavo di rimorchio supera <strong>200 m</strong> la rimorchiatrice aggiunge fanali supplementari.</li>
+  </ul>
+
+  <h3>Unità a vela</h3>
+  <ul class="c">
+    <li><strong>Vela &gt;20 m</strong>: bastano solo i fanali <strong>laterali + poppa</strong>. Il fanale in testa d'albero (bicolorato) non è obbligatorio.</li>
+    <li><strong>Vela &lt;7 m</strong> (o a motore entro 3 miglia): può usare anche solo una <strong>torcia elettrica</strong>.</li>
+    <li><strong>Vela che va a motore</strong>: accende il fanale in testa d'albero. Di giorno: espone un <strong>triangolo con punta in giù</strong>.</li>
+    <li><strong>Fanale bicolorato verde+rosso</strong> (in un'unica lanterna): consentito anche su imbarcazioni a <strong>motore &lt;20 m</strong>.</li>
+    <li><strong>Fanali ripetitori</strong> (laterali in testa d'albero): visibilità 360°. Per la vela non sono obbligatori.</li>
+    <li><strong>Fanali di navigazione obbligatori</strong> per unità da diporto oltre <strong>1 miglio dalla costa</strong>.</li>
+  </ul>
+
+  <h3>Pesca</h3>
+  <ul class="c">
+    <li><strong>Pesca a strascico</strong> (diurno): bicono con <strong>VERTICI UNITI</strong>. Di notte: fanali bianco (alto) + verde (basso) in testa.</li>
+    <li><strong>Pesca non a strascico</strong> (diurno): bicono con <strong>BASI UNITE</strong>. Di notte: bianco (alto) + rosso (basso) in testa.<br>
+        Se le attrezzature si estendono per più di <strong>150 m</strong>: aggiungere un cono con vertice verso l'alto dalla parte dell'attrezzatura. Di notte un fanale bianco aggiuntivo (non serve sapere la direzione — ricorda solo i <strong>150 m</strong>).</li>
+    <li><strong>Nave da pesca ferma senza abbrivio</strong>: mostra solo i fanali in testa d'albero (bianco+verde o bianco+rosso). Nient'altro.</li>
+  </ul>
+
+  <h3>Nave all'ancora</h3>
+  <ul class="c">
+    <li>Di giorno: <strong>pallone nero</strong>.</li>
+    <li>Di notte: <strong>luce bianca 360°</strong> visibile da ogni direzione.</li>
+    <li>Se &gt;50 m: anche una seconda luce bianca più bassa, a poppa.</li>
+  </ul>
+
+  <h3>Regole speciali</h3>
+  <ul class="c">
+    <li><strong>Canale di Messina</strong>: le barche a vela non devono intralciare le navi a propulsione meccanica che seguono lo schema di separazione del traffico.</li>
+    <li><strong>Barca &lt;12 m</strong>: qualsiasi strumento in grado di produrre un suono è sufficiente (no obbligo di tromba/campana specifiche).</li>
+  </ul>
+
+  <h3>Precedenze tra barche a vela</h3>
+  <ul class="c">
+    <li><strong>Mure diverse</strong>: chi ha le mure a <strong>dritta</strong> ha la precedenza.</li>
+    <li><strong>Stesse mure</strong>: la barca <strong>sottovento</strong> ha la precedenza.</li>
+  </ul>
+
+</div>
+
+<!-- ══════════════════════════════════════════════ SEGNALI ACUSTICI -->
+<h2>COLREG – Segnali Acustici</h2>
+<div class="card">
+
+  <h3>Manovre in vista reciproca</h3>
+  <div class="sound-row">
+    <b>1 fischio breve</b><span>Accosto a <strong>dritta</strong></span>
+    <b>2 fischi brevi</b><span>Accosto a <strong>sinistra</strong></span>
+    <b>2 prolungati + 1 breve</b><span>Sorpasso a <strong>dritta</strong> dell'altro</span>
+    <b>2 prolungati + 2 brevi</b><span>Sorpasso a <strong>sinistra</strong> dell'altro</span>
+  </div>
+  <div class="mnem">Per il sorpasso: prima 2 fischi prolungati (avviso), poi 1 o 2 brevi per indicare il lato.</div>
+
+  <h3>Nebbia / scarsa visibilità</h3>
+  <div class="sound-row">
+    <b>1 prolungato (≤2 min)</b><span>Nave <strong>in navigazione con abbrivio</strong>. Ricorda: basta 1 prolungato!</span>
+    <b>1 prolungato + 2 brevi (≤2 min)</b><span>Nave <strong>a vela</strong> (o che non governa / manovra limitata / pesca / rimorchio)</span>
+    <b>2 prolungati ~2s (≤2 min)</b><span>Nave <strong>ferma senza abbrivio</strong> o che non governa</span>
+    <b>Campana 5s (≤1 min)</b><span>Nave <strong>alla fonda</strong>. Ricorda: solo la campana!</span>
+    <b>Suono continuo</b><span>Segnale di <strong>pericolo</strong></span>
+  </div>
+  <div class="mnem">Ferma / non governa → 222! (2 suoni prolungati con ~2 s di intervallo)</div>
+
+</div>
+
+<!-- ════════════════════════════════════════════ SEGNALAMENTO AISM -->
+<h2>Segnalamento Marittimo – AISM / IALA</h2>
+<div class="card">
+
+  <h3>Terminologia delle luci</h3>
+  <ul class="c">
+    <li><strong>Fase</strong>: ogni singolo elemento che compone un ciclo di luce ritmica (un lampo, un'eclissi).</li>
+    <li><strong>Periodo</strong>: durata totale di un ciclo completo (dalla prima fase alla stessa fase successiva).</li>
+    <li><strong>Fl</strong> (inglese) = lampo — <em>non</em> lampeggiante.</li>
+    <li><strong>Oc</strong> (inglese, Occulted) = luce intermittente in italiano — <em>non</em> "occultata".</li>
+    <li><strong>ISO</strong>: durata della luce = durata dell'eclissi. Ricorda: ISO = isometrico = uguale.</li>
+    <li>Sulla carta nautica è riportata la portata <strong>nominale</strong>.</li>
+  </ul>
+  <div class="mnem">Esempio: "Oc (3) W 5s" = luce bianca intermittente, 3 eclissi per ciclo, periodo 5 secondi.</div>
+
+  <h3>Portate</h3>
+  <table>
+    <tr><th>Portata</th><th>Definizione</th><th>Ricorda</th></tr>
+    <tr><td><strong>Nominale</strong></td><td>Calcolata con visibilità meteo standard (10 mn). È quella scritta in carta.</td><td>→ Carta nautica</td></tr>
+    <tr><td><strong>Luminosa</strong></td><td>Dipende dall'intensità della sorgente. Espressa in <strong>candele (cd)</strong>.</td><td>→ Candele</td></tr>
+    <tr><td><strong>Geografica</strong></td><td>Limite fisso dato dalla curvatura terrestre (dipende dall'altezza del faro e dell'osservatore).</td><td>→ Curvatura</td></tr>
+  </table>
+  <p style="margin-top:8px;font-size:.85em"><strong>Fari e fanali</strong> differiscono per <strong>portata nominale</strong>.</p>
+
+  <h3>Tipi di segnalamento</h3>
+  <table>
+    <tr><th>Tipo</th><th>Colore / Luce</th><th>Miraglio</th><th>Ricorda</th></tr>
+    <tr><td><strong>Acque sicure</strong></td><td>Bianca — isofase, intermittente, lampi lunghi o lettera A Morse</td><td>1 sfera rossa (non due!)</td><td><em>ALFA di Acque sicure</em></td></tr>
+    <tr><td><strong>Pericolo isolato</strong></td><td>Bianca a <strong>lampi</strong> (luce &lt; eclissi)</td><td>2 sfere nere sovrapposte</td><td>Lampi = pericolo isolato</td></tr>
+    <tr><td><strong>Laterale sinistra (zona A)</strong></td><td>Rossa</td><td><strong>Cilindrico</strong></td><td>Rosso = cilindrico (come una lattina)</td></tr>
+    <tr><td><strong>Laterale destra (zona A)</strong></td><td>Verde</td><td><strong>Conico</strong></td><td>Verde = conico (come il gelato!)</td></tr>
+    <tr><td><strong>Cardinale</strong></td><td>Bianca (ritmo diverso per N/E/S/O)</td><td>2 coni neri+gialli</td><td>Il nero è dove puntano le frecce</td></tr>
+  </table>
+  <div class="tip">Segnale laterale = indica da quale lato della nave lasciare il segnale, secondo il senso convenzionale.</div>
+  <div class="mnem">Settore rosso in carta → navigazione consentita ma prestare attenzione a un pericolo in quel settore.</div>
+
+  <h3>Segnali cardinali – dove sta il nero</h3>
+  <p style="font-size:.85em;margin-bottom:8px">I miraglia sono sempre 2 coni. Il <strong>nero</strong> sta dove puntano i vertici dei coni:</p>
+  <div class="img-row">
+    <div class="img-box"><img src="immagini/70.png" alt="Cardinale Nord"><div class="img-cap">Nord – passa a <strong>Nord</strong><br>Nero in alto</div></div>
+    <div class="img-box"><img src="immagini/72.png" alt="Cardinale Est"><div class="img-cap">Est – passa a <strong>Est</strong><br>Nero a metà (clessidra)</div></div>
+    <div class="img-box"><img src="immagini/73.png" alt="Cardinale Ovest"><div class="img-cap">Ovest – passa a <strong>Ovest</strong><br>Nero a metà (bassa)</div></div>
+    <div class="img-box"><img src="immagini/74.png" alt="Cardinale Sud"><div class="img-cap">Sud – passa a <strong>Sud</strong><br>Nero in basso</div></div>
+  </div>
+
+  <h3>Segnali laterali</h3>
+  <div class="img-row">
+    <div class="img-box"><img src="immagini/82.png" alt="Laterale sinistra"><div class="img-cap">Sinistra (zona A)<br>Rosso · Cilindrico</div></div>
+    <div class="img-box"><img src="immagini/83.png" alt="Laterale destra"><div class="img-cap">Destra (zona A)<br>Verde · Conico</div></div>
+  </div>
+
+  <h3>Forme di segnalamento</h3>
+  <div class="img-row">
+    <div class="img-box"><img src="immagini/67.png" alt="Forma sferica"><div class="img-cap">Forma <strong>sferica</strong><br>(acque sicure)</div></div>
+    <div class="img-box"><img src="immagini/68.png" alt="Forma a fuso"><div class="img-cap">Forma a <strong>fuso</strong></div></div>
+    <div class="img-box"><img src="https://www.nonnodondolo.it/sites/default/files/eee.jpg" alt="Riflettore radar"><div class="img-cap">Riflettore radar<br>(simbolo che riflette)</div></div>
+  </div>
+
+  <h3>Meda e gavitello</h3>
+  <ul class="c">
+    <li><strong>Meda</strong>: fissata al fondo del mare (permanente).</li>
+    <li><strong>Gavitello</strong>: di solito romboidale, non fissato al fondo, temporaneo.</li>
+  </ul>
+
+  <h3>Simboli sulla carta nautica</h3>
+  <ul class="c">
+    <li><strong>Bell</strong> → campana</li>
+    <li><strong>Racon</strong> → radar a corno (risponditore radar)</li>
+    <li>Le scritte sulla carta nautica sono sempre vere.</li>
+  </ul>
+
 </div>
 
 </body>
