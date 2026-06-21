@@ -350,17 +350,22 @@ function showQR() {
   const overlay = document.createElement('div');
   overlay.id = 'qr-overlay';
   overlay.innerHTML = `<div id="qr-modal">
-    <div id="qr-title">📱 Scansiona per importare i progressi</div>
+    <div id="qr-title">📱 Trasferisci progressi</div>
     <div id="qr-box"></div>
-    <div id="qr-hint">Apri la fotocamera o un'app QR sull'altro dispositivo<br>e scansiona questo codice.</div>
+    <div id="qr-hint">Scansiona il QR oppure copia il link e aprilo sul tuo dispositivo</div>
+    <div style="display:flex;gap:6px;margin-bottom:14px">
+      <input id="qr-url" readonly style="flex:1;font-size:.7em;padding:6px 8px;border:1px solid #c5d8ee;border-radius:6px;color:#334;min-width:0">
+      <button onclick="navigator.clipboard.writeText(document.getElementById('qr-url').value).then(()=>{this.textContent='✓';setTimeout(()=>this.textContent='Copia',1500)})" style="padding:6px 10px;border-radius:6px;border:1.5px solid #0d3b6e;background:white;color:#0d3b6e;font-weight:700;cursor:pointer;white-space:nowrap;font-size:.8em">Copia</button>
+    </div>
     <button id="qr-close" onclick="document.getElementById('qr-overlay').remove()">✕ Chiudi</button>
   </div>`;
   document.body.appendChild(overlay);
   overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
   new QRCode(document.getElementById('qr-box'), {
-    text: url, width: 240, height: 240,
-    correctLevel: QRCode.CorrectLevel.M
+    text: url, width: 200, height: 200,
+    correctLevel: QRCode.CorrectLevel.L
   });
+  document.getElementById('qr-url').value = url;
 }
 
 function _checkQRImport() {
