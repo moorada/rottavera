@@ -61,7 +61,17 @@
   a.badge{text-decoration:none;cursor:pointer}
   a.badge:hover{filter:brightness(.85)}
   @media(max-width:540px){.cards-row{grid-template-columns:1fr 1fr}}
+  /* QR modal */
+  #qr-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:1000;display:flex;align-items:center;justify-content:center}
+  #qr-modal{background:white;border-radius:14px;padding:28px 24px;text-align:center;max-width:320px;width:90%;box-shadow:0 8px 32px rgba(0,0,0,.25)}
+  #qr-title{font-size:1em;font-weight:700;color:#0d3b6e;margin-bottom:18px}
+  #qr-box{display:inline-block;padding:12px;background:white;border:2px solid #e0e8f0;border-radius:8px;margin-bottom:14px}
+  #qr-box img,#qr-box canvas{display:block}
+  #qr-hint{font-size:.8em;color:#667;margin-bottom:16px;line-height:1.4}
+  #qr-close{padding:8px 22px;border-radius:7px;border:2px solid #0d3b6e;background:white;color:#0d3b6e;font-weight:700;cursor:pointer;font-size:.88em}
+  #qr-close:hover{background:#0d3b6e;color:white}
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 <body>
 <header>
@@ -91,6 +101,7 @@ async function init() {
   }
 
   const questions = data.questions;
+  _questions = questions;
   const ans = loadState('nautica-ans');
   const rat = loadState('nautica-rat');
 
@@ -225,11 +236,12 @@ async function init() {
     <div class="io-zone">
       <h2>💾 Salva / Ripristina progressi</h2>
       <div class="io-btns">
-        <button class="io-btn primary" onclick="exportData()">⬇️ Esporta dati</button>
-        <button class="io-btn" onclick="document.getElementById('import-file').click()">⬆️ Importa dati</button>
+        <button class="io-btn primary" onclick="exportData()">⬇️ Esporta JSON</button>
+        <button class="io-btn" onclick="document.getElementById('import-file').click()">⬆️ Importa JSON</button>
+        <button class="io-btn" onclick="showQR()">📱 QR code</button>
         <input type="file" id="import-file" accept=".json" style="display:none">
       </div>
-      <p class="io-note">Esporta per salvare i tuoi progressi come file JSON. Importa per ripristinarli su qualsiasi dispositivo o browser.</p>
+      <p class="io-note">Esporta/importa i progressi come file JSON, oppure genera un QR code da scansionare con un altro dispositivo per trasferire rating e risposte istantaneamente.</p>
     </div>
   `;
 
@@ -286,6 +298,90 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
+/* ── QR export / import ── */
+// Encoding: 4 bits per question packed 2 per byte
+// high nibble: even index, low nibble: odd index
+// bits 3-2: rating  (0=unrated 1=green 2=yellow 3=red)
+// bits 1-0: answer  (0=unseen  1=correct 2=wrong)
+const _RAT = {'':0, green:1, yellow:2, red:3};
+const _RAT_R = ['','green','yellow','red'];
+let _questions = [];
+
+function _encodeQR() {
+  const ans = loadState('nautica-ans');
+  const rat = loadState('nautica-rat');
+  const bytes = new Uint8Array(Math.ceil(_questions.length / 2));
+  _questions.forEach((q, i) => {
+    const r = _RAT[rat[q.id||''] || ''] || 0;
+    const ae = q.id ? ans[q.id] : null;
+    const a = ae == null ? 0 : (ae.c ? 1 : 2);
+    const nibble = (r << 2) | a;
+    if (i % 2 === 0) bytes[i >> 1]  = nibble << 4;
+    else             bytes[i >> 1] |= nibble;
+  });
+  let bin = '';
+  bytes.forEach(b => bin += String.fromCharCode(b));
+  return btoa(bin).replace(/\+/g,'-').replace(/\//g,'_').replace(/=/g,'');
+}
+
+function _decodeQR(encoded) {
+  try {
+    const bin = atob(encoded.replace(/-/g,'+').replace(/_/g,'/'));
+    const bytes = Uint8Array.from(bin, c => c.charCodeAt(0));
+    const newAns = {}, newRat = {};
+    _questions.forEach((q, i) => {
+      if (!q.id) return;
+      const byte = bytes[i >> 1] || 0;
+      const nibble = i % 2 === 0 ? (byte >> 4) & 0xF : byte & 0xF;
+      const r = (nibble >> 2) & 3;
+      const a = nibble & 3;
+      if (r) newRat[q.id] = _RAT_R[r];
+      if (a === 1) newAns[q.id] = {c: true,  ts: Date.now()};
+      if (a === 2) newAns[q.id] = {c: false, ts: Date.now()};
+    });
+    return {answers: newAns, ratings: newRat};
+  } catch(e) { return null; }
+}
+
+function showQR() {
+  if (!_questions.length) { alert('Dati non ancora caricati.'); return; }
+  const encoded = _encodeQR();
+  const url = location.origin + location.pathname + '?qr=' + encoded;
+  const overlay = document.createElement('div');
+  overlay.id = 'qr-overlay';
+  overlay.innerHTML = `<div id="qr-modal">
+    <div id="qr-title">📱 Scansiona per importare i progressi</div>
+    <div id="qr-box"></div>
+    <div id="qr-hint">Apri la fotocamera o un'app QR sull'altro dispositivo<br>e scansiona questo codice.</div>
+    <button id="qr-close" onclick="document.getElementById('qr-overlay').remove()">✕ Chiudi</button>
+  </div>`;
+  document.body.appendChild(overlay);
+  overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
+  new QRCode(document.getElementById('qr-box'), {
+    text: url, width: 240, height: 240,
+    correctLevel: QRCode.CorrectLevel.M
+  });
+}
+
+function _checkQRImport() {
+  const param = new URLSearchParams(location.search).get('qr');
+  if (!param) return;
+  fetch('questions_index.json').then(r => r.json()).then(data => {
+    _questions = data.questions;
+    const decoded = _decodeQR(param);
+    if (!decoded) { alert('QR non valido o corrotto.'); return; }
+    const nAns = Object.keys(decoded.answers).length;
+    const nRat = Object.keys(decoded.ratings).length;
+    if (!confirm(`Importare i progressi da QR?\n✅/❌ Risposte: ${nAns}\n🟢🟡🔴 Rating: ${nRat}\n\nI dati esistenti verranno sostituiti.`)) return;
+    if (nAns) saveState('nautica-ans', decoded.answers);
+    if (nRat) saveState('nautica-rat', decoded.ratings);
+    const url = new URL(location.href);
+    url.searchParams.delete('qr');
+    history.replaceState(null, '', url);
+    location.reload();
+  });
+}
+
 function resetTopic(btn) {
   const tid = btn.dataset.tid;
   const topicLabel = btn.closest('tr').querySelector('td').textContent.trim();
@@ -300,6 +396,7 @@ function resetTopic(btn) {
   });
 }
 
+_checkQRImport();
 init();
 </script>
 </body>
